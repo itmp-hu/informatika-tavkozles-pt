@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Adott kapcsolási rajz alapján egyszerűbb áramköröket épít próbapanel segítségével vagy forrasztásos technológiával.",
     "knowledges": "Ismeri az elektronikai alapfogalmakat, kapcsolódó fizikai törvényeket, alapvető alkatrészeket és kapcsolásokat.",
     "attitudes": "A funkcionalitás biztosítása mellett törekszik az esztétikus kialakításra (pl. minőségi forrasztás, egyenletes alkatrész sűrűség, olvashatóság).",
@@ -16,6 +17,7 @@
   },
   {
     "id": "2",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Alapvető villamos méréseket végez önállóan a megépített áramkörökön.",
     "knowledges": "Ismeri az elektromos mennyiségek mérési metódusait, a mérőműszerek használatát.",
     "attitudes": "",
@@ -31,6 +33,7 @@
   },
   {
     "id": "3",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Elvégzi a számítógépen és a mobil eszközökön az operációs rendszer (pl. Windows, Linux, Android, iOS), valamint az alkalmazói szoftverek telepítését, frissítését és alapvető beállítását. Grafikus felületen, valamint parancssorban használja a Windows, és Linux operációs rendszerek alapszintű parancsait és szolgáltatásait.",
     "knowledges": "Ismeri a számítógépen és a mobil informatikai eszközökön használt operációs rendszerek telepítési és frissítési módjait, alapvető parancsait és szolgáltatásait, valamint alapvető beállítási lehetőségeit.",
     "attitudes": "",
@@ -59,6 +62,7 @@
   },
   {
     "id": "4",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Elvégzi a PC perifériáinak csatlakoztatását, szükség esetén új alkatrészt szerel be, vagy alkatrészt cserél egy számítógépben.",
     "knowledges": "Ismeri az otthoni és irodai informatikai környezetet alkotó legáltalánosabb összetevők szerepét, alapvető működési módjukat. Ismeri a PC és a mobil eszközök főbb alkatrészeit (pl. alaplap, CPU, memória) és azok szerepét.",
     "attitudes": "Törekszik a végrehajtandó műveletek precíz és előírásoknak megfelelő elvégzésére.",
@@ -82,6 +86,7 @@
   },
   {
     "id": "5",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Alapvető karbantartási feladatokat lát el az általa megismert informatikai és távközlési berendezéseken (pl. szellőzés és csatlakozások ellenőrzése, tisztítása).",
     "knowledges": "Tisztában van vele, hogy miért szükséges az informatikai és távközlési eszközök rendszeres és eseti karbantartása. Ismeri legalapvetőbb karbantartási eljárásokat.",
     "attitudes": "A hibamentes folyamatos működés elérése érdekében fontosnak tartja a megelőző karbantartások elvégzését.",
@@ -105,6 +110,7 @@
   },
   {
     "id": "6",
+    "skillDomain": "Hálózati ismeretek",
     "skills": "Otthoni vagy irodai hálózatot alakít ki WiFi router segítségével, elvégzi a WiFi router konfigurálását, a vezetékes és vezeték nélküli eszközök csatlakoztatását és hálózati beállítását.",
     "knowledges": "Ismeri az informatikai hálózatok felépítését, alapvető technológiáit (pl. Ethernet), protokolljait (pl. IP, HTTP) és szabványait (pl. 802.11-es WiFi szabványok).",
     "attitudes": "Törekszik a felhasználói igények megismerésére, megértésére, és szem előtt tartja azokat a hálózat kialakításakor.",
@@ -123,6 +129,7 @@
   },
   {
     "id": "7",
+    "skillDomain": "Hálózati ismeretek",
     "skills": "Néhány alhálózatból álló kis és közepes vállalati hálózatot alakít ki forgalomirányító és kapcsoló segítségével, elvégzi az eszközök alapszintű hálózati beállításait (pl. forgalom-irányító interfészeinek IP-cím beállítása, alapértelmezett átjáró beállítása).",
     "knowledges": "Ismeri a kis és közepes vállalati hálózatok legfontosabb összetevőinek szerepét, jellemzőit, csatlakozási módjukat és alapszintű hálózati beállításait.",
     "attitudes": "",
@@ -157,6 +164,7 @@
   },
   {
     "id": "8",
+    "skillDomain": "Hálózati ismeretek",
     "skills": "Alkalmazza a hálózatbiztonsággal kapcsolatos legfontosabb irányelveket (pl. erős jelszavak használata, vírusvédelem alkalmazása, tűzfal használat).",
     "knowledges": "Ismeri a fontosabb hálózatbiztonsági elveket, szabályokat, támadás típusokat, valamint a szoftveres és hardveres védekezési módszereket.",
     "attitudes": "",
@@ -170,6 +178,7 @@
   },
   {
     "id": "9",
+    "skillDomain": "Hardveres ismeretek",
     "skills": "Megkeresi és elhárítja az otthoni és kisvállalati informatikai környezetben jelentkező hardveres és szoftveres hibákat.",
     "knowledges": "Ismeri az otthoni és kisvállalati informatikai környezetben leggyakrabban felmerülő hibákat (pl. hibás IP-beállítás, kilazult csatlakozó) és azok elhárításának módjait.",
     "attitudes": "",
@@ -188,6 +197,7 @@
   },
   {
     "id": "10",
+    "skillDomain": "Szoftverfejlesztés",
     "skills": "Internetes források és tudásbázisok segítségével követi, valamint feladatainak elvégzéséhez lehetőség szerint alkalmazza a legmodernebb információs technológiákat és trendeket (virtualizáció, felhőtechnológia, IoT, mesterséges intelligencia, gépi tanulás stb.).",
     "knowledges": "Naprakész információkkal rendelkezik a legmodernebb információs technológiákkal és trendekkel kapcsolatban.",
     "attitudes": "Nyitott és érdeklődő a legmodernebb információs technológiák és trendek iránt.",
@@ -216,6 +226,7 @@
   },
   {
     "id": "11",
+    "skillDomain": "Szoftverfejlesztés",
     "skills": "Szabványos, reszponzív megjelenítést biztosító weblapokat hoz létre és formáz meg stíluslapok segítségével.",
     "knowledges": "Ismeri a HTML5, a CSS3 alapvető elemeit, a stíluslapok fogalmát, felépítését. Érti a reszponzív megjelenítéshez használt módszereket, keretrendszerek előnyeit, a reszponzív webdizájn alapelveit.",
     "attitudes": "A felhasználói igényeknek megfelelő funkcionalitás és design összhangjára törekszik.",
@@ -234,6 +245,7 @@
   },
   {
     "id": "12",
+    "skillDomain": "Szoftverfejlesztés",
     "skills": "Munkája során a jelentkező problémák kezelésére vagy folyamatok automatizálására egyszerű alkalmazásokat készít Python programozási nyelv segítségével.",
     "knowledges": "Ismeri a Python nyelv elemeit, azok céljait (vezérlési szerkezetek, adatszerkezetek, változók, aritmetikai és logikai kifejezések, függvények, modulok, csomagok). Ismeri az algoritmus fogalmát, annak szerepét.",
     "attitudes": "Jól átlátható kódszerkezet kialakítására törekszik.",
@@ -266,6 +278,7 @@
   },
   {
     "id": "13",
+    "skillDomain": "Szoftverfejlesztés",
     "skills": "Git verziókezelő rendszert, valamint fejlesztést és csoportmunkát támogató online eszközöket és szolgáltatásokat (pl.: GitHub, Slack, Trello, Microsoft Teams, Webex Teams) használ.",
     "knowledges": "Ismeri a Git, valamint a csoportmunkát támogató eszközök és online szolgáltatások célját, működési módját, legfontosabb funkcióit.",
     "attitudes": "Törekszik a feladatainak megoldásában a hatékony csoportmunkát támogató online eszközöket kihasználni.",
@@ -284,6 +297,7 @@
   },
   {
     "id": "14",
+    "skillDomain": "Általános szakmai kompetenciák",
     "skills": "Társaival hatékonyan együttműködve, csapatban dolgozik egy informatikai projekten. A projektek végrehajtása során társaival tudatosan és célirányosan kommunikál.",
     "knowledges": "Ismeri a projektmenedzsment lépéseit (kezdeményezés, követés, végrehajtás, ellenőrzés, dokumentálás, zárás).",
     "attitudes": "Más munkáját és a csoport belső szabályait tiszteletben tartva, együttműködően vesz részt a csapatmunkában.",
@@ -308,6 +322,7 @@
   },
   {
     "id": "15",
+    "skillDomain": "Általános szakmai kompetenciák",
     "skills": "Munkája során hatékonyan használja az irodai szoftvereket.",
     "knowledges": "Ismeri az irodai szoftverek főbb funkcióit, felhasználási területeit.",
     "attitudes": "",
@@ -326,6 +341,7 @@
   },
   {
     "id": "16",
+    "skillDomain": "Általános szakmai kompetenciák",
     "skills": "Az elkészült termékhez prezentációt készít és bemutatja, előadja azt munkatársainak, vezetőinek, ügyfeleinek.",
     "knowledges": "Ismeri a hatékony prezentálás szabályait, a prezentációs szoftverek lehetőségeit.",
     "attitudes": "Törekszik a tömör, lényegretörő, de szakszerű bemutató összeállítására.",
