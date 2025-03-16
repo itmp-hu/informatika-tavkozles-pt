@@ -1,0 +1,345 @@
+[
+  {
+    "id": "1",
+    "skills": "Adott kapcsolási rajz alapján egyszerűbb áramköröket épít próbapanel segítségével vagy forrasztásos technológiával.",
+    "knowledges": "Ismeri az elektronikai alapfogalmakat, kapcsolódó fizikai törvényeket, alapvető alkatrészeket és kapcsolásokat.",
+    "attitudes": "A funkcionalitás biztosítása mellett törekszik az esztétikus kialakításra (pl. minőségi forrasztás, egyenletes alkatrész sűrűség, olvashatóság).",
+    "antonomy": "Az elektromos berendezésekre vonatkozó munka- és balesetvédelmi szabályokat a saját és mások testi épsége érdekében betartja és betartatja.",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          { "name": "Bevezetés az elektronikába", "numberOfLesson": 14 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "skills": "Alapvető villamos méréseket végez önállóan a megépített áramkörökön.",
+    "knowledges": "Ismeri az elektromos mennyiségek mérési metódusait, a mérőműszerek használatát.",
+    "attitudes": "",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          { "name": "Bevezetés az elektronikába", "numberOfLesson": 14 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "skills": "Elvégzi a számítógépen és a mobil eszközökön az operációs rendszer (pl. Windows, Linux, Android, iOS), valamint az alkalmazói szoftverek telepítését, frissítését és alapvető beállítását. Grafikus felületen, valamint parancssorban használja a Windows, és Linux operációs rendszerek alapszintű parancsait és szolgáltatásait.",
+    "knowledges": "Ismeri a számítógépen és a mobil informatikai eszközökön használt operációs rendszerek telepítési és frissítési módjait, alapvető parancsait és szolgáltatásait, valamint alapvető beállítási lehetőségeit.",
+    "attitudes": "",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          {
+            "name": "Windows telepítése és konfigurációja",
+            "numberOfLesson": 15
+          }
+        ]
+      },
+      {
+        "name": "Informatikai és távközlési alapok II. (144 óra)",
+        "topics": [
+          {
+            "name": "Egyéb operációs rendszerek (mobil és MacOS)",
+            "numberOfLesson": 6
+          },
+          { "name": "Linux alapok", "numberOfLesson": 18 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "skills": "Elvégzi a PC perifériáinak csatlakoztatását, szükség esetén új alkatrészt szerel be, vagy alkatrészt cserél egy számítógépben.",
+    "knowledges": "Ismeri az otthoni és irodai informatikai környezetet alkotó legáltalánosabb összetevők szerepét, alapvető működési módjukat. Ismeri a PC és a mobil eszközök főbb alkatrészeit (pl. alaplap, CPU, memória) és azok szerepét.",
+    "attitudes": "Törekszik a végrehajtandó műveletek precíz és előírásoknak megfelelő elvégzésére.",
+    "antonomy": "Az informatikai berendezésekre vonatkozó munka- és balesetvédelmi szabályokat a saját és mások testi épsége érdekében betartja és betartatja.",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          {
+            "name": "A PC részei, PC szét- és összeszerelése, bővítése",
+            "numberOfLesson": 12
+          },
+          {
+            "name": "Laptopok és más eszközök tulajdonságai, hibakeresés",
+            "numberOfLesson": 5
+          },
+          { "name": "Nyomtatók és egyéb perifériák", "numberOfLesson": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "skills": "Alapvető karbantartási feladatokat lát el az általa megismert informatikai és távközlési berendezéseken (pl. szellőzés és csatlakozások ellenőrzése, tisztítása).",
+    "knowledges": "Tisztában van vele, hogy miért szükséges az informatikai és távközlési eszközök rendszeres és eseti karbantartása. Ismeri legalapvetőbb karbantartási eljárásokat.",
+    "attitudes": "A hibamentes folyamatos működés elérése érdekében fontosnak tartja a megelőző karbantartások elvégzését.",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          {
+            "name": "Megelőző karbantartás és hibakeresés",
+            "numberOfLesson": 5
+          },
+          {
+            "name": "Laptopok és más eszközök tulajdonságai, hibakeresés",
+            "numberOfLesson": 5
+          },
+          { "name": "Nyomtatók és egyéb perifériák", "numberOfLesson": 5 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "skills": "Otthoni vagy irodai hálózatot alakít ki WiFi router segítségével, elvégzi a WiFi router konfigurálását, a vezetékes és vezeték nélküli eszközök csatlakoztatását és hálózati beállítását.",
+    "knowledges": "Ismeri az informatikai hálózatok felépítését, alapvető technológiáit (pl. Ethernet), protokolljait (pl. IP, HTTP) és szabványait (pl. 802.11-es WiFi szabványok).",
+    "attitudes": "Törekszik a felhasználói igények megismerésére, megértésére, és szem előtt tartja azokat a hálózat kialakításakor.",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok II. (144 óra)",
+        "topics": [
+          {
+            "name": "Otthoni és kisvállalati hálózat építése és beállítása",
+            "numberOfLesson": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "skills": "Néhány alhálózatból álló kis és közepes vállalati hálózatot alakít ki forgalomirányító és kapcsoló segítségével, elvégzi az eszközök alapszintű hálózati beállításait (pl. forgalom-irányító interfészeinek IP-cím beállítása, alapértelmezett átjáró beállítása).",
+    "knowledges": "Ismeri a kis és közepes vállalati hálózatok legfontosabb összetevőinek szerepét, jellemzőit, csatlakozási módjukat és alapszintű hálózati beállításait.",
+    "attitudes": "",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok II. (144 óra)",
+        "topics": [
+          {
+            "name": "Informatikai és távközlési hálózatok napjainkban",
+            "numberOfLesson": 8
+          },
+          {
+            "name": "Hálózati protokollok és modellek, végponti eszközök hálózati beállítása",
+            "numberOfLesson": 18
+          },
+          {
+            "name": "Kapcsolás Ethernet-hálózatokon, a kapcsoló alapszintű beállítása",
+            "numberOfLesson": 20
+          },
+          {
+            "name": "A hálózati réteg, IPv4-es és IPv6-os címzés, a forgalomirányító alapszintű beállítása",
+            "numberOfLesson": 8
+          },
+          {
+            "name": "A szállítási és az alkalmazási réteg",
+            "numberOfLesson": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "skills": "Alkalmazza a hálózatbiztonsággal kapcsolatos legfontosabb irányelveket (pl. erős jelszavak használata, vírusvédelem alkalmazása, tűzfal használat).",
+    "knowledges": "Ismeri a fontosabb hálózatbiztonsági elveket, szabályokat, támadás típusokat, valamint a szoftveres és hardveres védekezési módszereket.",
+    "attitudes": "",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok II. (144 óra)",
+        "topics": [{ "name": "IT-biztonság", "numberOfLesson": 30 }]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "skills": "Megkeresi és elhárítja az otthoni és kisvállalati informatikai környezetben jelentkező hardveres és szoftveres hibákat.",
+    "knowledges": "Ismeri az otthoni és kisvállalati informatikai környezetben leggyakrabban felmerülő hibákat (pl. hibás IP-beállítás, kilazult csatlakozó) és azok elhárításának módjait.",
+    "attitudes": "",
+    "antonomy": "Önállóan behatárolja a hibát. Egyszerűbb problémákat önállóan, összetettebbeket szakmai irányítással hárít el.",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          {
+            "name": "Megelőző karbantartás és hibakeresés",
+            "numberOfLesson": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "skills": "Internetes források és tudásbázisok segítségével követi, valamint feladatainak elvégzéséhez lehetőség szerint alkalmazza a legmodernebb információs technológiákat és trendeket (virtualizáció, felhőtechnológia, IoT, mesterséges intelligencia, gépi tanulás stb.).",
+    "knowledges": "Naprakész információkkal rendelkezik a legmodernebb információs technológiákkal és trendekkel kapcsolatban.",
+    "attitudes": "Nyitott és érdeklődő a legmodernebb információs technológiák és trendek iránt.",
+    "antonomy": "Önállóan szerez információkat a témában releváns szakmai platformokról.",
+    "learningElements": [
+      {
+        "name": "Informatikai és távközlési alapok I. (108 óra)",
+        "topics": [
+          {
+            "name": "Virtualizáció és felhőtechnológiák",
+            "numberOfLesson": 15
+          },
+          { "name": "A dolgok internete", "numberOfLesson": 8 }
+        ]
+      },
+      {
+        "name": "Informatikai és távközlési alapok II. (144 óra)",
+        "topics": [
+          {
+            "name": "Gépi tanulás, neuronhálózatok, mesterséges intelligencia",
+            "numberOfLesson": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "skills": "Szabványos, reszponzív megjelenítést biztosító weblapokat hoz létre és formáz meg stíluslapok segítségével.",
+    "knowledges": "Ismeri a HTML5, a CSS3 alapvető elemeit, a stíluslapok fogalmát, felépítését. Érti a reszponzív megjelenítéshez használt módszereket, keretrendszerek előnyeit, a reszponzív webdizájn alapelveit.",
+    "attitudes": "A felhasználói igényeknek megfelelő funkcionalitás és design összhangjára törekszik.",
+    "antonomy": "Önállóan létrehozza és megformázza a weboldalt.",
+    "learningElements": [
+      {
+        "name": "Programozási alapok I. (72 óra)",
+        "topics": [
+          { "name": "Webszerkesztési alapok", "numberOfLesson": 14 },
+          { "name": "Weboldalak formázása", "numberOfLesson": 14 },
+          { "name": "Reszponzív weboldalak", "numberOfLesson": 12 },
+          { "name": "Ismerkedés a JavaScripttel", "numberOfLesson": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "skills": "Munkája során a jelentkező problémák kezelésére vagy folyamatok automatizálására egyszerű alkalmazásokat készít Python programozási nyelv segítségével.",
+    "knowledges": "Ismeri a Python nyelv elemeit, azok céljait (vezérlési szerkezetek, adatszerkezetek, változók, aritmetikai és logikai kifejezések, függvények, modulok, csomagok). Ismeri az algoritmus fogalmát, annak szerepét.",
+    "attitudes": "Jól átlátható kódszerkezet kialakítására törekszik.",
+    "antonomy": "Önállóan készít egyszerű alkalmazásokat.",
+    "learningElements": [
+      {
+        "name": "Programozási alapok I. (72 óra)",
+        "topics": [
+          {
+            "name": "Bevezetés a programozásba (játékos programozás)",
+            "numberOfLesson": 18
+          }
+        ]
+      },
+      {
+        "name": "Programozási alapok II. (72 óra)",
+        "topics": [
+          { "name": "Bevezetés a Python programozásba", "numberOfLesson": 4 },
+          {
+            "name": "A Python programozási nyelv alapjai",
+            "numberOfLesson": 48
+          },
+          {
+            "name": "Modulok, objektumok, fájlkezelés Pythonban",
+            "numberOfLesson": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "skills": "Git verziókezelő rendszert, valamint fejlesztést és csoportmunkát támogató online eszközöket és szolgáltatásokat (pl.: GitHub, Slack, Trello, Microsoft Teams, Webex Teams) használ.",
+    "knowledges": "Ismeri a Git, valamint a csoportmunkát támogató eszközök és online szolgáltatások célját, működési módját, legfontosabb funkcióit.",
+    "attitudes": "Törekszik a feladatainak megoldásában a hatékony csoportmunkát támogató online eszközöket kihasználni.",
+    "antonomy": "A Git verziókezelőt, valamint a csoportmunkát támogató eszközöket és szolgáltatásokat önállóan használja.",
+    "learningElements": [
+      {
+        "name": "Programozási alapok I. (72 óra)",
+        "topics": [
+          {
+            "name": "Hibakeresés weboldalakon, verziókezelő és csoportmunkaeszközök",
+            "numberOfLesson": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "skills": "Társaival hatékonyan együttműködve, csapatban dolgozik egy informatikai projekten. A projektek végrehajtása során társaival tudatosan és célirányosan kommunikál.",
+    "knowledges": "Ismeri a projektmenedzsment lépéseit (kezdeményezés, követés, végrehajtás, ellenőrzés, dokumentálás, zárás).",
+    "attitudes": "Más munkáját és a csoport belső szabályait tiszteletben tartva, együttműködően vesz részt a csapatmunkában.",
+    "antonomy": "A projektekben irányítás alatt, társaival közösen dolgozik. A ráosztott feladatrészt önállóan végzi el.",
+    "learningElements": [
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          {
+            "name": "Önismereti és kommunikációs készségek fejlesztése I.",
+            "numberOfLesson": 16
+          },
+          { "name": "Csapatmunka és együttműködés I.", "numberOfLesson": 16 },
+          {
+            "name": "Projektszervezés és -menedzsment I.",
+            "numberOfLesson": 16
+          },
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 98 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "skills": "Munkája során hatékonyan használja az irodai szoftvereket.",
+    "knowledges": "Ismeri az irodai szoftverek főbb funkcióit, felhasználási területeit.",
+    "attitudes": "",
+    "antonomy": "",
+    "learningElements": [
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          {
+            "name": "Prezentációs készségek fejlesztése I.",
+            "numberOfLesson": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "skills": "Az elkészült termékhez prezentációt készít és bemutatja, előadja azt munkatársainak, vezetőinek, ügyfeleinek.",
+    "knowledges": "Ismeri a hatékony prezentálás szabályait, a prezentációs szoftverek lehetőségeit.",
+    "attitudes": "Törekszik a tömör, lényegretörő, de szakszerű bemutató összeállítására.",
+    "antonomy": "A projektcsapat tagjaival egyeztetve, de önállóan elkészíti az elvégzett munka eredményét bemutató prezentációt.",
+    "learningElements": [
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          {
+            "name": "Prezentációs készségek fejlesztése I.",
+            "numberOfLesson": 8
+          }
+        ]
+      }
+    ]
+  }
+]
