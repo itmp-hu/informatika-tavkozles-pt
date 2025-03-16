@@ -286,7 +286,7 @@
     "knowledges": "Ismeri a Python nyelv elemeit, azok céljait (vezérlési szerkezetek, adatszerkezetek, változók, aritmetikai és logikai kifejezések, függvények, modulok, csomagok). Ismeri az algoritmus fogalmát, annak szerepét.",
     "attitudes": "Jól átlátható kódszerkezet kialakítására törekszik.",
     "antonomy": "Önállóan készít egyszerű alkalmazásokat.",
-    "projectConnection": "A tananyagelemek és a deszkriptorok projektszemléletű kapcsolódását",
+    "projectConnection": "A tanulók Python projektekben (pl. egyszerű játékok fejlesztése, adatfeldolgozó alkalmazások készítése, automatizációs szkriptek írása) elsajátítják és alkalmazzák a programozás alapvető elveit és gyakorlati használatát.",
     "learningElements": [
       {
         "name": "Programozási alapok I. (72 óra)",
@@ -326,7 +326,7 @@
     "knowledges": "Ismeri a Git, valamint a csoportmunkát támogató eszközök és online szolgáltatások célját, működési módját, legfontosabb funkcióit.",
     "attitudes": "Törekszik a feladatainak megoldásában a hatékony csoportmunkát támogató online eszközöket kihasználni.",
     "antonomy": "A Git verziókezelőt, valamint a csoportmunkát támogató eszközöket és szolgáltatásokat önállóan használja.",
-    "projectConnection": "A tanulók Python projektekben (pl. egyszerű játékok fejlesztése, adatfeldolgozó alkalmazások készítése, automatizációs szkriptek írása) elsajátítják és alkalmazzák a programozás alapvető elveit és gyakorlati használatát.",
+    "projectConnection": "A tanulók csoportos fejlesztési projektekben (pl. közös kódkezelés Git segítségével, projektfeladatok követése és dokumentálása, csapatkommunikáció online eszközökkel) elsajátítják és alkalmazzák a modern fejlesztői eszközök és csoportmunka-szolgáltatások használatát.",
     "learningElements": [
       {
         "name": "Programozási alapok I. (72 óra)",
@@ -346,7 +346,7 @@
     "knowledges": "Ismeri a projektmenedzsment lépéseit (kezdeményezés, követés, végrehajtás, ellenőrzés, dokumentálás, zárás).",
     "attitudes": "Más munkáját és a csoport belső szabályait tiszteletben tartva, együttműködően vesz részt a csapatmunkában.",
     "antonomy": "A projektekben irányítás alatt, társaival közösen dolgozik. A ráosztott feladatrészt önállóan végzi el.",
-    "projectConnection": "A tanulók csoportos fejlesztési projektekben (pl. közös kódkezelés Git segítségével, projektfeladatok követése és dokumentálása, csapatkommunikáció online eszközökkel) elsajátítják és alkalmazzák a modern fejlesztői eszközök és csoportmunka-szolgáltatások használatát.",
+    "projectConnection": "A tanulók gyakorlatias oktatás során fejlesztik a hatékony munkához, együttműködéshez és projektmenedzsmenthez szükéges soft skilljeit.",
     "learningElements": [
       {
         "name": "IKT projektmunka I. (162 óra)",
