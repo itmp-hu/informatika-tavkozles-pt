@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "ELektronika, MI és IOT projekt",
+    "name": "Elektronika, MI és IOT projekt",
     "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy okosotthon rendszer prototípusát, amely Arduino vagy Raspberry Pi alapú eszközökkel és egyszerű szenzorokkal (pl. hőmérő, fényérzékelő, mozgásérzékelő) működik. A projekt témája lehet például: okos szobai hőmérséklet szabályozó, automatikus növényöntöző rendszer, vagy okos világítás vezérlő. A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt során a tanulók megismerik az elektronikai alapfogalmakat, az IoT eszközök működését, valamint a mesterséges intelligencia alapvető elveit. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett rendszert és a projekt dokumentációját a többi csapat előtt.",
     "durationInLesson": "30",
     "skillsDomains": [
