@@ -6,11 +6,19 @@
     "knowledges": "Ismeri az elektronikai alapfogalmakat, kapcsolódó fizikai törvényeket, alapvető alkatrészeket és kapcsolásokat.",
     "attitudes": "A funkcionalitás biztosítása mellett törekszik az esztétikus kialakításra (pl. minőségi forrasztás, egyenletes alkatrész sűrűség, olvashatóság).",
     "antonomy": "Az elektromos berendezésekre vonatkozó munka- és balesetvédelmi szabályokat a saját és mások testi épsége érdekében betartja és betartatja.",
+    "projectConnection": "Az elektronikai alapismeretek alapvető jelentőséggel bírnak a távközlési szakmákban, de informatikusok számára is fontosak. A \"Bevezetés az elektronikába\" témakörben a tanulók MyDAQ, Arduino, Rasberry Pi vagy más hasonló eszközök használatával kisebb projektek segítségével ismerik meg a különböző elektronikai alkatrészeket és a kapcsolásokat.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
         "topics": [
           { "name": "Bevezetés az elektronikába", "numberOfLesson": 14 }
+        ]
+      },
+
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 10 }
         ]
       }
     ]
@@ -22,11 +30,18 @@
     "knowledges": "Ismeri az elektromos mennyiségek mérési metódusait, a mérőműszerek használatát.",
     "attitudes": "",
     "antonomy": "",
+    "projectConnection": "A \"Bevezetés az elektronikába\" témakörben a tanulók MyDAQ, Arduino, Rasberry Pi vagy más hasonló eszközök használatával, kisebb projektek során elkészített berendezéseken végeznek méréseket.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
         "topics": [
           { "name": "Bevezetés az elektronikába", "numberOfLesson": 14 }
+        ]
+      },
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 5 }
         ]
       }
     ]
@@ -38,6 +53,7 @@
     "knowledges": "Ismeri a számítógépen és a mobil informatikai eszközökön használt operációs rendszerek telepítési és frissítési módjait, alapvető parancsait és szolgáltatásait, valamint alapvető beállítási lehetőségeit.",
     "attitudes": "",
     "antonomy": "",
+    "projectConnection": "Az operációs rendszerek ismerete és kezelése alapvető készség minden informatikai szakember számára. A \"Windows telepítése és konfigurációja\", \"Linux alapok\" és \"Egyéb operációs rendszerek\" témakörökben a tanulók kisebb projektek során (pl. virtuális gépek telepítése és konfigurálása, Linux szerver kialakítása, mobil alkalmazások telepítése és beállítása) gyakorolják az operációs rendszerek kezelését és a felhasználói környezet testreszabását.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
@@ -67,6 +83,7 @@
     "knowledges": "Ismeri az otthoni és irodai informatikai környezetet alkotó legáltalánosabb összetevők szerepét, alapvető működési módjukat. Ismeri a PC és a mobil eszközök főbb alkatrészeit (pl. alaplap, CPU, memória) és azok szerepét.",
     "attitudes": "Törekszik a végrehajtandó műveletek precíz és előírásoknak megfelelő elvégzésére.",
     "antonomy": "Az informatikai berendezésekre vonatkozó munka- és balesetvédelmi szabályokat a saját és mások testi épsége érdekében betartja és betartatja.",
+    "projectConnection": "A kapcsolódó tananyagelemek tanulása során a tanulók kisebb projektek során (pl. számítógép szét- és összeszerelése, alkatrészek cseréje, perifériák csatlakoztatása és konfigurálása) ismerik meg a legalapvetőbb hardvereket, és gyakorlják azok kezelését.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
@@ -91,6 +108,7 @@
     "knowledges": "Tisztában van vele, hogy miért szükséges az informatikai és távközlési eszközök rendszeres és eseti karbantartása. Ismeri legalapvetőbb karbantartási eljárásokat.",
     "attitudes": "A hibamentes folyamatos működés elérése érdekében fontosnak tartja a megelőző karbantartások elvégzését.",
     "antonomy": "",
+    "projectConnection": "A tanulók megismerik a legfontosabb karbantartási irányelveket és gyakorlatban is elvégzik a karbantartási feladatokat a legfontosabb hardvereken.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
@@ -115,6 +133,7 @@
     "knowledges": "Ismeri az informatikai hálózatok felépítését, alapvető technológiáit (pl. Ethernet), protokolljait (pl. IP, HTTP) és szabványait (pl. 802.11-es WiFi szabványok).",
     "attitudes": "Törekszik a felhasználói igények megismerésére, megértésére, és szem előtt tartja azokat a hálózat kialakításakor.",
     "antonomy": "",
+    "projectConnection": "A tanulók otthoni vagy irodai hálózatok kialakítását célzóprojekfeladatokat elvégezve (pl. WiFi router konfigurálása, vezetékes és vezeték nélküli eszközök csatlakoztatása, hálózati beállítások optimalizálása) ismerik meg és gyakorolják a hálózati infrastruktúra kialakítását és a felhasználói igényeknek megfelelő hálózati környezet létrehozását.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok II. (144 óra)",
@@ -134,6 +153,7 @@
     "knowledges": "Ismeri a kis és közepes vállalati hálózatok legfontosabb összetevőinek szerepét, jellemzőit, csatlakozási módjukat és alapszintű hálózati beállításait.",
     "attitudes": "",
     "antonomy": "",
+    "projectConnection": "A tanulók kisebb és közepes méretű vállalati hálózatok kialakítását célzó projektek során (pl. több alhálózatból álló hálózat kialakítása, forgalomirányító és kapcsoló konfigurálása, végponti eszközök hálózati beállításainak elvégzése) ismerik meg és gyakorolják a hálózati infrastruktúra kialakítását és a felhasználói igényeknek megfelelő hálózati környezet létrehozását.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok II. (144 óra)",
@@ -169,6 +189,7 @@
     "knowledges": "Ismeri a fontosabb hálózatbiztonsági elveket, szabályokat, támadás típusokat, valamint a szoftveres és hardveres védekezési módszereket.",
     "attitudes": "",
     "antonomy": "",
+    "projectConnection": "A tanulók hálózatbiztonsági gyakorlati feladatok során (pl. tűzfal konfigurálása, vírusirtó telepítése és beállítása, hálózati biztonsági szabályok kidolgozása, biztonsági audit végrehajtása) ismerik meg és gyakorolják a hálózati biztonság alapvető elveit és gyakorlati alkalmazását.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok II. (144 óra)",
@@ -183,6 +204,7 @@
     "knowledges": "Ismeri az otthoni és kisvállalati informatikai környezetben leggyakrabban felmerülő hibákat (pl. hibás IP-beállítás, kilazult csatlakozó) és azok elhárításának módjait.",
     "attitudes": "",
     "antonomy": "Önállóan behatárolja a hibát. Egyszerűbb problémákat önállóan, összetettebbeket szakmai irányítással hárít el.",
+    "projectConnection": "A tanulók hibakeresési miniprojektek során (pl. hardveres és szoftveres hibák azonosítása, diagnosztikai eszközök használata, hibajelenségek dokumentálása, megoldási javaslatok kidolgozása) ismerik meg és gyakorolják az otthoni és kisvállalati informatikai környezetben előforduló problémák szisztematikus elhárítását.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
@@ -202,6 +224,7 @@
     "knowledges": "Naprakész információkkal rendelkezik a legmodernebb információs technológiákkal és trendekkel kapcsolatban.",
     "attitudes": "Nyitott és érdeklődő a legmodernebb információs technológiák és trendek iránt.",
     "antonomy": "Önállóan szerez információkat a témában releváns szakmai platformokról.",
+    "projectConnection": "A tanulók modern technológiákat alkalmazó projektekben (pl. felhőalapú alkalmazások kezelése, okosotthon rendszerek tervezése, robotok programozása, adatelemzési és prediktív modellek kialakítása) elsajátítják és alkalmazzák a legújabb információs technológiák gyakorlati használatát.",
     "learningElements": [
       {
         "name": "Informatikai és távközlési alapok I. (108 óra)",
@@ -221,6 +244,13 @@
             "numberOfLesson": 10
           }
         ]
+      },
+      ,
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 15 }
+        ]
       }
     ]
   },
@@ -231,6 +261,7 @@
     "knowledges": "Ismeri a HTML5, a CSS3 alapvető elemeit, a stíluslapok fogalmát, felépítését. Érti a reszponzív megjelenítéshez használt módszereket, keretrendszerek előnyeit, a reszponzív webdizájn alapelveit.",
     "attitudes": "A felhasználói igényeknek megfelelő funkcionalitás és design összhangjára törekszik.",
     "antonomy": "Önállóan létrehozza és megformázza a weboldalt.",
+    "projectConnection": "A tanulók, főleg statikus oldalakat tartalmazó webfejlesztési projektekben (pl. személyes portfólió oldal kialakítása, reszponzív webdizájnok implementálása, interaktív oldalak létrehozása) elsajátítják és alkalmazzák a modern webtechnológiák gyakorlati használatát.",
     "learningElements": [
       {
         "name": "Programozási alapok I. (72 óra)",
@@ -239,6 +270,13 @@
           { "name": "Weboldalak formázása", "numberOfLesson": 14 },
           { "name": "Reszponzív weboldalak", "numberOfLesson": 12 },
           { "name": "Ismerkedés a JavaScripttel", "numberOfLesson": 4 }
+        ]
+      },
+      ,
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 34 }
         ]
       }
     ]
@@ -250,6 +288,7 @@
     "knowledges": "Ismeri a Python nyelv elemeit, azok céljait (vezérlési szerkezetek, adatszerkezetek, változók, aritmetikai és logikai kifejezések, függvények, modulok, csomagok). Ismeri az algoritmus fogalmát, annak szerepét.",
     "attitudes": "Jól átlátható kódszerkezet kialakítására törekszik.",
     "antonomy": "Önállóan készít egyszerű alkalmazásokat.",
+    "projectConnection": "A tananyagelemek és a deszkriptorok projektszemléletű kapcsolódását",
     "learningElements": [
       {
         "name": "Programozási alapok I. (72 óra)",
@@ -273,6 +312,12 @@
             "numberOfLesson": 20
           }
         ]
+      },
+      {
+        "name": "IKT projektmunka I. (162 óra)",
+        "topics": [
+          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 34 }
+        ]
       }
     ]
   },
@@ -283,6 +328,7 @@
     "knowledges": "Ismeri a Git, valamint a csoportmunkát támogató eszközök és online szolgáltatások célját, működési módját, legfontosabb funkcióit.",
     "attitudes": "Törekszik a feladatainak megoldásában a hatékony csoportmunkát támogató online eszközöket kihasználni.",
     "antonomy": "A Git verziókezelőt, valamint a csoportmunkát támogató eszközöket és szolgáltatásokat önállóan használja.",
+    "projectConnection": "A tanulók Python projektekben (pl. egyszerű játékok fejlesztése, adatfeldolgozó alkalmazások készítése, automatizációs szkriptek írása) elsajátítják és alkalmazzák a programozás alapvető elveit és gyakorlati használatát.",
     "learningElements": [
       {
         "name": "Programozási alapok I. (72 óra)",
@@ -302,6 +348,7 @@
     "knowledges": "Ismeri a projektmenedzsment lépéseit (kezdeményezés, követés, végrehajtás, ellenőrzés, dokumentálás, zárás).",
     "attitudes": "Más munkáját és a csoport belső szabályait tiszteletben tartva, együttműködően vesz részt a csapatmunkában.",
     "antonomy": "A projektekben irányítás alatt, társaival közösen dolgozik. A ráosztott feladatrészt önállóan végzi el.",
+    "projectConnection": "A tanulók csoportos fejlesztési projektekben (pl. közös kódkezelés Git segítségével, projektfeladatok követése és dokumentálása, csapatkommunikáció online eszközökkel) elsajátítják és alkalmazzák a modern fejlesztői eszközök és csoportmunka-szolgáltatások használatát.",
     "learningElements": [
       {
         "name": "IKT projektmunka I. (162 óra)",
@@ -314,8 +361,7 @@
           {
             "name": "Projektszervezés és -menedzsment I.",
             "numberOfLesson": 16
-          },
-          { "name": "Csapatban végzett projektmunka I.", "numberOfLesson": 98 }
+          }
         ]
       }
     ]
@@ -327,6 +373,7 @@
     "knowledges": "Ismeri az irodai szoftverek főbb funkcióit, felhasználási területeit.",
     "attitudes": "",
     "antonomy": "",
+    "projectConnection": "A tanulók projektmunka során (pl. dokumentumok formázása és szerkesztése, adatok vizualizálása, prezentációk készítése) elsajátítják és alkalmazzák az irodai szoftverek, ezen belül is kiemelten a prezentációs szoftverek hatékony használatát.",
     "learningElements": [
       {
         "name": "IKT projektmunka I. (162 óra)",
@@ -346,6 +393,7 @@
     "knowledges": "Ismeri a hatékony prezentálás szabályait, a prezentációs szoftverek lehetőségeit.",
     "attitudes": "Törekszik a tömör, lényegretörő, de szakszerű bemutató összeállítására.",
     "antonomy": "A projektcsapat tagjaival egyeztetve, de önállóan elkészíti az elvégzett munka eredményét bemutató prezentációt.",
+    "projectConnection": "A tanulók projektmunka során (pl. projekt dokumentáció készítése, eredmények prezentálása, szakmai témák bemutatása) elsajátítják és alkalmazzák a hatékony prezentációs technikákat és az irodai szoftverek prezentációs funkcióit.",
     "learningElements": [
       {
         "name": "IKT projektmunka I. (162 óra)",
