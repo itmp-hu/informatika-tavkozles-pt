@@ -7,7 +7,7 @@
     "attitudes": "Igyekszik munkatársaival hatékonyan, igazi csapatjátékosként együttdolgozni. Törekszik a csoporton belül megkapott feladatok precíz, határidőre történő elkészítésére, társai segítésére.",
     "antonomy": "Szoftverfejlesz­tési projektekben irányítás alatt dolgozik, a rábízott részfeladatok megvalósításáért felelősséget vállal.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "2",
@@ -17,7 +17,7 @@
     "attitudes": "Nyitott az új technológiák megismerésére, tudását folyamatosan fejleszti.",
     "antonomy": "Önállóan dönt a fejlesztés során használt technológiákról és eszközökről.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "3",
@@ -27,7 +27,7 @@
     "attitudes": "Kommunikációjában konstruktív, együttműködő, udvarias. Feladatainak a felhasználói igényeknek leginkább megfelelő, minőségi megoldására törekszik.",
     "antonomy": "A felelősségi körébe tartozó feladatokkal kapcsolatban a vállalati kommunikációs szabályokat betartva, önállóan kommunikál az ügyfelekkel és munkatársaival.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@
     "attitudes": "Törekszik a weblapok igényes és a használatot megkönnyítő kialakítására.",
     "antonomy": "Kisebb webfejlesztési projekteken önállóan, összetettebbek­ben részfeladatokat megvalósítva, irányítás mellett dolgozik.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "5",
@@ -47,7 +47,7 @@
     "attitudes": "",
     "antonomy": "Egyszerűbb JavaScript programozási feladatokat önállóan végez el.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "6",
@@ -57,7 +57,7 @@
     "attitudes": "",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "7",
@@ -67,7 +67,7 @@
     "attitudes": "Törekszik arra, hogy az elkészített kódja jól átlátható, és mások számára is értelmezhető legyen.",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "8",
@@ -77,7 +77,7 @@
     "attitudes": "Törekszik a felhasználó számára minél könnyebb használatot biztosító felhasználói felület és működési mód kialakítására.",
     "antonomy": "Kisebb asztali alkalmazásfejlesztési projekteken önállóan, összetettebbek­ben részfeladatokat megvalósítva, irányítás mellett dolgozik.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "9",
@@ -87,7 +87,7 @@
     "attitudes": "Törekszik a redundanciamentes, világos szerkezetű, legcélravezetőbb kialakítású adatbázis szerkezet megvalósítására.",
     "antonomy": "Kisebb projektekhez néhány táblás adatbázist önállóan tervez meg, nagyobb projektekben a biztosított adatbázis kör­nyezetet használva önállóan valósít meg lekérdezéseket.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "10",
@@ -97,7 +97,7 @@
     "attitudes": "Törekszik a felhasználó számára minél könnyebb használatot biztosító felhasználói felület és működési mód kialakítására.",
     "antonomy": "Kisebb projektek mobil eszközökre optimalizált kliens oldali alkalmazását önállóan valósítja meg.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "11",
@@ -107,7 +107,7 @@
     "attitudes": "Törekszik maximálisan kihasználni a választott keretrendszer előnyeit, követi az ajánlott fejlesztési mintákat.",
     "antonomy": "Kisebb frontend alkalmazásokat önállóan készít el, nagyobb projektekben irányítás mellett végzi el a kijelölt komponensek fejlesztését.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "12",
@@ -117,7 +117,7 @@
     "attitudes": "Igyekszik backend működését leíró precíz, a frontend fejlesztők számára könnyen értelmezhető dokumentáció készítésére.",
     "antonomy": "Kisebb backend alkalmazásokat önállóan készít el, nagyobb projektekben részletes specifikációt követve, irányítás mellett végzi el a kijelölt komponensek fejlesztését.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "13",
@@ -127,7 +127,7 @@
     "attitudes": "Törekszik az OOP technológia nyújtotta előnyök kihasználására, valamint igyekszik követni az OOP irányelveket és ajánlásokat.",
     "antonomy": "Kisebb projektekben önállóan tervezi meg a szükséges osztályokat, nagyobb projektekben irányítás mellett, a projektben a projektcsapat által létrehozott osztálystruktúrát használva, illetve azt kiegészítve végzi a fejlesztést.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "14",
@@ -137,7 +137,7 @@
     "attitudes": "Törekszik az igényes kialakítású és a felhasználók számára könnyű használatot biztosító webhelyek kialakításra.",
     "antonomy": "Kevésbé összetett portálokat igényes vizuális megjelenést biztosító sablonok, valamint magas funkcionalitást biztosító beépülők használatával önállóan valósít meg. Összetettebb projekteken irányítás mellett, grafikus tervezőkkel, UX szakemberekkel és más fejlesztőkkel együttműködve dolgozik.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "15",
@@ -147,7 +147,7 @@
     "attitudes": "Törekszik a mindenre kiterjedő, az összes lehetséges hibát felderítő tesztelésre, valamint a tesztek körültekintő dokumentálására.",
     "antonomy": "Saját fejlesztésként megvalósított kisebb projektekben önállóan végzi a tesztelést, tesztelői szerepben nagyobb projektekben irányítás mellett végez meghatározott tesztelési feladatokat.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "16",
@@ -157,7 +157,7 @@
     "attitudes": "Törekszik a hibák elhárítására, megoldására, és arra, hogy azokkal lehetőség szerint ne okozzon újabb hibákat.",
     "antonomy": "Internetes információszer­zéssel önállóan old meg problémákat és hárít el hibákat.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "17",
@@ -167,7 +167,7 @@
     "attitudes": "Precízen készíti el a műszaki tartalmú dokumentációkat, prezentációkat. Törekszik arra, hogy a dokumentumok könnyen értelmezhetők és mások által is szerkeszthetők legyenek. A dokumentációkat elektronikusan tárolja, azokat csak a valóban szükséges esetben nyomtatja ki.",
     "antonomy": "Felelősséget vállal az általa készített műszaki tartalmú dokumentáció­kért.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "18",
@@ -177,7 +177,7 @@
     "attitudes": "Nyitott az új technológiák megismerésére, és törekszik azok hatékony, a felhasználói igényeknek és a költséghatékonysági elvárásoknak megfelelő felhasználására a szoftverfejlesztési feladatokban.",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "19",
@@ -187,7 +187,7 @@
     "attitudes": "A szoftverrendszerek bevezetése és a működési környezet kialakítása során törekszik az ügyfelek elvárásainak megfelelni, valamint tiszteletben tartja az ügyfél vállalati szabályait. Ügyel a meghibásodott alkatrészek elektronikus hulladékokra vonatkozó előírásoknak megfelelő kezelésére.",
     "antonomy": "Az elvégzett eszköz- és szoftvertelepíté­sekért felelősséget vállal.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "20",
@@ -197,7 +197,7 @@
     "attitudes": "",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   },
   {
     "id": "21",
@@ -207,6 +207,6 @@
     "attitudes": "Igényes munkakörnyezetére és tudatosan rendben tartja azt.",
     "antonomy": "Önállóan alakítja ki a baleset és tűzvédelmi előírásoknak is megfelelő munkakörnyeze­tét.",
     "projectConnection": "",
-    "learningElements": ["valami"]
+    "learningElements": []
   }
 ]
