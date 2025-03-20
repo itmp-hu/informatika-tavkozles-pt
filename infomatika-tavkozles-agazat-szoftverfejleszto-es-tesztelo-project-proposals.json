@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Weboldal fejlesztési projekt",
+    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy modern, reszponzív weboldalt, amely egy fiktív vagy valós üzleti problémát old meg. A projekt témája lehet például: egy étterem vagy kávézó weboldala, egy esemény szervezési portál, egy online könyvesbolt, egy sportklub honlapja vagy egy oktatási intézmény weboldala. A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt során a tanulók HTML5, CSS3 és alapvető JavaScript technológiákkal készítenek felhasználóbarát, reszponzív felületet. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett weboldalt és a projekt dokumentációját a többi csapat előtt.",
+    "durationInLesson": "34",
+    "skillsDomains": [
+      "E. Programozás és webfejlesztés (10;11;12;13. sor)",
+      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+    ]
+  },
+  {
+    "name": "Python programozási projekt",
+    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy egyszerű Python alkalmazást, amely egy fiktív vagy valós üzleti problémát old meg. A projekt témája lehet például: egy egyszerű játék (pl. kő-papír-olló, számkitaláló, szöveges kalandjáték), egy adatfeldolgozó alkalmazás (pl. CSV fájlok feldolgozása, egyszerű statisztikák készítése), vagy egy automatizációs szkript (pl. fájlok átnevezése, képek feldolgozása, egyszerű feladatkezelő). A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett alkalmazást és a projekt dokumentációját a többi csapat előtt.",
+    "durationInLesson": "34",
+    "skillsDomains": [
+      "E. Programozás és webfejlesztés (10;11;12;13. sor)",
+      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+    ]
+  },
+  {
+    "name": "Elektronika, MI és IOT projekt",
+    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy okosotthon rendszer prototípusát, amely Arduino vagy Raspberry Pi alapú eszközökkel és egyszerű szenzorokkal (pl. hőmérő, fényérzékelő, mozgásérzékelő) működik. A projekt témája lehet például: okos szobai hőmérséklet szabályozó, automatikus növényöntöző rendszer, vagy okos világítás vezérlő. A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt során a tanulók megismerik az elektronikai alapfogalmakat, az IoT eszközök működését, valamint a mesterséges intelligencia alapvető elveit. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett rendszert és a projekt dokumentációját a többi csapat előtt.",
+    "durationInLesson": "30",
+    "skillsDomains": [
+      "A. Elektronikai ismeretek (1;2. sor)",
+      "D. Modern technológiák alkalmazása (10. sor)",
+      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+    ]
+  }
+]
