@@ -2,12 +2,19 @@
   {
     "id": "1",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
-    "skills": "Használja a Git verziókezelő rendszert, valamint a fejlesztést támogató csoport munkaeszkö­zöket és szolgáltatásokat (pl. GitHub, Slack, Trello, Microsoft Teams, Webex Teams).",
+    "skills": "Használja a Git verziókezelő rendszert, valamint a fejlesztést támogató csoport munkaeszközöket és szolgáltatásokat (pl. GitHub, Slack, Trello, Microsoft Teams, Webex Teams).",
     "knowledges": "Ismeri a legelterjedtebb csoportmunkaesz­közöket, valamint a Git verziókezelőrend­szer szolgáltatásait.",
     "attitudes": "Igyekszik munkatársaival hatékonyan, igazi csapatjátékosként együttdolgozni. Törekszik a csoporton belül megkapott feladatok precíz, határidőre történő elkészítésére, társai segítésére.",
     "antonomy": "Szoftverfejlesz­tési projektekben irányítás alatt dolgozik, a rábízott részfeladatok megvalósításáért felelősséget vállal.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [
+          { "name": "Bevezetés a szoftverfejlesztésbe", "numberOfLesson": 14 }
+        ]
+      }
+    ]
   },
   {
     "id": "2",
@@ -17,7 +24,18 @@
     "attitudes": "Nyitott az új technológiák megismerésére, tudását folyamatosan fejleszti.",
     "antonomy": "Önállóan dönt a fejlesztés során használt technológiákról és eszközökről.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [
+          {
+            "name": "Procedurális és objektumorientált szoftverfejlesztés",
+            "numberOfLesson": 14
+          },
+          { "name": "Objektumorientált fejlesztés", "numberOfLesson": 45 }
+        ]
+      }
+    ]
   },
   {
     "id": "3",
@@ -27,7 +45,35 @@
     "attitudes": "Kommunikációjában konstruktív, együttműködő, udvarias. Feladatainak a felhasználói igényeknek leginkább megfelelő, minőségi megoldására törekszik.",
     "antonomy": "A felelősségi körébe tartozó feladatokkal kapcsolatban a vállalati kommunikációs szabályokat betartva, önállóan kommunikál az ügyfelekkel és munkatársaival.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Szakmai angol (144 óra)",
+        "topics": [
+          { "name": "Hallás utáni szövegértés", "numberOfLesson": 22 },
+          { "name": "Szóbeli kommunikáció", "numberOfLesson": 24 },
+          {
+            "name": "Szóbeli kommunikáció IT-környezetben, projektalapon I.",
+            "numberOfLesson": 14
+          },
+          {
+            "name": "Írásos angol nyelvű szakmai anyagok feldolgozása",
+            "numberOfLesson": 24
+          },
+          {
+            "name": "Angol nyelvű szövegalkotás - e-mail",
+            "numberOfLesson": 18
+          },
+          {
+            "name": "Keresés és ismeretszerzés angol nyelven",
+            "numberOfLesson": 22
+          },
+          {
+            "name": "Szóbeli kommunikáció IT-környezetben, projektalapon II.",
+            "numberOfLesson": 20
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "4",
@@ -37,7 +83,16 @@
     "attitudes": "Törekszik a weblapok igényes és a használatot megkönnyítő kialakítására.",
     "antonomy": "Kisebb webfejlesztési projekteken önállóan, összetettebbek­ben részfeladatokat megvalósítva, irányítás mellett dolgozik.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Webprogramozás (144 óra)",
+        "topics": [{ "name": "HTML5 és CSS3", "numberOfLesson": 32 }]
+      },
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [{ "name": "JavaScript", "numberOfLesson": 36 }]
+      }
+    ]
   },
   {
     "id": "5",
@@ -47,7 +102,22 @@
     "attitudes": "",
     "antonomy": "Egyszerűbb JavaScript programozási feladatokat önállóan végez el.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Webprogramozás (144 óra)",
+        "topics": [
+          { "name": "JavaScript I.", "numberOfLesson": 40 },
+          { "name": "JavaScript II.", "numberOfLesson": 36 }
+        ]
+      },
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [
+          { "name": "JavaScript", "numberOfLesson": 36 },
+          { "name": "AJAX", "numberOfLesson": 16 }
+        ]
+      }
+    ]
   },
   {
     "id": "6",
@@ -57,7 +127,18 @@
     "attitudes": "",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [
+          { "name": "AJAX", "numberOfLesson": 16 },
+          {
+            "name": "Frontend készítésére szolgáló JavaScript framework",
+            "numberOfLesson": 36
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "7",
@@ -67,7 +148,17 @@
     "attitudes": "Törekszik arra, hogy az elkészített kódja jól átlátható, és mások számára is értelmezhető legyen.",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+        "topics": [
+          {
+            "name": "A tiszta kód elméleti alapjai és gyakorlata",
+            "numberOfLesson": 28
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "8",
@@ -77,7 +168,12 @@
     "attitudes": "Törekszik a felhasználó számára minél könnyebb használatot biztosító felhasználói felület és működési mód kialakítására.",
     "antonomy": "Kisebb asztali alkalmazásfejlesztési projekteken önállóan, összetettebbek­ben részfeladatokat megvalósítva, irányítás mellett dolgozik.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [{ "name": "Grafikus programozás", "numberOfLesson": 45 }]
+      }
+    ]
   },
   {
     "id": "9",
@@ -87,7 +183,31 @@
     "attitudes": "Törekszik a redundanciamentes, világos szerkezetű, legcélravezetőbb kialakítású adatbázis szerkezet megvalósítására.",
     "antonomy": "Kisebb projektekhez néhány táblás adatbázist önállóan tervez meg, nagyobb projektekben a biztosított adatbázis kör­nyezetet használva önállóan valósít meg lekérdezéseket.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Adatbázis-kezelés I. (72 óra)",
+        "topics": [
+          { "name": "Az adatbázis tervezés alapjai", "numberOfLesson": 5 },
+          { "name": "Adatbázisok létrehozása", "numberOfLesson": 5 },
+          { "name": "Adatok kezelése", "numberOfLesson": 10 },
+          { "name": "Lekérdezések", "numberOfLesson": 46 },
+          {
+            "name": "Adatbázisok mentése és helyreállítása",
+            "numberOfLesson": 6
+          }
+        ]
+      },
+      {
+        "name": "Adatbázis-kezelés II. (62 óra)",
+        "topics": [
+          { "name": "Adatbázis-tervezés", "numberOfLesson": 14 },
+          { "name": "Haladó lekérdezések", "numberOfLesson": 16 },
+          { "name": "Adatvezérlő utasítások", "numberOfLesson": 10 },
+          { "name": "Tárolt objektumok", "numberOfLesson": 10 },
+          { "name": "Az adatbázis-kezelés osztályai", "numberOfLesson": 12 }
+        ]
+      }
+    ]
   },
   {
     "id": "10",
@@ -97,7 +217,14 @@
     "attitudes": "Törekszik a felhasználó számára minél könnyebb használatot biztosító felhasználói felület és működési mód kialakítására.",
     "antonomy": "Kisebb projektek mobil eszközökre optimalizált kliens oldali alkalmazását önállóan valósítja meg.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+        "topics": [
+          { "name": "Mobil alkalmazások fejlesztése", "numberOfLesson": 32 }
+        ]
+      }
+    ]
   },
   {
     "id": "11",
@@ -107,7 +234,17 @@
     "attitudes": "Törekszik maximálisan kihasználni a választott keretrendszer előnyeit, követi az ajánlott fejlesztési mintákat.",
     "antonomy": "Kisebb frontend alkalmazásokat önállóan készít el, nagyobb projektekben irányítás mellett végzi el a kijelölt komponensek fejlesztését.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [
+          {
+            "name": "Frontend készítésére szolgáló JavaScript framework",
+            "numberOfLesson": 36
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "12",
@@ -117,7 +254,22 @@
     "attitudes": "Igyekszik backend működését leíró precíz, a frontend fejlesztők számára könnyen értelmezhető dokumentáció készítésére.",
     "antonomy": "Kisebb backend alkalmazásokat önállóan készít el, nagyobb projektekben részletes specifikációt követve, irányítás mellett végzi el a kijelölt komponensek fejlesztését.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Backend programozás és tesztelés (186 óra)",
+        "topics": [
+          {
+            "name": "Backend készítésére szolgáló keretrendszer",
+            "numberOfLesson": 46
+          },
+          { "name": "Rétegelt architektúra és ORM", "numberOfLesson": 30 },
+          {
+            "name": "A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése",
+            "numberOfLesson": 30
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "13",
@@ -127,7 +279,23 @@
     "attitudes": "Törekszik az OOP technológia nyújtotta előnyök kihasználására, valamint igyekszik követni az OOP irányelveket és ajánlásokat.",
     "antonomy": "Kisebb projektekben önállóan tervezi meg a szükséges osztályokat, nagyobb projektekben irányítás mellett, a projektben a projektcsapat által létrehozott osztálystruktúrát használva, illetve azt kiegészítve végzi a fejlesztést.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [
+          { "name": "Objektumorientált fejlesztés", "numberOfLesson": 45 }
+        ]
+      },
+      {
+        "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+        "topics": [
+          {
+            "name": "Haladó szintű objektumorientált programozás",
+            "numberOfLesson": 32
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "14",
@@ -137,7 +305,21 @@
     "attitudes": "Törekszik az igényes kialakítású és a felhasználók számára könnyű használatot biztosító webhelyek kialakításra.",
     "antonomy": "Kevésbé összetett portálokat igényes vizuális megjelenést biztosító sablonok, valamint magas funkcionalitást biztosító beépülők használatával önállóan valósít meg. Összetettebb projekteken irányítás mellett, grafikus tervezőkkel, UX szakemberekkel és más fejlesztőkkel együttműködve dolgozik.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Webprogramozás (144 óra)",
+        "topics": [{ "name": "CMS-rendszerek", "numberOfLesson": 36 }]
+      },
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [
+          {
+            "name": "Tartalomkezelő keretrendszer CMS használata",
+            "numberOfLesson": 20
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "15",
@@ -147,7 +329,20 @@
     "attitudes": "Törekszik a mindenre kiterjedő, az összes lehetséges hibát felderítő tesztelésre, valamint a tesztek körültekintő dokumentálására.",
     "antonomy": "Saját fejlesztésként megvalósított kisebb projektekben önállóan végzi a tesztelést, tesztelői szerepben nagyobb projektekben irányítás mellett végez meghatározott tesztelési feladatokat.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+        "topics": [{ "name": "Unit tesztelés", "numberOfLesson": 28 }]
+      },
+      {
+        "name": "Frontend programozás és tesztelés (186 óra)",
+        "topics": [{ "name": "Integrációs tesztelés", "numberOfLesson": 20 }]
+      },
+      {
+        "name": "Backend programozás és tesztelés (186 óra)",
+        "topics": [{ "name": "Integrációs tesztelés", "numberOfLesson": 25 }]
+      }
+    ]
   },
   {
     "id": "16",
@@ -157,7 +352,23 @@
     "attitudes": "Törekszik a hibák elhárítására, megoldására, és arra, hogy azokkal lehetőség szerint ne okozzon újabb hibákat.",
     "antonomy": "Internetes információszer­zéssel önállóan old meg problémákat és hárít el hibákat.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [
+          { "name": "Kivételkezelés, hibakeresés", "numberOfLesson": 7 }
+        ]
+      },
+      {
+        "name": "Szakmai angol (144 óra)",
+        "topics": [
+          {
+            "name": "Keresés és ismeretszerzés angol nyelven",
+            "numberOfLesson": 22
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "17",
@@ -167,7 +378,21 @@
     "attitudes": "Precízen készíti el a műszaki tartalmú dokumentációkat, prezentációkat. Törekszik arra, hogy a dokumentumok könnyen értelmezhetők és mások által is szerkeszthetők legyenek. A dokumentációkat elektronikusan tárolja, azokat csak a valóban szükséges esetben nyomtatja ki.",
     "antonomy": "Felelősséget vállal az általa készített műszaki tartalmú dokumentáció­kért.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Szakmai angol (144 óra)",
+        "topics": [
+          {
+            "name": "Írásos angol nyelvű szakmai anyagok feldolgozása",
+            "numberOfLesson": 24
+          },
+          {
+            "name": "Angol nyelvű szövegalkotás - e-mail",
+            "numberOfLesson": 18
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "18",
@@ -177,7 +402,17 @@
     "attitudes": "Nyitott az új technológiák megismerésére, és törekszik azok hatékony, a felhasználói igényeknek és a költséghatékonysági elvárásoknak megfelelő felhasználására a szoftverfejlesztési feladatokban.",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+        "topics": [
+          {
+            "name": "Nevezetes algoritmusok és megvalósításuk OOP-technológiával",
+            "numberOfLesson": 32
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "19",
@@ -187,7 +422,12 @@
     "attitudes": "A szoftverrendszerek bevezetése és a működési környezet kialakítása során törekszik az ügyfelek elvárásainak megfelelni, valamint tiszteletben tartja az ügyfél vállalati szabályait. Ügyel a meghibásodott alkatrészek elektronikus hulladékokra vonatkozó előírásoknak megfelelő kezelésére.",
     "antonomy": "Az elvégzett eszköz- és szoftvertelepíté­sekért felelősséget vállal.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [{ "name": "Grafikus programozás", "numberOfLesson": 45 }]
+      }
+    ]
   },
   {
     "id": "20",
@@ -197,7 +437,17 @@
     "attitudes": "",
     "antonomy": "",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Backend programozás és tesztelés (186 óra)",
+        "topics": [
+          {
+            "name": "Backend készítésére szolgáló keretrendszer",
+            "numberOfLesson": 46
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "21",
@@ -207,6 +457,13 @@
     "attitudes": "Igényes munkakörnyezetére és tudatosan rendben tartja azt.",
     "antonomy": "Önállóan alakítja ki a baleset és tűzvédelmi előírásoknak is megfelelő munkakörnyeze­tét.",
     "projectConnection": "",
-    "learningElements": []
+    "learningElements": [
+      {
+        "name": "Asztali alkalmazások fejlesztése (180 óra)",
+        "topics": [
+          { "name": "Bevezetés a szoftverfejlesztésbe", "numberOfLesson": 14 }
+        ]
+      }
+    ]
   }
 ]
