@@ -264,3 +264,226 @@
 
 - Tervez többablakos alkalmazást, elkülöníti a logikát és a megjelenítést (alapszintű MVC / MVVM ismeretek), és összehangolt felületet hoz létre
 - Fejleszt egy összetettebb grafikus projektet (csoportosan vagy egyedül), amiben a különféle GUI-elemeket, eseményeket és elrendezéseket integrálja, majd bemutatja a működő alkalmazást
+
+### Adatbázis-kezelés I. (72 óra)
+
+#### Az adatbázis tervezés alapjai (5 óra)
+
+##### Adatbázis-tervezési alapfogalmak
+
+- Azonosítja és alkalmazza az adatbázis-tervezés alapfogalmait, felismeri a redundancia káros következményeit
+- Felismeri és kategorizálja az adatbázis anomáliákat, majd megfelelő normalizálási lépésekkel megszünteti azokat
+- Alkalmazza a dekompozíciós technikákat a redundancia csökkentésére és az adatintegritás megőrzésére
+
+##### Adatmodellezés ER-modellel
+
+- Megtervezi az adatbázis logikai szerkezetét ER-modell segítségével, megfelelően alkalmazva annak jelölésrendszerét
+- Létrehozza és dokumentálja az entitásokat, attribútumokat és kapcsolatokat az ER-modellben
+
+##### Relációs adatmodell kialakítása
+
+- Azonosítja és megfelelően alkalmazza a relációs adatbázisok alapfogalmait (elsődleges kulcs, idegen kulcs, rekord, mező)
+- Átalakítja az ER-modellt relációs modellé a megfelelő szabályok és kapcsolattípusok figyelembevételével
+
+#### Adatbázisok létrehozása (5 óra)
+
+- Létrehoz és módosít adatbázisokat és táblákat a CREATE és ALTER utasítások megfelelő használatával
+- Megtervezi és létrehozza a táblák mezőit a megfelelő adattípusok és megszorítások (NULL, NOT NULL, UNIQUE, PRIMARY KEY) alkalmazásával
+- Kialakítja a táblák közötti kapcsolatokat a REFERENCES záradék használatával
+
+##### Adatbázis-objektumok kezelése
+
+- Létrehoz és kezel indexeket a lekérdezések optimalizálása érdekében
+- Töröl adatbázisokat, táblákat és indexeket a DROP utasítás biztonságos alkalmazásával
+- Módosítja az adatbázis-objektumok szerkezetét az ALTER utasítás megfelelő használatával
+
+#### Adatok kezelése (10 óra)
+
+##### Adatok felvitele és módosítása
+
+- Új rekordokat szúr be a táblákba az INSERT INTO utasítás megfelelő alkalmazásával
+- Frissíti a meglévő rekordok adatait az UPDATE utasítás és a WHERE feltétel használatával
+
+##### Adatok törlése és karbantartása
+
+- Töröl rekordokat a táblákból a DELETE utasítás és a WHERE feltétel biztonságos alkalmazásával
+- Ellenőrzi és karbantartja az adatok integritását a DML műveletek végrehajtása során
+
+#### Lekérdezések (46 óra)
+
+##### Alapvető lekérdezési műveletek
+
+- Lekérdezi az adatokat a SELECT utasítás szintaktikailag helyes használatával, megfelelően alkalmazza a WHERE záradékot és a különböző operátorokat az adatsorok szűrésére
+- Rendezi az adatsorokat egy vagy több mező szerint az ORDER BY záradék használatával, és alkalmazza az álneveket a lekérdezések átláthatóbbá tételére
+- Szűri az ismétlődő sorokat a DISTINCT záradékkal, és használja a helyettesítő karaktereket a rugalmas keresések megvalósításához
+
+##### Összetett lekérdezések és táblák összekapcsolása
+
+- Összekapcsol táblákat különböző JOIN típusok (INNER, LEFT, RIGHT) alkalmazásával, és megfelelően kezeli a kapcsolódó adatokat
+- Csoportosítja az adatokat a GROUP BY záradékkal, szűri a csoportokat a HAVING záradékkal, és korlátozza a megjelenő sorok számát (TOP/LIMIT)
+- Számított mezőket hoz létre és használ a lekérdezésekben, megfelelően alkalmazva az aritmetikai műveleteket
+
+##### Függvények alkalmazása lekérdezésekben
+
+- Használja az aggregáló függvényeket (COUNT, MIN, MAX, SUM, AVG) statisztikai számítások végrehajtására és adatok összesítésére
+- Alkalmazza a szövegkezelő és formázó függvényeket (CONCAT, FORMAT, LENGTH, SUBSTR, REPLACE) az adatok megfelelő megjelenítéséhez
+- Használja a numerikus függvényeket (TRUNC, ROUND) a számadatok pontos kezelésére és megjelenítésére
+
+#### Adatbázisok mentése és helyreállítása (6 óra)
+
+##### Adatbázis-mentési stratégiák és végrehajtás
+
+- Megtervezi és végrehajtja az adatbázis teljes és inkrementális mentését a kiválasztott SQL szerveren a parancsok megfelelő alkalmazásával
+- Ütemezi és automatizálja a rendszeres mentési feladatokat a választott SQL szerver eszközeivel
+
+##### Adatbázisok helyreállítása és validálása
+
+- Helyreállítja az adatbázist különböző típusú mentésekből a kiválasztott SQL szerveren a parancsok megfelelő alkalmazásával
+- Ellenőrzi a helyreállított adatbázis integritását és konzisztenciáját
+
+### Adatbázis-kezelés II. (62 óra)
+
+#### Adatbázis-tervezés (14 óra)
+
+##### ER-modell alapjai és alkalmazása
+
+- Megtervezi az adatbázis szerkezetét ER-modell segítségével, megfelelően alkalmazva annak jelölésrendszerét és szabályait
+- Azonosítja és modellezi az entitásokat, attribútumokat és kapcsolatokat az üzleti követelmények alapján
+- Felismeri és kezeli a gyenge egyedeket, megfelelően dokumentálja azok azonosítását és függőségeit
+
+##### Relációs adatbázis-tervezés
+
+- Átalakítja az ER-modellt relációs adatbázis-sémává a megfelelő normalizációs szabályok alkalmazásával
+- Kezeli a többértékű attribútumokat és az N-ágú kapcsolatokat, megfelelő relációs struktúrákká alakítja őket
+- Optimalizálja az adatbázis szerkezetét a redundancia minimalizálásával és a lekérdezési hatékonyság maximalizálásával
+
+#### Haladó lekérdezések (16 óra)
+
+##### Beágyazott lekérdezések készítése
+
+- Létrehoz és alkalmaz egymásba ágyazott lekérdezéseket a megfelelő szintaxis és operátorok használatával
+- Kiválasztja és implementálja a feladatnak legmegfelelőbb beágyazott lekérdezéstípust (EXISTS, IN, ANY, ALL)
+- Összetett feltételrendszereket alakít ki beágyazott lekérdezések és logikai operátorok kombinálásával
+
+##### Lekérdezés-optimalizálás és teljesítményhangolás
+
+- Megtervezi és létrehozza a szükséges indexeket a lekérdezések teljesítményének javítására
+- Elemzi és optimalizálja a lekérdezések végrehajtási tervét a megfelelő eszközök használatával
+- Alkalmazza a lekérdezés-optimalizálás bevált gyakorlatait (megfelelő indexhasználat, felesleges joinok elkerülése, WHERE feltételek hatékony megfogalmazása)
+
+#### Adatvezérlő utasítások (10 óra)
+
+##### Tranzakciókezelés alapjai és végrehajtása
+
+- Alkalmazza a tranzakciók ACID tulajdonságait (atomiság, konzisztencia, elszigetelés, tartósság) az adatbázis-műveletek során
+- Beállítja és kezeli a megfelelő izolációs szinteket a párhuzamos adathozzáférések szabályozására
+- Végrehajtja és kezeli a tranzakciókat a megfelelő utasításokkal (START TRANSACTION, COMMIT, ROLLBACK)
+- Alkalmazza a zárolási műveleteket (LOCK/UNLOCK TABLES) az erőforrások kizárólagos használatának biztosítására
+
+##### Felhasználók és jogosultságok kezelése
+
+- Létrehozza és kezeli a felhasználói fiókokat a megfelelő parancsokkal (CREATE USER, DROP USER)
+- Beállítja és módosítja a felhasználói jogosultságokat a GRANT és REVOKE utasítások használatával
+- Létrehoz és kezel szerepköröket (ROLE) a jogosultságok hatékony adminisztrációjához
+
+#### Tárolt objektumok (10 óra)
+
+##### Nézettáblák kezelése
+
+- Létrehoz és módosít nézettáblákat a CREATE VIEW és ALTER VIEW parancsok használatával
+- Törli a szükségtelen vagy elavult nézettáblákat a DROP VIEW parancs alkalmazásával
+- Optimalizálja a nézettáblák szerkezetét a lekérdezési teljesítmény javítása érdekében
+
+##### Tárolt eljárások és függvények
+
+- Implementál újrafelhasználható tárolt eljárásokat és függvényeket a CREATE PROCEDURE/FUNCTION parancsokkal
+- Karbantartja és frissíti a meglévő tárolt eljárásokat és függvényeket az ALTER PROCEDURE/FUNCTION használatával
+- Eltávolítja a feleslegessé vált tárolt eljárásokat és függvényeket a DROP PROCEDURE/FUNCTION parancsokkal
+
+##### Triggerek fejlesztése
+
+- Létrehoz eseményvezérelt triggereket adatbázis-műveletek automatizálására
+- Módosítja a triggerek működési logikáját az üzleti követelmények változása esetén
+- Megszünteti a nem használt vagy problémás triggereket a DROP TRIGGER paranccsal
+
+#### Az adatbázis-kezelés osztályai (12 óra)
+
+#### Az adatbázis-kezelés osztályai
+
+##### Adatbázis-kapcsolat létrehozása és kezelése
+
+- Telepíti és konfigurálja az adatbázisszerver eléréséhez szükséges modulokat és referenciákat Java vagy C# környezetben
+- Létrehozza és kezeli az adatbázis-kapcsolatokat a megfelelő kapcsolódási karakterláncok és osztályok használatával
+- Implementálja a hibakezelést az adatbázis-kapcsolatok és műveletek során a megfelelő kivételkezelési technikákkal
+
+##### Adatbázisműveletek végrehajtása
+
+- Végrehajtja az adatbázis-műveleteket (lekérdezés, beszúrás, módosítás, törlés) a megfelelő osztályok és metódusok használatával
+- Kezeli a lekérdezések eredményhalmazát a megfelelő osztályok segítségével
+- Megjeleníti a lekérdezések eredményét grafikus felhasználói felületen adatkötött vezérlőelemek használatával
+
+### Asztali és mobil alkalmazások fejleszté- se és tesztelése 217
+
+#### Haladó szintű objektumorientált programozás 32
+
+#### Nevezetes algoritmusok és megvalósításuk OOP-technológiával 32
+
+#### A tiszta kód elméleti alapjai és gyakorlata 28
+
+#### Unit tesztelés 28
+
+#### Mobil alkalmazások fejlesztése 32
+
+#### Projektmunka 62
+
+### Webprogramozás 144
+
+#### HTML5 és CSS3 32
+
+#### JavaScript I. 40
+
+#### JavaScript II. 36
+
+#### CMS-rendszerek 36
+
+### Frontend programozás és tesztelés
+
+#### JavaScript 36
+
+#### AJAX 16
+
+#### Frontend készítésére szolgáló JavaScript framework 36
+
+#### Tartalomkezelő keretrendszer CMS- használata 20
+
+#### Integrációs tesztelés 20
+
+#### Projektmunka 58
+
+### Backend programozás és tesztelés 186
+
+#### Backend készítésére szolgáló keretrendszer 46
+
+#### Rétegelt architektúra és ORM 30
+
+#### A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése 30
+
+#### Integrációs tesztelés 25
+
+#### Projektmunka 55
+
+### Szakmai angol 144
+
+#### Hallás utáni szövegértés 22
+
+#### Szóbeli kommunikáció 24
+
+#### Szóbeli kommunikáció IT-környezetben, projektalapon I. 14
+
+#### Írásos angol nyelvű szakmai anyagok feldolgozása 24
+
+#### Angol nyelvű szövegalkotás – e-mail 18
+
+#### Keresés és ismeretszerzés angol nyelven 22
+
+#### Szóbeli kommunikáció IT-környezetben, projektalapon II. 20
