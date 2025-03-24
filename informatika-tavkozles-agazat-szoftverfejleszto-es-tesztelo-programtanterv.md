@@ -1,6 +1,6 @@
-### Asztali alkalmazások fejlesztése
+### Asztali alkalmazások fejlesztése (180 óra)
 
-#### Bevezetés a szoftverfejlesztésbe 14
+#### Bevezetés a szoftverfejlesztésbe (14 óra)
 
 ##### A Java/C# nyelv és a fejlesztőkörnyezet alapjai
 
@@ -53,29 +53,29 @@
 - Breakpointokat állít be és használ a kód végrehajtásának részletes elemzéséhez debugger eszközökkel.
 - Hibák okait diagnosztizálja és javítja a léptetés, változóértékek megfigyelése és logolás segítségével.
 
-#### Procedurális és objektumorientált szoftverfejlesztés 14
+#### Procedurális és objektumorientált szoftverfejlesztés (14 óra)
 
-##### 1. Szemléleti alapok és fogalmak
+##### Szemléleti alapok és fogalmak
 
 - Felismeri a procedurális és az objektumorientált megközelítés közötti fő különbségeket, valamint ezek gyakorlati jelentőségét.
 - Értelmezi az osztály és az objektum fogalmát, az OOP alapelemeit (property, metódus, láthatóság).
 - Összehasonlítja a procedurális és az OOP kódszervezés előnyeit/hátrányait, és a feladat jellegéhez illően választ megközelítést.
 
-##### 2. Kódszerkezet és gyakorlati alkalmazás
+##### Kódszerkezet és gyakorlati alkalmazás
 
 - Létrehoz egyszerű kódrészleteket mind procedurális, mind OOP módon (konzolos példák).
 - Példányosít objektumokat, megérti a „new” kulcsszó és a statikus elemek közti eltérést Java/C#-ban.
 - Használ property-ket (get/set) és alapvető adatrejtési (encapsulation) elveket.
 - Készít kisebb, összehangolt kódot, amelyben a property-k és metódusok együttműködnek (például alapvető esettanulmány).
 
-##### 3. Hibakezelés, csapatmunka, reflexió
+##### Hibakezelés, csapatmunka, reflexió
 
 - Felderíti a tipikus OOP hibákat (például null-referencia, láthatósági problémák) és alap debugolási módszereket alkalmaz.
 - Biztosan mozog a Java/C# nyelvspecifikus fájlszerkezetben (namespace/package, import/using), alkalmazza az ajánlott kódstílusokat.
 - Dolgozik önállóan és csoportban is, elemzi és fejleszti a kódot a csapattal való konzultációk során.
 - Reflektál a procedurális és objektumorientált szemléletre, az órák során gyűjtött tapasztalatok alapján tisztábban látja, mely területek profitálnak egyik vagy másik megközelítésből.
 
-#### Változók 8
+#### Változók (8 óra)
 
 ##### Alapfogalmak, primitívek és alapkészségek
 
@@ -104,7 +104,7 @@
 - Kezeli az alapvető inputhibákat (helytelen formátum, üres mezők), és biztosítja a program további futását
 - Komplexebb feladatokban használja a változókhoz kapcsolódó ismereteket (típusválasztás, konverzió, inputkezelés, kimenet)
 
-#### Metódusok 8
+#### Metódusok (8 óra)
 
 ##### Metódusok alapjai és felépítés
 
@@ -125,7 +125,7 @@
 - Felold tipikus metódussal kapcsolatos hibákat (nem megfelelő paraméterlista vagy visszatérési típus, scope-félreértések)
 - Készít több metódust, amelyek együttműködnek egy összetettebb feladat megoldásában (például több lépéses számítás, stringmanipuláció)
 
-#### Beépített segédosztályok 12
+#### Beépített segédosztályok (12 óra)
 
 ##### A beépített könyvtárak használata és dokumentációértelmezés
 
@@ -144,7 +144,7 @@
 - Hív statikus metódusokat a Math osztályból (min, max, sqrt, pow stb.), és tisztában van a statikus metódusok fogalmával
 - Fejleszti a kódot a dokumentációból tanult újabb metódusok beépítésével, és tovább mélyíti a beépített segédosztályokkal kapcsolatos ismereteit
 
-#### Vezérlési szerkezetek, ciklusok 12
+#### Vezérlési szerkezetek, ciklusok (12 óra)
 
 ##### Logikai alapok és elágazások
 
@@ -165,7 +165,7 @@
 - Integrálja az elágazások és ciklusok használatát komplexebb menürendszerben vagy egyéb, valósághoz közelítő helyzetben
 - Reflektál a vezérlési szerkezetek különféle típusaira, mérlegeli előnyeiket és hátrányaikat, és tudatosan választ közülük az aktuális feladatok igénye alapján
 
-#### Tömbök és listák 15
+#### Tömbök és listák (15 óra)
 
 ##### Tömbök létrehozása és kezelése
 
@@ -186,7 +186,7 @@
 - Hibát keres és javít tömböknél, listáknál (rossz index, null-referencia, rossz cast), szükség esetén debugol vagy használ alapvető kivételkezelést
 - Integrált feladatokban alkalmazza a tömböket és listákat (adatfeldolgozás, statisztikák, input-kezelés), és világosan struktúrálja a kódot
 
-#### Kivételkezelés, hibakeresés 7
+#### Kivételkezelés, hibakeresés (7 óra)
 
 ##### Kivételkezelés és hibatípusok
 
@@ -207,7 +207,7 @@
 - Tudatosan választ hibakezelési technikát (try-catch, ellenőrző feltételek, debug-lépések) az adott helyzetnek megfelelően
 - Reflektál a kivételkezelés szerepére, és felméri a hibakezelési módszerek (hibakódok vs. kivételek) közötti különbségeket, előnyöket és hátrányokat
 
-#### Objektumorientált fejlesztés 45
+#### Objektumorientált fejlesztés (45 óra)
 
 ##### Alapfogalmak és projektstruktúra
 
@@ -239,7 +239,7 @@
 - Felépít egyszerű, de reálisabb osztályokat (pl. Diák, Termék), majd azokat példányosítja, metódusaikat használja, kódolási stílusra ügyelve
 - Létrehoz és bemutat kisebb csoportos projektet, melyben a tervezéstől a kódoláson át a debugig alkalmazza az OOP ismereteit
 
-#### Grafikus programozás 45
+#### Grafikus programozás (45 óra)
 
 ##### Alapstruktúra és komponensek
 
