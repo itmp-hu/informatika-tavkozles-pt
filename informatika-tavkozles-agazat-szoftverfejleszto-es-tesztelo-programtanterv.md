@@ -422,68 +422,186 @@
 - Kezeli a lekérdezések eredményhalmazát a megfelelő osztályok segítségével
 - Megjeleníti a lekérdezések eredményét grafikus felhasználói felületen adatkötött vezérlőelemek használatával
 
-### Asztali és mobil alkalmazások fejleszté- se és tesztelése 217
+### Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)
 
-#### Haladó szintű objektumorientált programozás 32
+#### Haladó szintű objektumorientált programozás (32 óra)
 
-#### Nevezetes algoritmusok és megvalósításuk OOP-technológiával 32
+A témakör célja az objektumorientált programozással kapcsolatos alapismeretek bővítése és a megszerzett tudás gyakorlati alkalmazása.
 
-#### A tiszta kód elméleti alapjai és gyakorlata 28
+##### Öröklődés és polimorfizmus alapjai
 
-#### Unit tesztelés 28
+- Megtervezi és implementálja az osztályhierarchiát az öröklődés (extends) és interfészek segítségével
+- Alkalmazza a polimorfizmust a kód újrafelhasználhatóságának növelése érdekében
+- Felüldefiniálja az ősosztály metódusait a származtatott osztályokban a speciális viselkedés megvalósításához
 
-#### Mobil alkalmazások fejlesztése 32
+##### Osztályok közötti kapcsolatok kialakítása
 
-#### Projektmunka 62
+- Implementálja a metódus- és konstruktor-túlterhelést a rugalmas objektumkezelés érdekében
+- Kialakítja az objektumok közötti kommunikációt getter és setter metódusok segítségével
+- Alkalmazza az egységbezárás elvét az osztályok tervezése és implementálása során
 
-### Webprogramozás 144
+##### Fejlesztőeszközök hatékony használata
 
-#### HTML5 és CSS3 32
+- Kihasználja az IDE refaktorálási lehetőségeit a kód minőségének és karbantarthatóságának javítására
+- Létrehoz és kezel osztálydiagramokat a fejlesztőkörnyezet beépített eszközeivel
+- Használja az IDE hibakereső és kódminőség-ellenőrző funkcióit a fejlesztés során
 
-#### JavaScript I. 40
+#### Nevezetes algoritmusok és megvalósításuk OOP-technológiával (32 óra)
 
-#### JavaScript II. 36
+A témakör célja, hogy gyakorlati feladatok segítségével bemutassa az algoritmuselmélet és az adatstruktúrák elméletének alapjait.
 
-#### CMS-rendszerek 36
+##### Algoritmusok elemzése és hatékonyságvizsgálata
 
-### Frontend programozás és tesztelés
+- Elemzi és összehasonlítja az algoritmusok futási idejét és memóriaigényét a nagy O jelölés használatával
+- Kiválasztja az adott problémához legmegfelelőbb algoritmust a hatékonysági szempontok figyelembevételével
+- Optimalizálja a meglévő algoritmusokat a futási idő és memóriahasználat szempontjából
 
-#### JavaScript 36
+##### Adatstruktúrák implementálása és használata
 
-#### AJAX 16
+- Implementálja és használja a gyakori adatstruktúrákat (tömb, láncolt lista, verem, fa, hash map) Java vagy C# környezetben
+- Kiválasztja és alkalmazza a megfelelő adatstruktúrát az adott probléma hatékony megoldásához
+- Kezeli az adatstruktúrák műveleteit és elemzi azok időkomplexitását
 
-#### Frontend készítésére szolgáló JavaScript framework 36
+##### Keresési és rendezési algoritmusok megvalósítása
 
-#### Tartalomkezelő keretrendszer CMS- használata 20
+- Implementálja és alkalmazza a különböző rendezési algoritmusokat (buborékrendezés, beszúrásos rendezés, quicksort)
+- Megvalósítja a bináris keresést és más hatékony keresési algoritmusokat
+- Alkalmazza a rekurzív megoldásokat összetett algoritmusok implementálása során
 
-#### Integrációs tesztelés 20
+#### A tiszta kód elméleti alapjai és gyakorlata (28 óra)
 
-#### Projektmunka 58
+A témakör célja a tiszta kód alapelveinek elsajátítása és gyakorlati alkalmazása egy grafikus felületű projekt (pl. aknakereső, Tetris, 2048) fejlesztése során.
 
-### Backend programozás és tesztelés 186
+##### Kód strukturálása és formázása
 
-#### Backend készítésére szolgáló keretrendszer 46
+- Alkalmazza a megfelelő elnevezési konvenciókat a változók, függvények és osztályok esetében a kód olvashatóságának növelése érdekében
+- Létrehoz rövid, egy felelősséggel rendelkező függvényeket a kód újrafelhasználhatóságának és tesztelhetőségének javítására
+- Formázza a kódot az iparági szabványoknak megfelelően, következetes behúzást és tördelést alkalmazva
 
-#### Rétegelt architektúra és ORM 30
+##### Objektumorientált elvek alkalmazása
 
-#### A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése 30
+- Implementálja a SOLID alapelveket az osztályok és interfészek tervezése során
+- Kialakítja az objektumok közötti megfelelő kapcsolatokat, szem előtt tartva a laza csatolás és magas kohézió elvét
+- Kezeli a kivételeket strukturált módon, megfelelő hibaüzenetekkel és naplózással
 
-#### Integrációs tesztelés 25
+##### Kód minőségének biztosítása
 
-#### Projektmunka 55
+- Készít unit teszteket a kód funkcionalitásának ellenőrzésére és a regressziók megelőzésére
+- Optimalizálja a külső függőségek használatát megfelelő absztrakciós rétegek kialakításával
+- Dokumentálja a kódot célszerűen elhelyezett, informatív kommentekkel és API-dokumentációval
 
-### Szakmai angol 144
+#### Unit tesztelés (28 óra)
 
-#### Hallás utáni szövegértés 22
+A témakör célja a unit tesztelés alapjainak elsajátítása. A tanulók gyakorlati feladatokon keresztül tanulják meg az egyszerű metódusok és osztályok működésének verifikálását unit tesztek írásával.
 
-#### Szóbeli kommunikáció 24
+##### Szoftvertesztelési alapismeretek
 
-#### Szóbeli kommunikáció IT-környezetben, projektalapon I. 14
+- Megkülönbözteti és elmagyarázza a szoftvertesztelés különböző szintjeit (unit teszt, komponens teszt, integrációs teszt, rendszerteszt, átvételi teszt)
+- Kiválasztja az adott fejlesztési feladathoz megfelelő tesztelési szintet és módszert
+- Alkalmazza a tesztvezérelt fejlesztés (TDD) alapelveit a fejlesztési folyamat során
 
-#### Írásos angol nyelvű szakmai anyagok feldolgozása 24
+##### Unit tesztek implementálása
 
-#### Angol nyelvű szövegalkotás – e-mail 18
+- Létrehoz és futtat unit teszteket Java (JUnit) vagy C# (NUnit) környezetben a megfelelő annotációk és attribútumok használatával
+- Implementál különböző típusú assertionöket a tesztesetekben az elvárt és valós eredmények összehasonlítására
+- Alkalmazza az AAA (Arrange-Act-Assert) mintát a unit tesztek strukturálására
 
-#### Keresés és ismeretszerzés angol nyelven 22
+##### Tesztek karbantartása és minőségbiztosítása
 
-#### Szóbeli kommunikáció IT-környezetben, projektalapon II. 20
+- Használja a tesztkeretrendszer felépítő (@Before/[SetUp]) és lebontó (@After/[TearDown]) funkcióit a tesztek előkészítéséhez és utómunkálataihoz
+- Tervez és implementál teszteseteket a teljes kódfedettség (line és branch coverage) elérése érdekében
+- Refaktorálja és optimalizálja a meglévő tesztkódot a karbantarthatóság és újrafelhasználhatóság érdekében
+
+#### Mobil alkalmazások fejlesztése (32 óra)
+
+A témakör célja, hogy a tanuló betekintést nyerjen a mobil alkalmazások fejlesztésének világába. A témakör elvégzése után képes lesz önállóan Android alkalmazásokat fejleszteni és telepíteni fizikai vagy emulált eszközökre. A témakör technológia-független, de ajánlott technológiák: Native Java Android, React Native, Progressive Web App, Mobile Web alkalmazás.
+
+##### Fejlesztői környezet kialakítása és alapvető alkalmazásfejlesztés
+
+- Létrehoz és konfigurál komplett fejlesztői környezetet Android alkalmazások fejlesztéséhez (pl. Android Studio és emulátor Java esetén, vagy NodeJS és npm React Native esetén)
+- Fejleszt és telepít egyszerű "Hello World" alkalmazást Android eszközre vagy emulátorra
+- Alkalmazza a választott technológia alapvető komponenseit és fejlesztési mintáit
+
+##### Felhasználói felület fejlesztése és navigáció
+
+- Megtervez és implementál reszponzív felhasználói felületeket a megfelelő UI komponensek elhelyezésével és elrendezésével
+- Megvalósítja a UI elemek és az üzleti logika összekapcsolását (data binding) és az interakciók kezelését
+- Kialakít többképernyős alkalmazásokat megfelelő navigációs struktúrával és állapotkezeléssel
+
+##### Adatkezelés és hálózati kommunikáció
+
+- Implementál HTTP alapú kommunikációt külső szolgáltatásokkal, beleértve a kérések küldését és a válaszok feldolgozását
+- Szerializál és deszerializál JSON formátumú adatokat a hálózati kommunikáció során
+- Megvalósítja az alkalmazás adatainak perzisztens tárolását és kezelését lokális adatbázisban vagy fájlrendszerben
+
+#### Projektmunka (62 óra)
+
+##### Projekt tervezés és előkészítés
+
+- Megtervezi a fejlesztendő alkalmazás funkcionalitását, felhasználói felületét és architektúráját
+- Kiválasztja a fejlesztéshez szükséges technológiákat és keretrendszereket (pl. Unity, JavaFX)
+- Létrehoz verziókezelő rendszert és projektstruktúrát a fejlesztéshez
+
+##### Alkalmazásfejlesztés és implementáció
+
+- Implementálja az alkalmazás főbb funkcióit a választott technológia segítségével
+- Kialakít reszponzív és felhasználóbarát grafikus felhasználói felületet
+- Megvalósítja az alkalmazás állapotkezelését és az adatok perzisztens tárolását
+
+##### Tesztelés és dokumentáció
+
+- Elvégzi az alkalmazás funkcionális és teljesítmény tesztelését
+- Dokumentálja a fejlesztési folyamatot és az alkalmazás működését
+- Prezentálja az elkészült alkalmazást és bemutatja annak főbb funkcióit
+
+### Webprogramozás (144 óra)
+
+#### HTML5 és CSS3 (32 óra)
+
+#### JavaScript I. (40 óra)
+
+#### JavaScript II. (36 óra)
+
+#### CMS-rendszerek (36 óra)
+
+### Frontend programozás és tesztelés (186 óra)
+
+#### JavaScript (36 óra)
+
+#### AJAX (16 óra)
+
+#### Frontend készítésére szolgáló JavaScript framework (36 óra)
+
+#### Tartalomkezelő keretrendszer CMS- használata (20 óra)
+
+#### Integrációs tesztelés (20 óra)
+
+#### Projektmunka (58 óra)
+
+### Backend programozás és tesztelés (186 óra)
+
+#### Backend készítésére szolgáló keretrendszer (46 óra)
+
+#### Rétegelt architektúra és ORM (30 óra)
+
+#### A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése (30 óra)
+
+#### Integrációs tesztelés (25 óra)
+
+#### Projektmunka (55 óra)
+
+### Szakmai angol (144 óra)
+
+#### Hallás utáni szövegértés (22 óra)
+
+#### Szóbeli kommunikáció (24 óra)
+
+#### Szóbeli kommunikáció IT-környezetben, projektalapon I. (14 óra)
+
+#### Írásos angol nyelvű szakmai anyagok feldolgozása (24 óra)
+
+#### Angol nyelvű szövegalkotás - e-mail (18 óra)
+
+#### Keresés és ismeretszerzés angol nyelven (22 óra)
+
+#### Szóbeli kommunikáció IT-környezetben, projektalapon II. (20 óra)
