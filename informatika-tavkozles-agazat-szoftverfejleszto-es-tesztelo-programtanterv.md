@@ -558,50 +558,434 @@ A témakör célja, hogy a tanuló betekintést nyerjen a mobil alkalmazások fe
 
 #### HTML5 és CSS3 (32 óra)
 
+##### HTML5 szemantikus elemek és struktúra
+
+- Létrehoz és formáz táblázatokat a megfelelő HTML elemek és CSS tulajdonságok alkalmazásával
+- Alkalmazza a szemantikus HTML5 elemeket (article, aside, main, header, footer, section) a weboldalak megfelelő strukturálásához
+- Beágyaz és kezel különböző médiatartalmakat (képek, videók, hangok) a HTML5 által biztosított elemekkel
+- Implementálja a keresőoptimalizálás (SEO) alapelveit a megfelelő metaelemek és viewport beállítások alkalmazásával
+
+##### Haladó CSS technikák és layoutok
+
+- Alkalmazza a CSS specificitás szabályait és a stílusok kaszkádolását a megfelelő megjelenítés érdekében
+- Használja a modern CSS szelektorokat (nth-child, attribútum szelektorok, kombinátorok) és pszeudo-elemeket (::before, ::after) a tartalom precíz kijelöléséhez
+- Reszponzív elrendezéseket készít Flexbox és CSS Grid technológiák segítségével
+- Implementál komplex vizuális effekteket CSS tulajdonságok (gradients, box-shadow, text-shadow, opacity, transform) és animációk használatával
+
+##### Modern webfejlesztési eszközök
+
+- Alkalmaz CSS preprocesszor technológiát (pl. SASS, LESS) a hatékonyabb stíluslap fejlesztés érdekében
+- Media query-ket használ a különböző képernyőméretekhez történő optimalizáláshoz
+- Interaktív felhasználói felületeket fejleszt CSS átmenetek és animációk segítségével
+
 #### JavaScript I. (40 óra)
+
+A témakör célja a JavaScript nyelv alapjainak és az eseményvezérelt webprogramozás elemeinek elsajátítása, amelyek segítségével a tanulók képessé válnak interaktív weboldalak és egyszerűbb webes alkalmazások létrehozására.
+
+##### JavaScript nyelvi alapok
+
+- Alkalmazza a JavaScript nyelv alaptípusait (Number, String, Array, Boolean, Object) és vezérlési szerkezeteit (if, switch, ciklusok)
+- Implementál függvényeket különböző szintaktikával (hagyományos és arrow functions), megfelelően használja a változódeklarációkat (var, let, const)
+- Kezel összetett adatszerkezeteket (Map, Set) és reguláris kifejezéseket a megfelelő JavaScript metódusok alkalmazásával
+
+##### DOM-manipuláció és eseménykezelés
+
+- Módosítja a weboldal DOM-szerkezetét JavaScript segítségével (elemek létrehozása, törlése, módosítása)
+- Implementál eseményfigyelő eljárásokat (onClick, onLoad, onBlur, onFocus) a felhasználói interakciók kezelésére
+- Létrehoz és kezel űrlapelemeket (form, input, select, textarea) dinamikusan JavaScript kód segítségével
+
+##### Fejlesztőeszközök és hibakeresés
+
+- Futtat és tesztel JavaScript kódot a böngésző konzolján keresztül
+- Használja a böngésző fejlesztőeszközeit a JavaScript kód hibakeresésére és teljesítményoptimalizálására
+- Alkalmazza a modern JavaScript fejlesztési környezetek szolgáltatásait a hatékony kódolás érdekében
 
 #### JavaScript II. (36 óra)
 
+##### Modern JavaScript nyelvi elemek
+
+- Alkalmazza az ES6+ nyelvi elemeket (arrow functions, template literals, destructuring) a kód hatékonyabb írásához
+- Kezel objektumokat és tömböket a modern JavaScript metódusok (map, filter, reduce) segítségével
+- Implementál moduláris kódszervezést az ES6 modul rendszer használatával
+
+##### Aszinkron programozás
+
+- Kezel aszinkron műveleteket Promise-ok és async/await szintaxis alkalmazásával
+- Implementál eseményvezérelt aszinkron funkciókat callback függvények és időzítők segítségével
+- Hibakezelést valósít meg az aszinkron műveletek során try-catch blokkok és Promise error handling használatával
+
+##### REST API kommunikáció
+
+- Végrehajt HTTP kéréseket a fetch API segítségével külső szolgáltatások felé
+- Feldolgozza és kezeli a JSON formátumú adatokat a REST API válaszokban
+- Megvalósít AJAX-alapú dinamikus tartalomfrissítést a felhasználói felületen
+
 #### CMS-rendszerek (36 óra)
+
+#### CMS-rendszerek (36 óra)
+
+A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a webes tartalomkezelő rendszereket (CMS), különös tekintettel a WordPress platformra. A megszerzett tudás birtokában képesek lesznek felhasználóbarát, összetett weboldalak létrehozására és üzemeltetésére.
+
+##### CMS alapismeretek és telepítés
+
+- Telepít és konfigurál WordPress tartalomkezelő rendszert, elvégzi az alapvető biztonsági és teljesítmény beállításokat
+- Létrehoz és kezel felhasználói fiókokat, beállítja a megfelelő jogosultságokat és szerepköröket
+- Testreszabja a WordPress adminisztrációs felületét a hatékony tartalomkezelés érdekében
+
+##### Témák és megjelenés testreszabása
+
+- Telepít és testreszab szabadforrású WordPress témákat a webhely arculatának kialakításához
+- Fejleszt egyedi WordPress témákat és sablon fájlokat PHP és WordPress hook-ok használatával
+- Optimalizálja a webhely reszponzív megjelenését különböző eszközökön
+
+##### Bővítmények és funkcionális fejlesztés
+
+- Telepít és konfigurál WordPress bővítményeket a webhely funkcionalitásának bővítéséhez
+- Fejleszt egyedi WordPress bővítményeket és widgeteket speciális igények kielégítésére
+- Integrál külső szolgáltatásokat és API-kat a WordPress rendszerbe
 
 ### Frontend programozás és tesztelés (186 óra)
 
 #### JavaScript (36 óra)
 
+##### Nyelvi alapok és adatkezelés
+
+- Alkalmazza a JavaScript nyelv alaptípusait (Number, String, Array, Object, Boolean) és operátorait összetett kifejezések létrehozásához
+- Használja a változódeklarációs kulcsszavakat (var, let, const) és vezérlési szerkezeteket a program vezérlésének kialakításához
+- Implementál újrafelhasználható függvényeket és osztályokat a kód modularizálása érdekében
+
+##### Objektumorientált programozás JavaScriptben
+
+- Létrehoz és kezel objektumokat konstruktor függvények és az Object.create metódus segítségével
+- Alkalmazza a prototípus-alapú öröklődést új objektumtípusok létrehozásához
+- Kezeli a window és document globális objektumokat a böngészőoldali programozás során
+
+##### DOM-manipuláció és eseménykezelés
+
+- Módosítja a weboldal DOM-szerkezetét JavaScript segítségével (elemek létrehozása, kiválasztása, attribútumok módosítása)
+- Implementál eseményvezérelt funkcionalitást eseményfigyelők és callback függvények alkalmazásával
+- Kezel aszinkron műveleteket Promise-ok és időzítők használatával
+
 #### AJAX (16 óra)
+
+##### Aszinkron kommunikáció alapjai
+
+- Implementál aszinkron HTTP kéréseket XHR objektum és Fetch API segítségével
+- Kezel különböző HTTP metódusokat (GET, POST, PUT, DELETE) a szerverrel való kommunikáció során
+- Feldolgoz és kezel HTTP státuszkódokat és hibakezelést valósít meg
+
+##### API kommunikáció és adatkezelés
+
+- Szerializál és deszerializál JSON formátumú adatokat a JSON.parse és JSON.stringify metódusokkal
+- Biztonságosan kezel API kulcsokat és authentikációs tokeneket
+- Megvalósít komplex adatküldést és -fogadást HTTP POST kérések segítségével
 
 #### Frontend készítésére szolgáló JavaScript framework (36 óra)
 
-#### Tartalomkezelő keretrendszer CMS- használata (20 óra)
+##### Fejlesztői környezet kialakítása és alapvető projektstruktúra
+
+- Telepíti és konfigurál egy modern JavaScript keretrendszert (pl. React) a szükséges függőségekkel és fejlesztőeszközökkel
+- Létrehoz új projektet a választott keretrendszerben és kialakítja az alapvető projektstruktúrát
+- Használja a package manager eszközöket (npm, pnpm, yarn) a függőségek és build folyamatok kezelésére
+
+##### Komponens alapú fejlesztés
+
+- Fejleszt újrafelhasználható komponenseket a felhasználói felület moduláris felépítéséhez
+- Implementál komponens életciklus metódusokat és kezeli a komponensek közötti kommunikációt
+- Alkalmazza az állapotkezelés és adatkötés technikáit a komponensek dinamikus működéséhez
+
+##### Alkalmazásfejlesztés és integráció
+
+- Megvalósít navigációs funkcionalitást routing megoldások használatával
+- Kezel űrlapokat és felhasználói interakciókat eseménykezelők segítségével
+- Integrál REST API végpontokat az alkalmazásba és megvalósít aszinkron adatkommunikációt a backend szolgáltatásokkal
+
+#### Tartalomkezelő keretrendszer CMS használata (20 óra)
+
+##### Szabadforrású komponensek használata
+
+- Telepít és konfigurál szabadforrású témákat a tartalomkezelő rendszerben
+- Testreszabja a telepített témák megjelenését és funkcionalitását
+- Kiválaszt és integrál megfelelő beépülő modulokat a webhely funkcionalitásának bővítéséhez
+
+##### Egyedi komponensek fejlesztése
+
+- Létrehoz és testreszab egyedi témákat és sablonokat a tartalomkezelő rendszerhez
+- Fejleszt saját beépülő modulokat speciális funkciók megvalósításához
+- Készít egyedi widgeteket a felhasználói felület bővítéséhez és a tartalom dinamikus megjelenítéséhez
 
 #### Integrációs tesztelés (20 óra)
 
+##### Tesztelési alapismeretek és stratégiák
+
+- Megkülönbözteti és alkalmazza az egységtesztek és integrációs tesztek módszereit és gyakorlatait
+- Implementál mock objektumokat és stub komponenseket a függőségek kezelésére és izolálására
+- Megtervezi és végrehajtja a tesztelési stratégiát komplex webalkalmazások esetén
+
+##### Automatizált tesztelés Selenium használatával
+
+- Konfigurál és használ Selenium WebDriver környezetet automatizált tesztek futtatásához
+- Implementál elemkiválasztási és -manipulációs műveleteket különböző szelektorok alkalmazásával
+- Ellenőrzi weboldalak tartalmát és validálja az elemek tulajdonságait assertion-ök segítségével
+
+##### Felhasználói interakciók tesztelése
+
+- Szimulál felhasználói eseményeket (kattintás, billentyűleütés, űrlapmódosítás) automatizált tesztkörnyezetben
+- Teszteli az alkalmazás állapotváltozásait és validálja a felhasználói interakciók eredményeit
+- Készít end-to-end teszteket komplex felhasználói folyamatok ellenőrzésére
+
 #### Projektmunka (58 óra)
+
+##### Frontend alkalmazás tervezése és fejlesztése
+
+- Megtervez és implementál egy többoldalas webalkalmazást modern frontend keretrendszer használatával
+- Kialakít REST API kommunikációt a backend szolgáltatásokkal
+- Megvalósítja a felhasználói felület reszponzív megjelenítését és az interakciók kezelését
+
+##### Alkalmazás tesztelése és minőségbiztosítás
+
+- Lefedi az alkalmazás kritikus funkcióit automatizált integrációs tesztekkel
+- Implementál end-to-end teszteket a felhasználói folyamatok validálására
+- Elvégzi a hibakeresést és javítást a tesztek eredményei alapján
+
+##### Projektmenedzsment és dokumentáció
+
+- Megtervezi és követi a fejlesztési ütemtervet
+- Verziókezelő rendszert használ a forráskód menedzselésére
+- Elkészíti a fejlesztői és felhasználói dokumentációt
 
 ### Backend programozás és tesztelés (186 óra)
 
 #### Backend készítésére szolgáló keretrendszer (46 óra)
 
+##### HTTP protokoll és API kommunikáció alapjai
+
+- Alkalmazza a különböző HTTP kérési metódusokat (GET, POST, PUT, PATCH, DELETE) és értelmezi azok szerepét
+- Elemzi és kezeli a HTTP fejléceket és a kérés-válasz ciklusokat
+- Tesztel és dokumentál API végpontokat Postman vagy hasonló eszköz használatával
+
+##### Fejlesztői környezet és alkalmazásstruktúra kialakítása
+
+- Telepít és konfigurál package manager rendszert (NPM, Composer, Gradle vagy Nuget)
+- Létrehoz és strukturál backend alkalmazást MVC tervezési minta alapján
+- Implementál kontrollereket URL-paraméterek és HTTP kérés törzsek kezelésére
+
+##### Szerveroldali renderelés és alkalmazás üzemeltetés
+
+- Fejleszt szerveroldali renderelést használó nézeteket template engine segítségével (pl. EJS, Blade, Thymeleaf)
+- Megvalósít űrlap feldolgozást és input validációt a kontrollerekben
+- Telepít és konfigurál webalkalmazást felhő platformra (pl. Heroku, Azure, AWS)
+
 #### Rétegelt architektúra és ORM (30 óra)
+
+##### Alkalmazás architektúra kialakítása
+
+- Implementál többrétegű alkalmazásarchitektúrát a separation of concerns elv mentén
+- Alkalmaz dependency injection tervezési mintát a komponensek közötti függőségek kezelésére
+- Kialakít service réteget az üzleti logika egységbezárására
+
+##### Adatbázis-kezelés ORM technológiával
+
+- Konfigurál ORM keretrendszert (Sequelize/Eloquent/JPA/Entity Framework Core) és adatbázis kapcsolatot
+- Létrehoz entitás osztályokat és definiálja azok tulajdonságait, kapcsolatait
+- Implementál repository/DbContext osztályokat az adatbázis műveletek egységesítésére
+
+##### Adatbázis műveletek megvalósítása
+
+- Megvalósít egyszerű és összetett adatbázis relációkat (1:1, 1:N, N:N)
+- Készít egyedi lekérdezéseket az ORM technológia által biztosított eszközökkel
+- Kezel adatbázis tranzakciókat és kezeli a konkurens hozzáféréseket
 
 #### A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése (30 óra)
 
+##### REST alapelvek és erőforrás-kezelés
+
+- Alkalmazza a REST architekturális elveket (stateless, resource-based, uniform interface) API tervezés során
+- Megtervezi az API erőforrásait és azok URL-struktúráját a REST konvenciók szerint
+- Implementálja a CRUD műveleteket HTTP metódusok megfelelő használatával
+
+##### API végpontok fejlesztése és adatkezelés
+
+- Létrehoz REST kontrollereket a kérések kezelésére és a válaszok előállítására
+- Megvalósítja a JSON formátumú adatok szerializálását és deszerializálását
+- Kezeli az URL paramétereket és a HTTP kérés törzsét a megfelelő adattípusok használatával
+
+##### API dokumentáció és tesztelés
+
+- Dokumentálja az API végpontokat és azok működését szabványos formátumban
+- Teszteli az API működését HTTP kliens eszközök használatával
+- Implementál hibakezelést és megfelelő HTTP státuszkódokat alkalmaz
+
 #### Integrációs tesztelés (25 óra)
 
+##### Tesztelési környezet kialakítása
+
+- Konfigurál és használ mockolási keretrendszereket (pl. Supertest, Mockery, MockMVC, xUnit) a függőségek szimulálására
+- Létrehoz és menedzsel tesztkörnyezetet integrációs tesztek futtatásához
+
+##### HTTP alapú integrációs tesztek készítése
+
+- Implementál HTTP kéréseket indító és feldolgozó teszteseteket
+- Ellenőrzi és validálja a HTTP válaszok tartalmát, státuszkódjait és fejléceit
+
 #### Projektmunka (55 óra)
+
+##### Web API fejlesztése
+
+- Megtervez és implementál egy komplex REST API-t SQL adatbázis háttérrel
+- Megvalósít legalább 2-3 erőforráshoz tartozó CRUD műveleteket REST végpontokon keresztül
+- Kialakítja a szükséges adatbázis sémát és táblákat az adatok tárolásához
+
+##### Tesztelés és minőségbiztosítás
+
+- Lefedi az API végpontokat integrációs tesztekkel a helyes működés ellenőrzésére
+- Dokumentálja az API működését és a fejlesztői környezet beállításait
+- Verziókezeli a forráskódot és követi a clean code alapelveket
+
+##### Integráció és üzembe helyezés
+
+- Összekapcsolja az API-t a Frontend tantárgy keretében készült felhasználói felülettel
+- Telepíti és konfigurálja az alkalmazást éles környezetben
+- Monitorozza az alkalmazás működését és kezeli az esetleges hibákat
 
 ### Szakmai angol (144 óra)
 
 #### Hallás utáni szövegértés (22 óra)
 
+##### Alapszintű szakmai videók feldolgozása
+
+- Megért és értelmez angol nyelvű szakmai videókat és interaktív tananyagokat
+- Azonosítja és elsajátítja a videókban előforduló szakmai kifejezéseket és terminológiát
+- Jegyzeteket készít a hallott szakmai tartalmakról a későbbi felidézés érdekében
+
+##### Hallott szöveg megértésének fejlesztése
+
+- Felismeri és megérti az IT szakterületen gyakran használt nemzetközi kifejezéseket
+- Követi és értelmezi az angol nyelvű prezentációkat és élő szakmai bemutatókat
+- Megérti és feldolgozza a feliratozással ellátott szakmai tartalmakat
+
+##### Szakmai kommunikáció előkészítése
+
+- Részt vesz a hallott szakmai tartalmak csoportos megbeszélésében és értelmezésében
+- Tisztázza és gyakorolja a nehezebben érthető szakmai kifejezéseket
+- Összekapcsolja a hallott információkat a vizuális elemekkel és a szakmai kontextussal
+
 #### Szóbeli kommunikáció (24 óra)
+
+##### Szakmai prezentációk készítése és előadása
+
+- Önállóan készít és ad elő 5-10 perces szakmai prezentációt választott informatikai témában
+- Alkalmaz vizuális segédeszközöket (pl. prezentációs szoftver, demó) az előadás támogatására
+- Megfelelően reagál a hallgatóság kérdéseire és visszajelzéseire angol nyelven
+
+##### Párbeszédes kommunikáció szakmai környezetben
+
+- Magabiztosan folytat angol nyelvű párbeszédet mindennapi szakmai szituációkban (pl. megbeszélés, egyeztetés)
+- Alkalmazza a gyakori szakmai kifejezéseket és fordulatokat a kommunikáció során
+- Hatékonyan kommunikál csapatmunka során angol nyelven (pl. pair programming, code review)
+
+##### Spontán szakmai kommunikáció
+
+- Rögtönözve reagál szakmai kérdésekre és felvetésekre angol nyelven
+- Érthetően kifejezi gondolatait technikai problémák megvitatása során
+- Aktívan részt vesz angol nyelvű szakmai vitákban és egyeztetésekben
 
 #### Szóbeli kommunikáció IT-környezetben, projektalapon I. (14 óra)
 
+##### Termékbemutató videó készítése
+
+- Csoportban megtervez és elkészít egy professzionális termékbemutató videót egy választott informatikai termékről
+- Magabiztosan előad egy strukturált szakmai prezentációt angol nyelven a videófelvételen
+- Hatékonyan alkalmazza a korábban elsajátított prezentációs és kommunikációs technikákat
+
+##### Üzleti tárgyalás szimulációja
+
+- Lebonyolít egy angol nyelvű videókonferencia-beszélgetést üzleti környezetben
+- Magabiztosan kommunikál értékesítési helyzetben a termék tulajdonságairól és előnyeiről
+- Szakszerűen tárgyal az árról és a terméktámogatási feltételekről angol nyelven
+
+##### Projektmenedzsment és csapatmunka
+
+- Hatékonyan együttműködik a csapattagokkal a projekt tervezése és kivitelezése során
+- Betartja a projekt időkereteit és szakmai minőségi követelményeit
+- Megfelelően dokumentálja a projekt folyamatát és eredményeit angol nyelven
+
 #### Írásos angol nyelvű szakmai anyagok feldolgozása (24 óra)
+
+##### Szakmai szövegek önálló feldolgozása
+
+- Angol nyelvű szakmai anyagokat (pl. dokumentáció, tutoriálok, termékleírások) olvas és értelmez önállóan
+- Online szótárak segítségével megkeresi és elsajátítja az ismeretlen szakmai kifejezéseket
+- Rövid magyar nyelvű összefoglalót készít az olvasott szakmai szövegek tartalmáról
+
+##### IT-alapismeretek és trendek követése
+
+- Angol nyelvű IT-portálokról naprakész információkat gyűjt a technológiai újdonságokról
+- Feldolgozza és értelmezi a szakmai tanulmányaihoz kapcsolódó angol nyelvű elektronikus tananyagokat
+- Megérti és alkalmazza a termékdokumentációkban és kézikönyvekben található utasításokat
+
+##### Szakmai tartalom értelmezése és megosztása
+
+- Csoportos megbeszéléseken bemutatja és megvitatja az olvasott szakmai anyagok tartalmát
+- Szakmai fórumokon és tudásbázisokban célzottan keres megoldásokat specifikus problémákra
+- Folyamatosan bővíti szakmai szókincsét az olvasott anyagok segítségével
 
 #### Angol nyelvű szövegalkotás - e-mail (18 óra)
 
+##### E-mail kommunikáció alapjai
+
+- Alkalmazza az angol nyelvű e-mailek formai és stilisztikai szabályait (megszólítás, elköszönés, udvariassági formulák)
+- Használja magabiztosan a gyakori kommunikációs helyzetekhez kapcsolódó kifejezéseket (elnézéskérés, köszönetnyilvánítás, kérés)
+- Megfogalmaz rövid, egyszerű e-maileket a tanult formulák és szókincs felhasználásával
+
+##### Szakmai e-mail kommunikáció
+
+- Lebonyolít többfordulós angol nyelvű e-mail váltást informatikai szakmai témában
+- Készít részletes, 10-12 mondatos szakmai e-maileket megfelelő stílusban és formában
+- Hatékonyan kommunikál projektcsapat tagjaként e-mailen keresztül, betartva az üzleti etikett szabályait
+
+##### Csoportos kommunikáció és projektmunka
+
+- Részt vesz életszerű szituációkat szimuláló e-mailes szerepjátékokban 2-3 fős csoportokban
+- Használja az azonnali üzenetküldő szolgáltatásokat (chat) szakmai kommunikációra
+- Dokumentálja és nyomon követi a projektmunkához kapcsolódó e-mail kommunikációt
+
 #### Keresés és ismeretszerzés angol nyelven (22 óra)
 
+##### Angol nyelvű keresési stratégiák
+
+- Hatékonyan állít össze angol nyelvű keresőkifejezéseket a releváns szakmai információk megtalálásához
+- Kiválasztja és értékeli a találati listából a legmegfelelőbb forrásokat a keresett információ szempontjából
+- Dokumentálja a keresési folyamatot és eredményeket strukturált formában
+
+##### Online szakmai források feldolgozása
+
+- Értelmezi és feldolgozza az angol nyelvű technikai dokumentációkat, tutorialokat és egyéb szakmai forrásokat
+- Megérti és alkalmazza a talált megoldásokat saját szakmai problémáinak megoldására
+- Folyamatosan bővíti szakmai szókincsét az online források segítségével
+
+##### Önálló ismeretszerzés és problémamegoldás
+
+- Megtervez és végrehajt egy egyszerű szakmai miniprojektet angol nyelvű források felhasználásával
+- Lépésről lépésre dokumentálja a projekt végrehajtását és a felhasznált információforrásokat
+- Kritikusan értékeli a talált megoldások alkalmazhatóságát és megbízhatóságát
+
 #### Szóbeli kommunikáció IT-környezetben, projektalapon II. (20 óra)
+
+##### Termékbemutató brosúra készítése
+
+- Megtervezi és végrehajtja egy informatikai termék vagy szolgáltatás bemutatására szolgáló brosúra elkészítésének projektjét
+- Angol nyelvű forrásokból önállóan gyűjt és rendszerez információkat a bemutatandó termékről vagy szolgáltatásról
+- Kreatív és egyedi megközelítéssel, saját szavaival fogalmazza meg a termékismertető szövegét angol nyelven
+
+##### Csoportos projektmunka és dokumentáció
+
+- Hatékonyan együttműködik a projektcsapat tagjaival a feladatok elosztásában és végrehajtásában
+- Nyomon követi és dokumentálja a projekt előrehaladását és a felhasznált információforrásokat
+- Professzionális formában elkészíti a végleges brosúrát a rendelkezésre álló technikai eszközök felhasználásával
+
+##### Üzleti kommunikáció
+
+- Hivatalos stílusú kísérőlevelet fogalmaz meg angol nyelven a brosúra továbbításához
+- Betartja az üzleti kommunikáció formai és tartalmi követelményeit az e-mail írása során
+- Határidőre és megfelelő minőségben készíti el és küldi el a projekttermékeket
