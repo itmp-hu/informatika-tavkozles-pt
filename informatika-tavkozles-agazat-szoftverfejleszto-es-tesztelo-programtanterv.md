@@ -532,7 +532,7 @@ A témakör célja, hogy a tanuló betekintést nyerjen a mobil alkalmazások fe
 - Szerializál és deszerializál JSON formátumú adatokat a hálózati kommunikáció során
 - Megvalósítja az alkalmazás adatainak perzisztens tárolását és kezelését lokális adatbázisban vagy fájlrendszerben
 
-#### Projektmunka 1. (62 óra)
+#### Projektmunka 1. (65 óra)
 
 ##### Projekt tervezés és előkészítés
 

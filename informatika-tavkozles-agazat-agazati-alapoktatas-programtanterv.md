@@ -79,7 +79,7 @@ A tantárgy oktatásának alapvető célja azoknak az ismereteknek a megalapozá
 
 **A tantárgy témakörei**
 
-#### Bevezetés az elektronikába (18 óra)
+#### Bevezetés az elektronikába (28 óra)
 
 ##### Egyszerűbb áramkör építése és mérések
 
