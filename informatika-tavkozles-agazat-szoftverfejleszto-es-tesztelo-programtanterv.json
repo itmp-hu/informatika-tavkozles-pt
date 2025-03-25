@@ -1,0 +1,2363 @@
+[
+  {
+    "id": 1,
+    "name": "Asztali alkalmazások fejlesztése (180 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Bevezetés a szoftverfejlesztésbe (14 óra)",
+        "elements": [
+          {
+            "name": "A Java/C# nyelv és a fejlesztőkörnyezet alapjai",
+            "outcomes": [
+              {
+                "description": "Bemutatja a Java/C# nyelvek kialakulását, főbb mérföldköveit, ipari elterjedtségüket és a mögöttük álló ökoszisztémákat."
+              },
+              {
+                "description": "Használja a fejlesztéshez szükséges alapvető környezeteket és eszközöket, létrehoz projektet és kezeli a forrásfájlokat."
+              },
+              {
+                "description": "Eligazodik a Java/C# nyelvcsalád és a futtatókörnyezetek (JVM, CLR) működésében, megérti a keretrendszerek egymásra épülését."
+              },
+              {
+                "description": "Beazonosítja a Java/C# nyelvek jelentőségét, összehasonlítja a lehetséges további irányokat (web, asztali, mobil) és megtervezi saját szakmai fejlődését."
+              }
+            ]
+          },
+          {
+            "name": "Alapvető programozási és fejlesztési ismeretek",
+            "outcomes": [
+              {
+                "description": "Konzolos és egyszerű grafikus alkalmazásokat hoz létre (JavaFX vagy WPF), megismerve a projekt felépítésének főbb elemeit."
+              },
+              {
+                "description": "Megkülönbözteti a szoftverfejlesztési paradigmákat (procedurális, objektumorientált, funkcionális) és alkalmazza a spirális és folyamatos fejlesztés (CI/CD) alapelveit."
+              },
+              {
+                "description": "Olvassa és értelmezi a kódsorokat, feltérképezi a program logikai felépítését (osztályok, metódusok, változódeklarációk, függvényhívások)."
+              },
+              {
+                "description": "Felderíti a tipikus hibákat (fordítási, futási, logikai), debugolást végez breakpointok elhelyezésével és lépésenkénti futtatással."
+              }
+            ]
+          },
+          {
+            "name": "Kódminőség, stílus és projektkészítés",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a Java/C# szintaxis szabályait (utasításlezárás, whitespace-kezelés) és elkerüli a leggyakoribb szintaktikai hibákat."
+              },
+              {
+                "description": "Használja a kódolási stílusirányelveket (naming convention, tagolás, formázás), lintelő és automatikus formázó eszközöket."
+              },
+              {
+                "description": "Egyszerű projektet készít a szoftverfejlesztési alapismeretek (kódolás, debug, stílus) integrált alkalmazásával."
+              },
+              {
+                "description": "Önállóan vagy csoportban dolgozik, kódrészleteket hoz létre és javít, együttműködik a csapattal."
+              }
+            ]
+          },
+          {
+            "name": "Nyelv alapok és történeti kontextus",
+            "outcomes": [
+              {
+                "description": "A Java/C# nyelv történetét, ipari jelentőségét és fejlődési trendjeit összefoglalja."
+              },
+              {
+                "description": "A nyelvcsalád alapvető elemeit (pl. osztályok, objektumok, könyvtárstruktúra) azonosítja és gyakorlatban alkalmazza."
+              }
+            ]
+          },
+          {
+            "name": "Fejlesztői környezetek és eszközök",
+            "outcomes": [
+              {
+                "description": "Forrás- és konfigurációs fájlokat hoz létre, módosít és értelmez a projektstruktúrán belül."
+              },
+              {
+                "description": "Egy integrált fejlesztőkörnyezetet (pl. Visual Studio, IntelliJ) telepít, testreszab és használ alapvető műveletekhez (projektlétrehozás, fájlkezelés)."
+              }
+            ]
+          },
+          {
+            "name": "Szintaxis és alkalmazásfejlesztés",
+            "outcomes": [
+              {
+                "description": "Konzolos alkalmazásokat készít a nyelv alapvető szintaxisával (pl. változók, vezérlési szerkezetek)."
+              },
+              {
+                "description": "Egyszerű grafikus felhasználói felületeket tervez és valósít meg alapvető eszközökkel (pl. Windows Forms, JavaFX)."
+              }
+            ]
+          },
+          {
+            "name": "Fejlesztési módszertanok",
+            "outcomes": [
+              {
+                "description": "Spirális és folyamatos fejlesztési modelleket hasonlít össze gyakorlati példákon keresztül."
+              },
+              {
+                "description": "Verziókövetési alapelveket alkalmaz a kódmódosítások nyomon követéséhez (pl. commit, branching)."
+              }
+            ]
+          },
+          {
+            "name": "Kódformázás és konvenciók",
+            "outcomes": [
+              {
+                "description": "Betartja az ipari szabványnak megfelelő kódolási stílust (pl. elnevezési konvenciók, whitespace kezelés)."
+              },
+              {
+                "description": "Az utasítások lezárásának szabályait követi és értelmezi a szintaxis hibákat (pl. pontosvessző, blokkszintek)."
+              }
+            ]
+          },
+          {
+            "name": "Hibakeresési stratégiák",
+            "outcomes": [
+              {
+                "description": "Breakpointokat állít be és használ a kód végrehajtásának részletes elemzéséhez debugger eszközökkel."
+              },
+              {
+                "description": "Hibák okait diagnosztizálja és javítja a léptetés, változóértékek megfigyelése és logolás segítségével."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Procedurális és objektumorientált szoftverfejlesztés (14 óra)",
+        "elements": [
+          {
+            "name": "Szemléleti alapok és fogalmak",
+            "outcomes": [
+              {
+                "description": "Felismeri a procedurális és az objektumorientált megközelítés közötti fő különbségeket, valamint ezek gyakorlati jelentőségét."
+              },
+              {
+                "description": "Értelmezi az osztály és az objektum fogalmát, az OOP alapelemeit (property, metódus, láthatóság)."
+              },
+              {
+                "description": "Összehasonlítja a procedurális és az OOP kódszervezés előnyeit/hátrányait, és a feladat jellegéhez illően választ megközelítést."
+              }
+            ]
+          },
+          {
+            "name": "Kódszerkezet és gyakorlati alkalmazás",
+            "outcomes": [
+              {
+                "description": "Létrehoz egyszerű kódrészleteket mind procedurális, mind OOP módon (konzolos példák)."
+              },
+              {
+                "description": "Példányosít objektumokat, megérti a „new” kulcsszó és a statikus elemek közti eltérést Java/C#-ban."
+              },
+              {
+                "description": "Használ property-ket (get/set) és alapvető adatrejtési (encapsulation) elveket."
+              },
+              {
+                "description": "Készít kisebb, összehangolt kódot, amelyben a property-k és metódusok együttműködnek (például alapvető esettanulmány)."
+              }
+            ]
+          },
+          {
+            "name": "Hibakezelés, csapatmunka, reflexió",
+            "outcomes": [
+              {
+                "description": "Felderíti a tipikus OOP hibákat (például null-referencia, láthatósági problémák) és alap debugolási módszereket alkalmaz."
+              },
+              {
+                "description": "Biztosan mozog a Java/C# nyelvspecifikus fájlszerkezetben (namespace/package, import/using), alkalmazza az ajánlott kódstílusokat."
+              },
+              {
+                "description": "Dolgozik önállóan és csoportban is, elemzi és fejleszti a kódot a csapattal való konzultációk során."
+              },
+              {
+                "description": "Reflektál a procedurális és objektumorientált szemléletre, az órák során gyűjtött tapasztalatok alapján tisztábban látja, mely területek profitálnak egyik vagy másik megközelítésből."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Változók (8 óra)",
+        "elements": [
+          {
+            "name": "Alapfogalmak, primitívek és alapkészségek",
+            "outcomes": [
+              {
+                "description": "Megismeri a „változó” fogalmát és szerepét a programozásban"
+              },
+              {
+                "description": "Primitív típusokat (boolean, int, double, String) használ"
+              },
+              {
+                "description": "Betartja az elnevezési konvenciókat (camelCase, PascalCase)"
+              },
+              {
+                "description": "Integer típusú primitíveket (byte, short, int, long) alkalmaz, figyelembe véve a méret- és határérték-különbségeket"
+              },
+              {
+                "description": "Megérti a lebegőpontos típusok (float, double) eltérő pontosságát és a kerekítési hibák lehetőségét"
+              },
+              {
+                "description": "Alkalmaz aritmetikai és matematikai műveleteket (például összeadás, kivonás, szorzás, osztás, maradékos osztás, abs, pow)"
+              },
+              {
+                "description": "Betartja a zárójelezés és a műveleti sorrend szabályait"
+              }
+            ]
+          },
+          {
+            "name": "Szöveges típus, kimenet és konverziók",
+            "outcomes": [
+              {
+                "description": "Megkülönbözteti a char és a String típusokat, tisztában van az ASCII/Unicode alapjaival"
+              },
+              {
+                "description": "Stringműveleteket (összefűzés, hossz, indexelés, substring) használ"
+              },
+              {
+                "description": "Használja a whitespace és az escape karaktereket (\\n, \\t, \\\")"
+              },
+              {
+                "description": "Adatokat ír ki a konzolra (System.out.println, Console.WriteLine)"
+              },
+              {
+                "description": "Automatikus típus-promóciót (int → long) és explicit castingot (double → int) végez"
+              },
+              {
+                "description": "Kezeli a numerikus típusok közötti átváltást (float ↔ double), figyelembe véve az adatvesztés kockázatát"
+              },
+              {
+                "description": "Stringeket parse-ol (Integer.parseInt, Double.parseDouble), és képes az adatokat visszaalakítani szöveggé (ToString, String.valueOf)"
+              }
+            ]
+          },
+          {
+            "name": "Inputkezelés és integrált alkalmazás",
+            "outcomes": [
+              {
+                "description": "Adatokat olvas be konzolról (Scanner, Console.ReadLine) és grafikus felületről (TextField, TextBox)"
+              },
+              {
+                "description": "Fájlokból is képes információt beolvasni (soronkénti olvasás, egyszerű formátum)"
+              },
+              {
+                "description": "Kezeli az alapvető inputhibákat (helytelen formátum, üres mezők), és biztosítja a program további futását"
+              },
+              {
+                "description": "Komplexebb feladatokban használja a változókhoz kapcsolódó ismereteket (típusválasztás, konverzió, inputkezelés, kimenet)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Metódusok (8 óra)",
+        "elements": [
+          {
+            "name": "Metódusok alapjai és felépítés",
+            "outcomes": [
+              {
+                "description": "Megérti a metódusok (függvények) szerepét, és felismeri, mikor érdemes azokat alkalmazni a kódban"
+              },
+              {
+                "description": "Definiál és meghív egyszerű metódusokat, betartva a nyelvspecifikus (Java/C#) szintaxist"
+              },
+              {
+                "description": "Különböző visszatérési típusokat és argumentumokat használ (int, double, String, void), figyelembe véve a probléma jellegét"
+              },
+              {
+                "description": "Reflektál a metódusok kialakításának szempontjaira (jó név, single responsibility, rövidség), és tudatosan törekszik a jobb kódminőségre"
+              }
+            ]
+          },
+          {
+            "name": "Scope és struktúra",
+            "outcomes": [
+              {
+                "description": "Átlátja a scope fogalmát, megkülönbözteti a lokális és az osztályszintű (globális) változókat, és tudatosan alkalmazza őket"
+              },
+              {
+                "description": "Eléri az osztályváltozókat (mezőket) a metódusokon belül, megérti a publikus/privát mezők közti eltéréseket"
+              },
+              {
+                "description": "Strukturálja a kódot metódusok segítségével, összefogja a logikailag összetartozó utasításokat, így tisztább, karbantarthatóbb programot hoz létre"
+              }
+            ]
+          },
+          {
+            "name": "Hibakeresés és összetettebb feladatok",
+            "outcomes": [
+              {
+                "description": "Használ alapvető hibakeresési módszereket (konzolos kiírás, debug) a metódusok működésének ellenőrzésére"
+              },
+              {
+                "description": "Felold tipikus metódussal kapcsolatos hibákat (nem megfelelő paraméterlista vagy visszatérési típus, scope-félreértések)"
+              },
+              {
+                "description": "Készít több metódust, amelyek együttműködnek egy összetettebb feladat megoldásában (például több lépéses számítás, stringmanipuláció)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Beépített segédosztályok (12 óra)",
+        "elements": [
+          {
+            "name": "A beépített könyvtárak használata és dokumentációértelmezés",
+            "outcomes": [
+              {
+                "description": "Felhasználja a nyelv beépített könyvtárait a programozási feladatok egyszerűbb és hatékonyabb megoldásához"
+              },
+              {
+                "description": "Értelmezi a dokumentációt, és megkeresi a szükséges metódusokat a String, Random, Math (vagy más) beépített osztályokban"
+              },
+              {
+                "description": "Tudatosan választ beépített vagy saját implementáció között, felismeri, hogy a standard könyvtár általában tesztelt és hatékony"
+              }
+            ]
+          },
+          {
+            "name": "String és Random osztályok",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a String osztály főbb függvényeit (indexOf, charAt, substring), megérti az immutábilis működés lényegét és a string-összehasonlítás szabályait"
+              },
+              {
+                "description": "Generál véletlenszámokat a Random (vagy .NET-en belül Random) osztály segítségével, és kezeli a különböző függvények (nextInt, nextDouble stb.) sajátosságait"
+              },
+              {
+                "description": "Old meg egyszerű gyakorlati feladatokat a fenti beépített osztályok kombinálásával (például szöveg feldolgozása, véletlengenerálás)"
+              }
+            ]
+          },
+          {
+            "name": "Statikus metódusok és integráció",
+            "outcomes": [
+              {
+                "description": "Hív statikus metódusokat a Math osztályból (min, max, sqrt, pow stb.), és tisztában van a statikus metódusok fogalmával"
+              },
+              {
+                "description": "Fejleszti a kódot a dokumentációból tanult újabb metódusok beépítésével, és tovább mélyíti a beépített segédosztályokkal kapcsolatos ismereteit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vezérlési szerkezetek, ciklusok (12 óra)",
+        "elements": [
+          {
+            "name": "Logikai alapok és elágazások",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a boolean típusú logikai változókat és összehasonlító-logikai operátorokat egyszerű és összetett feltételek felírására"
+              },
+              {
+                "description": "Használja a két- és többirányú elágazásokat (if-else if-else) a program futásának feltétel szerinti irányításához"
+              },
+              {
+                "description": "Értelmezi a hármas operátor (? : ) működését, és tudatos döntést hoz, mikor érdemes azt bevetni"
+              },
+              {
+                "description": "Készít switch-elágazást, felismeri, hogy mikor előnyös az if-else-hez képest, és következetesen használja a break, default ágakat"
+              }
+            ]
+          },
+          {
+            "name": "Ciklusok és hibakeresés",
+            "outcomes": [
+              {
+                "description": "Megír elöltesztelő (for, while) és hátultesztelő (do-while) ciklusokat, átlátja a közös és eltérő vonásokat"
+              },
+              {
+                "description": "Végrehajt összetett feladatokat ciklus segítségével (pl. összegzés, bejárás, keresés tömbben/listában), és figyelembe veszi a ciklusváltozó helyes kezelését"
+              },
+              {
+                "description": "Diagnosztizál és kijavít tipikus hibákat (rosszul beállított ciklusfeltétel, végtelen ciklus), használja a debug-eszközöket a ciklusok lépésenkénti vizsgálatához"
+              },
+              {
+                "description": "Használ ciklusvezérlő utasításokat (break, continue), és tisztában van a korai kilépés és az iteráció átugrás következményeivel"
+              }
+            ]
+          },
+          {
+            "name": "Integráció és tudatos választás",
+            "outcomes": [
+              {
+                "description": "Integrálja az elágazások és ciklusok használatát komplexebb menürendszerben vagy egyéb, valósághoz közelítő helyzetben"
+              },
+              {
+                "description": "Reflektál a vezérlési szerkezetek különféle típusaira, mérlegeli előnyeiket és hátrányaikat, és tudatosan választ közülük az aktuális feladatok igénye alapján"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Tömbök és listák (15 óra)",
+        "elements": [
+          {
+            "name": "Tömbök létrehozása és kezelése",
+            "outcomes": [
+              {
+                "description": "Definiál és inicializál egydimenziós tömböket, megérti a fix méret jelentőségét és az indexkezelés szabályait"
+              },
+              {
+                "description": "Kezel többdimenziós tömböket (pl. mátrixokat), és elvégzi az alapvető műveleteket (beolvasás, kiíratás, módosítás)"
+              },
+              {
+                "description": "Óvatosan jár el az indexekkel, felismeri és megelőzi a túlcímzés (out of bounds) hibákat"
+              }
+            ]
+          },
+          {
+            "name": "Listák és iterálás",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a lista alapvető műveleteit (létrehozás, hozzáadás, törlés, bejárás), és felismeri a dinamikus elemszám előnyeit"
+              },
+              {
+                "description": "Megkülönbözteti a generikus és nem generikus listákat, érti az autoboxing fogalmát, és alkalmazza primitív típusok listában való tárolásánál"
+              },
+              {
+                "description": "Iterál a listákon különböző módokon (for, foreach, iterátor) és kezeli az esetleges hibalehetőségeket (ConcurrentModificationException)"
+              },
+              {
+                "description": "Tárol objektumokat listában, és végrehajt egyszerű műveleteket (módosítás, kiírás, rendezésre előkészítés)"
+              }
+            ]
+          },
+          {
+            "name": "Hibakeresés és alkalmazási területek",
+            "outcomes": [
+              {
+                "description": "Eltérő helyzetekhez választja a megfelelő adatszerkezetet (tömb vagy lista), és érvekkel alátámasztja döntését (memóriahasználat, fix/dinamikus méret stb.)"
+              },
+              {
+                "description": "Hibát keres és javít tömböknél, listáknál (rossz index, null-referencia, rossz cast), szükség esetén debugol vagy használ alapvető kivételkezelést"
+              },
+              {
+                "description": "Integrált feladatokban alkalmazza a tömböket és listákat (adatfeldolgozás, statisztikák, input-kezelés), és világosan struktúrálja a kódot"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Kivételkezelés, hibakeresés (7 óra)",
+        "elements": [
+          {
+            "name": "Kivételkezelés és hibatípusok",
+            "outcomes": [
+              {
+                "description": "Megkülönbözteti a fordítási idejű, futási idejű és logikai hibákat, felismeri ezek jellegzetes tüneteit"
+              },
+              {
+                "description": "Használja a try-catch szerkezetet, és a beépített kivételtípusok (NullPointerException, IndexOutOfRange stb.) esetén célzottan beavatkozik"
+              },
+              {
+                "description": "Értelmezi a finally ág szerepét és tudatosan alkalmazza, ha a programban szükség van felszabadításra vagy egyéb kötelező teendőre"
+              },
+              {
+                "description": "Dob kivételt (throw) a kódban, felismeri, hogy ez mikor indokolt (pl. érvénytelen bemenet esetén)"
+              },
+              {
+                "description": "Megérti a saját kivételtípusok létrehozásának lehetőségét (opcionális), és tudja, milyen esetben van rá szükség"
+              }
+            ]
+          },
+          {
+            "name": "Hibakeresés és debug",
+            "outcomes": [
+              {
+                "description": "Alkalmaz alapvető hibakeresési módszereket (print debug, log írása) a futás közbeni probléma feltérképezésére"
+              },
+              {
+                "description": "Használja az IDE beépített debugeszközeit (breakpoint, step-by-step futtatás, változók figyelése), hogy lokálisítsa és javítsa a hibát"
+              },
+              {
+                "description": "Különböző hibák (null-referencia, out of bounds index, rossz parse, logikai tévedés) esetén felismeri a hiba okát és kijavítja"
+              }
+            ]
+          },
+          {
+            "name": "Tudatos hibakezelési döntések",
+            "outcomes": [
+              {
+                "description": "Tudatosan választ hibakezelési technikát (try-catch, ellenőrző feltételek, debug-lépések) az adott helyzetnek megfelelően"
+              },
+              {
+                "description": "Reflektál a kivételkezelés szerepére, és felméri a hibakezelési módszerek (hibakódok vs. kivételek) közötti különbségeket, előnyöket és hátrányokat"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Objektumorientált fejlesztés (45 óra)",
+        "elements": [
+          {
+            "name": "Alapfogalmak és projektstruktúra",
+            "outcomes": [
+              {
+                "description": "Átlátja az objektumorientált szemlélet alapjait (osztály, objektum, property) és felismeri, hogy az OOP hogyan tér el a procedurális megközelítéstől"
+              },
+              {
+                "description": "Létrehoz OOP-projekteket a kiválasztott IDE-ben, és alkalmazza a nyelvspecifikus konvenciókat (package/namespace, PascalCase osztálynév)"
+              },
+              {
+                "description": "Kezeli a main függvény szerepét, és érti, hogyan hívható meg az OOP-projektben létrehozott több osztály/kód"
+              }
+            ]
+          },
+          {
+            "name": "Osztályok, enkapszuláció, konstruktorkezelés",
+            "outcomes": [
+              {
+                "description": "Megkülönbözteti az osztálymezők (field) láthatóságát, és tudatosan szabályozza az adatrejtést (enkapszuláció: private mezők, publikus getter/setter)"
+              },
+              {
+                "description": "Használ konstruktorokat (default és paraméteres), ismeri a this kulcsszó szerepét, és megérti, miért fontos a mezők konstruktor általi inicializálása"
+              },
+              {
+                "description": "Alkalmazza az érték szerinti paraméterátadás elvét, és tisztázza a primitív vs. referencia típusok átadási különbségeit"
+              },
+              {
+                "description": "Kiterjeszti a konstruktorhasználatot (konstruktor-láncolás, default értékek, esetleg kivételdobás), és rugalmassá teszi az objektum inicializálását"
+              }
+            ]
+          },
+          {
+            "name": "Objektumok és memóriakezelés",
+            "outcomes": [
+              {
+                "description": "Példányosít objektumokat (new kulcsszó), átlátja a referencia–objektum különbséget, memóriakezelési alapokat (heap, stack), és elkerüli a null-ref jellegű hibákat"
+              },
+              {
+                "description": "Összehasonlít objektumokat: érti az == vs. equals különbséget, a hashCode szerepét, és felismeri, mikor mit használjon"
+              },
+              {
+                "description": "Komponál egymáshoz kapcsolódó osztályokat (pl. egyik osztály listaként tartalmazza a másikat), és ezzel összetettebb adatstruktúrákat hoz létre"
+              }
+            ]
+          },
+          {
+            "name": "Fejlettebb OOP és hibakeresés",
+            "outcomes": [
+              {
+                "description": "Értelmezi az enkapszulációt, megismeri az OOP további alappilléreit (öröklés, polimorfizmus) és legalább elméleti szinten látja ezek szerepét"
+              },
+              {
+                "description": "Használ debug eszközöket OOP környezetben is, az objektumok állapotának vizsgálatára, tipikus hibák (null pointer, rossz referenciák) feloldására"
+              },
+              {
+                "description": "Megismerkedik néhány alapvető OOP tervezési mintával (Singleton, Factory), és felismeri, hogy az OOP gondolkodás standard megoldásokra épül"
+              }
+            ]
+          },
+          {
+            "name": "Integrált feladatok és projektmunka",
+            "outcomes": [
+              {
+                "description": "Felépít egyszerű, de reálisabb osztályokat (pl. Diák, Termék), majd azokat példányosítja, metódusaikat használja, kódolási stílusra ügyelve"
+              },
+              {
+                "description": "Létrehoz és bemutat kisebb csoportos projektet, melyben a tervezéstől a kódoláson át a debugig alkalmazza az OOP ismereteit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Grafikus programozás (45 óra)",
+        "elements": [
+          {
+            "name": "Alapstruktúra és komponensek",
+            "outcomes": [
+              {
+                "description": "Létrehoz alapvető grafikus alkalmazást JavaFX vagy WPF használatával, ismeri a projekt szerkezetét, a létfontosságú komponenseket"
+              },
+              {
+                "description": "Alkalmazza az ablak (stage/window) életciklus-lépéseit, érti a GUI főszál szerepét, és tudja, mikor záródik le az alkalmazás"
+              },
+              {
+                "description": "Használ alapvető GUI-elemeket (Label, Button, TextField, stb.), képes őket elhelyezni különféle layout menedzserek segítségével"
+              }
+            ]
+          },
+          {
+            "name": "Eseménykezelés és felhasználói interakció",
+            "outcomes": [
+              {
+                "description": "Kezeli az eseményvezérelt programozás alapjait: gombnyomás, szövegbeviteli események, egér- és billentyű-események figyelése"
+              },
+              {
+                "description": "Egyszerű validációkat és hibaüzeneteket valósít meg (piros keret, felugró ablak, label) a felhasználói adatok ellenőrzésére"
+              },
+              {
+                "description": "Menüket, eszköztárakat, vagy további ablakokat (dialogusok) hoz létre, és lekezeli a menüpontok kiválasztására"
+              },
+              {
+                "description": "Hibakeresési módszereket alkalmaz grafikus alkalmazásoknál is, felismeri a GUI-főszál blokkolásának következményeit, megelőzi a tipikus hibákat"
+              }
+            ]
+          },
+          {
+            "name": "Megjelenítés, animáció és adatelérés",
+            "outcomes": [
+              {
+                "description": "Alapfokú stílusbeállításokat végez (színek, betűtípusok, CSS / XAML), és képes képeket, rajzokat beilleszteni a felületre"
+              },
+              {
+                "description": "Képes egyszerű animációk (átmenetek, mozgások) létrehozására, és felismeri az aszinkron eseménykezelés szükségességét"
+              },
+              {
+                "description": "Megjelenít listákat, táblázatokat (ListView, TableView, DataGrid), és kezeli az elemek frissítését, kiválasztását"
+              }
+            ]
+          },
+          {
+            "name": "Komplex alkalmazások és projektmunka",
+            "outcomes": [
+              {
+                "description": "Tervez többablakos alkalmazást, elkülöníti a logikát és a megjelenítést (alapszintű MVC / MVVM ismeretek), és összehangolt felületet hoz létre"
+              },
+              {
+                "description": "Fejleszt egy összetettebb grafikus projektet (csoportosan vagy egyedül), amiben a különféle GUI-elemeket, eseményeket és elrendezéseket integrálja, majd bemutatja a működő alkalmazást"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Adatbázis-kezelés I. (72 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Az adatbázis tervezés alapjai (5 óra)",
+        "elements": [
+          {
+            "name": "Adatbázis-tervezési alapfogalmak",
+            "outcomes": [
+              {
+                "description": "Azonosítja és alkalmazza az adatbázis-tervezés alapfogalmait, felismeri a redundancia káros következményeit"
+              },
+              {
+                "description": "Felismeri és kategorizálja az adatbázis anomáliákat, majd megfelelő normalizálási lépésekkel megszünteti azokat"
+              },
+              {
+                "description": "Alkalmazza a dekompozíciós technikákat a redundancia csökkentésére és az adatintegritás megőrzésére"
+              }
+            ]
+          },
+          {
+            "name": "Adatmodellezés ER-modellel",
+            "outcomes": [
+              {
+                "description": "Megtervezi az adatbázis logikai szerkezetét ER-modell segítségével, megfelelően alkalmazva annak jelölésrendszerét"
+              },
+              {
+                "description": "Létrehozza és dokumentálja az entitásokat, attribútumokat és kapcsolatokat az ER-modellben"
+              }
+            ]
+          },
+          {
+            "name": "Relációs adatmodell kialakítása",
+            "outcomes": [
+              {
+                "description": "Azonosítja és megfelelően alkalmazza a relációs adatbázisok alapfogalmait (elsődleges kulcs, idegen kulcs, rekord, mező)"
+              },
+              {
+                "description": "Átalakítja az ER-modellt relációs modellé a megfelelő szabályok és kapcsolattípusok figyelembevételével"
+              },
+              {
+                "description": "Létrehoz és módosít adatbázisokat és táblákat a CREATE és ALTER utasítások megfelelő használatával"
+              },
+              {
+                "description": "Megtervezi és létrehozza a táblák mezőit a megfelelő adattípusok és megszorítások (NULL, NOT NULL, UNIQUE, PRIMARY KEY) alkalmazásával"
+              },
+              {
+                "description": "Kialakítja a táblák közötti kapcsolatokat a REFERENCES záradék használatával"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Adatbázisok létrehozása (5 óra)",
+        "elements": [
+          {
+            "name": "Adatbázis-objektumok kezelése",
+            "outcomes": [
+              {
+                "description": "Létrehoz és kezel indexeket a lekérdezések optimalizálása érdekében"
+              },
+              {
+                "description": "Töröl adatbázisokat, táblákat és indexeket a DROP utasítás biztonságos alkalmazásával"
+              },
+              {
+                "description": "Módosítja az adatbázis-objektumok szerkezetét az ALTER utasítás megfelelő használatával"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Adatok kezelése (10 óra)",
+        "elements": [
+          {
+            "name": "Adatok felvitele és módosítása",
+            "outcomes": [
+              {
+                "description": "Új rekordokat szúr be a táblákba az INSERT INTO utasítás megfelelő alkalmazásával"
+              },
+              {
+                "description": "Frissíti a meglévő rekordok adatait az UPDATE utasítás és a WHERE feltétel használatával"
+              }
+            ]
+          },
+          {
+            "name": "Adatok törlése és karbantartása",
+            "outcomes": [
+              {
+                "description": "Töröl rekordokat a táblákból a DELETE utasítás és a WHERE feltétel biztonságos alkalmazásával"
+              },
+              {
+                "description": "Ellenőrzi és karbantartja az adatok integritását a DML műveletek végrehajtása során"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lekérdezések (46 óra)",
+        "elements": [
+          {
+            "name": "Alapvető lekérdezési műveletek",
+            "outcomes": [
+              {
+                "description": "Lekérdezi az adatokat a SELECT utasítás szintaktikailag helyes használatával, megfelelően alkalmazza a WHERE záradékot és a különböző operátorokat az adatsorok szűrésére"
+              },
+              {
+                "description": "Rendezi az adatsorokat egy vagy több mező szerint az ORDER BY záradék használatával, és alkalmazza az álneveket a lekérdezések átláthatóbbá tételére"
+              },
+              {
+                "description": "Szűri az ismétlődő sorokat a DISTINCT záradékkal, és használja a helyettesítő karaktereket a rugalmas keresések megvalósításához"
+              }
+            ]
+          },
+          {
+            "name": "Összetett lekérdezések és táblák összekapcsolása",
+            "outcomes": [
+              {
+                "description": "Összekapcsol táblákat különböző JOIN típusok (INNER, LEFT, RIGHT) alkalmazásával, és megfelelően kezeli a kapcsolódó adatokat"
+              },
+              {
+                "description": "Csoportosítja az adatokat a GROUP BY záradékkal, szűri a csoportokat a HAVING záradékkal, és korlátozza a megjelenő sorok számát (TOP/LIMIT)"
+              },
+              {
+                "description": "Számított mezőket hoz létre és használ a lekérdezésekben, megfelelően alkalmazva az aritmetikai műveleteket"
+              }
+            ]
+          },
+          {
+            "name": "Függvények alkalmazása lekérdezésekben",
+            "outcomes": [
+              {
+                "description": "Használja az aggregáló függvényeket (COUNT, MIN, MAX, SUM, AVG) statisztikai számítások végrehajtására és adatok összesítésére"
+              },
+              {
+                "description": "Alkalmazza a szövegkezelő és formázó függvényeket (CONCAT, FORMAT, LENGTH, SUBSTR, REPLACE) az adatok megfelelő megjelenítéséhez"
+              },
+              {
+                "description": "Használja a numerikus függvényeket (TRUNC, ROUND) a számadatok pontos kezelésére és megjelenítésére"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Adatbázisok mentése és helyreállítása (6 óra)",
+        "elements": [
+          {
+            "name": "Adatbázis-mentési stratégiák és végrehajtás",
+            "outcomes": [
+              {
+                "description": "Megtervezi és végrehajtja az adatbázis teljes és inkrementális mentését a kiválasztott SQL szerveren a parancsok megfelelő alkalmazásával"
+              },
+              {
+                "description": "Ütemezi és automatizálja a rendszeres mentési feladatokat a választott SQL szerver eszközeivel"
+              }
+            ]
+          },
+          {
+            "name": "Adatbázisok helyreállítása és validálása",
+            "outcomes": [
+              {
+                "description": "Helyreállítja az adatbázist különböző típusú mentésekből a kiválasztott SQL szerveren a parancsok megfelelő alkalmazásával"
+              },
+              {
+                "description": "Ellenőrzi a helyreállított adatbázis integritását és konzisztenciáját"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Adatbázis-kezelés II. (62 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Adatbázis-tervezés (14 óra)",
+        "elements": [
+          {
+            "name": "ER-modell alapjai és alkalmazása",
+            "outcomes": [
+              {
+                "description": "Megtervezi az adatbázis szerkezetét ER-modell segítségével, megfelelően alkalmazva annak jelölésrendszerét és szabályait"
+              },
+              {
+                "description": "Azonosítja és modellezi az entitásokat, attribútumokat és kapcsolatokat az üzleti követelmények alapján"
+              },
+              {
+                "description": "Felismeri és kezeli a gyenge egyedeket, megfelelően dokumentálja azok azonosítását és függőségeit"
+              }
+            ]
+          },
+          {
+            "name": "Relációs adatbázis-tervezés",
+            "outcomes": [
+              {
+                "description": "Átalakítja az ER-modellt relációs adatbázis-sémává a megfelelő normalizációs szabályok alkalmazásával"
+              },
+              {
+                "description": "Kezeli a többértékű attribútumokat és az N-ágú kapcsolatokat, megfelelő relációs struktúrákká alakítja őket"
+              },
+              {
+                "description": "Optimalizálja az adatbázis szerkezetét a redundancia minimalizálásával és a lekérdezési hatékonyság maximalizálásával"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Haladó lekérdezések (16 óra)",
+        "elements": [
+          {
+            "name": "Beágyazott lekérdezések készítése",
+            "outcomes": [
+              {
+                "description": "Létrehoz és alkalmaz egymásba ágyazott lekérdezéseket a megfelelő szintaxis és operátorok használatával"
+              },
+              {
+                "description": "Kiválasztja és implementálja a feladatnak legmegfelelőbb beágyazott lekérdezéstípust (EXISTS, IN, ANY, ALL)"
+              },
+              {
+                "description": "Összetett feltételrendszereket alakít ki beágyazott lekérdezések és logikai operátorok kombinálásával"
+              }
+            ]
+          },
+          {
+            "name": "Lekérdezés-optimalizálás és teljesítményhangolás",
+            "outcomes": [
+              {
+                "description": "Megtervezi és létrehozza a szükséges indexeket a lekérdezések teljesítményének javítására"
+              },
+              {
+                "description": "Elemzi és optimalizálja a lekérdezések végrehajtási tervét a megfelelő eszközök használatával"
+              },
+              {
+                "description": "Alkalmazza a lekérdezés-optimalizálás bevált gyakorlatait (megfelelő indexhasználat, felesleges joinok elkerülése, WHERE feltételek hatékony megfogalmazása)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Adatvezérlő utasítások (10 óra)",
+        "elements": [
+          {
+            "name": "Tranzakciókezelés alapjai és végrehajtása",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a tranzakciók ACID tulajdonságait (atomiság, konzisztencia, elszigetelés, tartósság) az adatbázis-műveletek során"
+              },
+              {
+                "description": "Beállítja és kezeli a megfelelő izolációs szinteket a párhuzamos adathozzáférések szabályozására"
+              },
+              {
+                "description": "Végrehajtja és kezeli a tranzakciókat a megfelelő utasításokkal (START TRANSACTION, COMMIT, ROLLBACK)"
+              },
+              {
+                "description": "Alkalmazza a zárolási műveleteket (LOCK/UNLOCK TABLES) az erőforrások kizárólagos használatának biztosítására"
+              }
+            ]
+          },
+          {
+            "name": "Felhasználók és jogosultságok kezelése",
+            "outcomes": [
+              {
+                "description": "Létrehozza és kezeli a felhasználói fiókokat a megfelelő parancsokkal (CREATE USER, DROP USER)"
+              },
+              {
+                "description": "Beállítja és módosítja a felhasználói jogosultságokat a GRANT és REVOKE utasítások használatával"
+              },
+              {
+                "description": "Létrehoz és kezel szerepköröket (ROLE) a jogosultságok hatékony adminisztrációjához"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tárolt objektumok (10 óra)",
+        "elements": [
+          {
+            "name": "Nézettáblák kezelése",
+            "outcomes": [
+              {
+                "description": "Létrehoz és módosít nézettáblákat a CREATE VIEW és ALTER VIEW parancsok használatával"
+              },
+              {
+                "description": "Törli a szükségtelen vagy elavult nézettáblákat a DROP VIEW parancs alkalmazásával"
+              },
+              {
+                "description": "Optimalizálja a nézettáblák szerkezetét a lekérdezési teljesítmény javítása érdekében"
+              }
+            ]
+          },
+          {
+            "name": "Tárolt eljárások és függvények",
+            "outcomes": [
+              {
+                "description": "Implementál újrafelhasználható tárolt eljárásokat és függvényeket a CREATE PROCEDURE/FUNCTION parancsokkal"
+              },
+              {
+                "description": "Karbantartja és frissíti a meglévő tárolt eljárásokat és függvényeket az ALTER PROCEDURE/FUNCTION használatával"
+              },
+              {
+                "description": "Eltávolítja a feleslegessé vált tárolt eljárásokat és függvényeket a DROP PROCEDURE/FUNCTION parancsokkal"
+              }
+            ]
+          },
+          {
+            "name": "Triggerek fejlesztése",
+            "outcomes": [
+              {
+                "description": "Létrehoz eseményvezérelt triggereket adatbázis-műveletek automatizálására"
+              },
+              {
+                "description": "Módosítja a triggerek működési logikáját az üzleti követelmények változása esetén"
+              },
+              {
+                "description": "Megszünteti a nem használt vagy problémás triggereket a DROP TRIGGER paranccsal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Az adatbázis-kezelés osztályai (12 óra)",
+        "elements": []
+      },
+      {
+        "id": 6,
+        "name": "Az adatbázis-kezelés osztályai",
+        "elements": [
+          {
+            "name": "Adatbázis-kapcsolat létrehozása és kezelése",
+            "outcomes": [
+              {
+                "description": "Telepíti és konfigurálja az adatbázisszerver eléréséhez szükséges modulokat és referenciákat Java vagy C# környezetben"
+              },
+              {
+                "description": "Létrehozza és kezeli az adatbázis-kapcsolatokat a megfelelő kapcsolódási karakterláncok és osztályok használatával"
+              },
+              {
+                "description": "Implementálja a hibakezelést az adatbázis-kapcsolatok és műveletek során a megfelelő kivételkezelési technikákkal"
+              }
+            ]
+          },
+          {
+            "name": "Adatbázisműveletek végrehajtása",
+            "outcomes": [
+              {
+                "description": "Végrehajtja az adatbázis-műveleteket (lekérdezés, beszúrás, módosítás, törlés) a megfelelő osztályok és metódusok használatával"
+              },
+              {
+                "description": "Kezeli a lekérdezések eredményhalmazát a megfelelő osztályok segítségével"
+              },
+              {
+                "description": "Megjeleníti a lekérdezések eredményét grafikus felhasználói felületen adatkötött vezérlőelemek használatával"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Haladó szintű objektumorientált programozás (32 óra)",
+        "elements": [
+          {
+            "name": "Öröklődés és polimorfizmus alapjai",
+            "outcomes": [
+              {
+                "description": "Megtervezi és implementálja az osztályhierarchiát az öröklődés (extends) és interfészek segítségével"
+              },
+              {
+                "description": "Alkalmazza a polimorfizmust a kód újrafelhasználhatóságának növelése érdekében"
+              },
+              {
+                "description": "Felüldefiniálja az ősosztály metódusait a származtatott osztályokban a speciális viselkedés megvalósításához"
+              }
+            ]
+          },
+          {
+            "name": "Osztályok közötti kapcsolatok kialakítása",
+            "outcomes": [
+              {
+                "description": "Implementálja a metódus- és konstruktor-túlterhelést a rugalmas objektumkezelés érdekében"
+              },
+              {
+                "description": "Kialakítja az objektumok közötti kommunikációt getter és setter metódusok segítségével"
+              },
+              {
+                "description": "Alkalmazza az egységbezárás elvét az osztályok tervezése és implementálása során"
+              }
+            ]
+          },
+          {
+            "name": "Fejlesztőeszközök hatékony használata",
+            "outcomes": [
+              {
+                "description": "Kihasználja az IDE refaktorálási lehetőségeit a kód minőségének és karbantarthatóságának javítására"
+              },
+              {
+                "description": "Létrehoz és kezel osztálydiagramokat a fejlesztőkörnyezet beépített eszközeivel"
+              },
+              {
+                "description": "Használja az IDE hibakereső és kódminőség-ellenőrző funkcióit a fejlesztés során"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nevezetes algoritmusok és megvalósításuk OOP-technológiával (32 óra)",
+        "elements": [
+          {
+            "name": "Algoritmusok elemzése és hatékonyságvizsgálata",
+            "outcomes": [
+              {
+                "description": "Elemzi és összehasonlítja az algoritmusok futási idejét és memóriaigényét a nagy O jelölés használatával"
+              },
+              {
+                "description": "Kiválasztja az adott problémához legmegfelelőbb algoritmust a hatékonysági szempontok figyelembevételével"
+              },
+              {
+                "description": "Optimalizálja a meglévő algoritmusokat a futási idő és memóriahasználat szempontjából"
+              }
+            ]
+          },
+          {
+            "name": "Adatstruktúrák implementálása és használata",
+            "outcomes": [
+              {
+                "description": "Implementálja és használja a gyakori adatstruktúrákat (tömb, láncolt lista, verem, fa, hash map) Java vagy C# környezetben"
+              },
+              {
+                "description": "Kiválasztja és alkalmazza a megfelelő adatstruktúrát az adott probléma hatékony megoldásához"
+              },
+              {
+                "description": "Kezeli az adatstruktúrák műveleteit és elemzi azok időkomplexitását"
+              }
+            ]
+          },
+          {
+            "name": "Keresési és rendezési algoritmusok megvalósítása",
+            "outcomes": [
+              {
+                "description": "Implementálja és alkalmazza a különböző rendezési algoritmusokat (buborékrendezés, beszúrásos rendezés, quicksort)"
+              },
+              {
+                "description": "Megvalósítja a bináris keresést és más hatékony keresési algoritmusokat"
+              },
+              {
+                "description": "Alkalmazza a rekurzív megoldásokat összetett algoritmusok implementálása során"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "A tiszta kód elméleti alapjai és gyakorlata (28 óra)",
+        "elements": [
+          {
+            "name": "Kód strukturálása és formázása",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a megfelelő elnevezési konvenciókat a változók, függvények és osztályok esetében a kód olvashatóságának növelése érdekében"
+              },
+              {
+                "description": "Létrehoz rövid, egy felelősséggel rendelkező függvényeket a kód újrafelhasználhatóságának és tesztelhetőségének javítására"
+              },
+              {
+                "description": "Formázza a kódot az iparági szabványoknak megfelelően, következetes behúzást és tördelést alkalmazva"
+              }
+            ]
+          },
+          {
+            "name": "Objektumorientált elvek alkalmazása",
+            "outcomes": [
+              {
+                "description": "Implementálja a SOLID alapelveket az osztályok és interfészek tervezése során"
+              },
+              {
+                "description": "Kialakítja az objektumok közötti megfelelő kapcsolatokat, szem előtt tartva a laza csatolás és magas kohézió elvét"
+              },
+              {
+                "description": "Kezeli a kivételeket strukturált módon, megfelelő hibaüzenetekkel és naplózással"
+              }
+            ]
+          },
+          {
+            "name": "Kód minőségének biztosítása",
+            "outcomes": [
+              {
+                "description": "Készít unit teszteket a kód funkcionalitásának ellenőrzésére és a regressziók megelőzésére"
+              },
+              {
+                "description": "Optimalizálja a külső függőségek használatát megfelelő absztrakciós rétegek kialakításával"
+              },
+              {
+                "description": "Dokumentálja a kódot célszerűen elhelyezett, informatív kommentekkel és API-dokumentációval"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Unit tesztelés (28 óra)",
+        "elements": [
+          {
+            "name": "Szoftvertesztelési alapismeretek",
+            "outcomes": [
+              {
+                "description": "Megkülönbözteti és elmagyarázza a szoftvertesztelés különböző szintjeit (unit teszt, komponens teszt, integrációs teszt, rendszerteszt, átvételi teszt)"
+              },
+              {
+                "description": "Kiválasztja az adott fejlesztési feladathoz megfelelő tesztelési szintet és módszert"
+              },
+              {
+                "description": "Alkalmazza a tesztvezérelt fejlesztés (TDD) alapelveit a fejlesztési folyamat során"
+              }
+            ]
+          },
+          {
+            "name": "Unit tesztek implementálása",
+            "outcomes": [
+              {
+                "description": "Létrehoz és futtat unit teszteket Java (JUnit) vagy C# (NUnit) környezetben a megfelelő annotációk és attribútumok használatával"
+              },
+              {
+                "description": "Implementál különböző típusú assertionöket a tesztesetekben az elvárt és valós eredmények összehasonlítására"
+              },
+              {
+                "description": "Alkalmazza az AAA (Arrange-Act-Assert) mintát a unit tesztek strukturálására"
+              }
+            ]
+          },
+          {
+            "name": "Tesztek karbantartása és minőségbiztosítása",
+            "outcomes": [
+              {
+                "description": "Használja a tesztkeretrendszer felépítő (@Before/[SetUp]) és lebontó (@After/[TearDown]) funkcióit a tesztek előkészítéséhez és utómunkálataihoz"
+              },
+              {
+                "description": "Tervez és implementál teszteseteket a teljes kódfedettség (line és branch coverage) elérése érdekében"
+              },
+              {
+                "description": "Refaktorálja és optimalizálja a meglévő tesztkódot a karbantarthatóság és újrafelhasználhatóság érdekében"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Mobil alkalmazások fejlesztése (32 óra)",
+        "elements": [
+          {
+            "name": "Fejlesztői környezet kialakítása és alapvető alkalmazásfejlesztés",
+            "outcomes": [
+              {
+                "description": "Létrehoz és konfigurál komplett fejlesztői környezetet Android alkalmazások fejlesztéséhez (pl. Android Studio és emulátor Java esetén, vagy NodeJS és npm React Native esetén)"
+              },
+              {
+                "description": "Fejleszt és telepít egyszerű \"Hello World\" alkalmazást Android eszközre vagy emulátorra"
+              },
+              {
+                "description": "Alkalmazza a választott technológia alapvető komponenseit és fejlesztési mintáit"
+              }
+            ]
+          },
+          {
+            "name": "Felhasználói felület fejlesztése és navigáció",
+            "outcomes": [
+              {
+                "description": "Megtervez és implementál reszponzív felhasználói felületeket a megfelelő UI komponensek elhelyezésével és elrendezésével"
+              },
+              {
+                "description": "Megvalósítja a UI elemek és az üzleti logika összekapcsolását (data binding) és az interakciók kezelését"
+              },
+              {
+                "description": "Kialakít többképernyős alkalmazásokat megfelelő navigációs struktúrával és állapotkezeléssel"
+              }
+            ]
+          },
+          {
+            "name": "Adatkezelés és hálózati kommunikáció",
+            "outcomes": [
+              {
+                "description": "Implementál HTTP alapú kommunikációt külső szolgáltatásokkal, beleértve a kérések küldését és a válaszok feldolgozását"
+              },
+              {
+                "description": "Szerializál és deszerializál JSON formátumú adatokat a hálózati kommunikáció során"
+              },
+              {
+                "description": "Megvalósítja az alkalmazás adatainak perzisztens tárolását és kezelését lokális adatbázisban vagy fájlrendszerben"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Projektmunka (62 óra)",
+        "elements": [
+          {
+            "name": "Projekt tervezés és előkészítés",
+            "outcomes": [
+              {
+                "description": "Megtervezi a fejlesztendő alkalmazás funkcionalitását, felhasználói felületét és architektúráját"
+              },
+              {
+                "description": "Kiválasztja a fejlesztéshez szükséges technológiákat és keretrendszereket (pl. Unity, JavaFX)"
+              },
+              {
+                "description": "Létrehoz verziókezelő rendszert és projektstruktúrát a fejlesztéshez"
+              }
+            ]
+          },
+          {
+            "name": "Alkalmazásfejlesztés és implementáció",
+            "outcomes": [
+              {
+                "description": "Implementálja az alkalmazás főbb funkcióit a választott technológia segítségével"
+              },
+              {
+                "description": "Kialakít reszponzív és felhasználóbarát grafikus felhasználói felületet"
+              },
+              {
+                "description": "Megvalósítja az alkalmazás állapotkezelését és az adatok perzisztens tárolását"
+              }
+            ]
+          },
+          {
+            "name": "Tesztelés és dokumentáció",
+            "outcomes": [
+              {
+                "description": "Elvégzi az alkalmazás funkcionális és teljesítmény tesztelését"
+              },
+              {
+                "description": "Dokumentálja a fejlesztési folyamatot és az alkalmazás működését"
+              },
+              {
+                "description": "Prezentálja az elkészült alkalmazást és bemutatja annak főbb funkcióit"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Webprogramozás (144 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "HTML5 és CSS3 (32 óra)",
+        "elements": [
+          {
+            "name": "HTML5 szemantikus elemek és struktúra",
+            "outcomes": [
+              {
+                "description": "Létrehoz és formáz táblázatokat a megfelelő HTML elemek és CSS tulajdonságok alkalmazásával"
+              },
+              {
+                "description": "Alkalmazza a szemantikus HTML5 elemeket (article, aside, main, header, footer, section) a weboldalak megfelelő strukturálásához"
+              },
+              {
+                "description": "Beágyaz és kezel különböző médiatartalmakat (képek, videók, hangok) a HTML5 által biztosított elemekkel"
+              },
+              {
+                "description": "Implementálja a keresőoptimalizálás (SEO) alapelveit a megfelelő metaelemek és viewport beállítások alkalmazásával"
+              }
+            ]
+          },
+          {
+            "name": "Haladó CSS technikák és layoutok",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a CSS specificitás szabályait és a stílusok kaszkádolását a megfelelő megjelenítés érdekében"
+              },
+              {
+                "description": "Használja a modern CSS szelektorokat (nth-child, attribútum szelektorok, kombinátorok) és pszeudo-elemeket (::before, ::after) a tartalom precíz kijelöléséhez"
+              },
+              {
+                "description": "Reszponzív elrendezéseket készít Flexbox és CSS Grid technológiák segítségével"
+              },
+              {
+                "description": "Implementál komplex vizuális effekteket CSS tulajdonságok (gradients, box-shadow, text-shadow, opacity, transform) és animációk használatával"
+              }
+            ]
+          },
+          {
+            "name": "Modern webfejlesztési eszközök",
+            "outcomes": [
+              {
+                "description": "Alkalmaz CSS preprocesszor technológiát (pl. SASS, LESS) a hatékonyabb stíluslap fejlesztés érdekében"
+              },
+              {
+                "description": "Media query-ket használ a különböző képernyőméretekhez történő optimalizáláshoz"
+              },
+              {
+                "description": "Interaktív felhasználói felületeket fejleszt CSS átmenetek és animációk segítségével"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "JavaScript I. (40 óra)",
+        "elements": [
+          {
+            "name": "JavaScript nyelvi alapok",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a JavaScript nyelv alaptípusait (Number, String, Array, Boolean, Object) és vezérlési szerkezeteit (if, switch, ciklusok)"
+              },
+              {
+                "description": "Implementál függvényeket különböző szintaktikával (hagyományos és arrow functions), megfelelően használja a változódeklarációkat (var, let, const)"
+              },
+              {
+                "description": "Kezel összetett adatszerkezeteket (Map, Set) és reguláris kifejezéseket a megfelelő JavaScript metódusok alkalmazásával"
+              }
+            ]
+          },
+          {
+            "name": "DOM-manipuláció és eseménykezelés",
+            "outcomes": [
+              {
+                "description": "Módosítja a weboldal DOM-szerkezetét JavaScript segítségével (elemek létrehozása, törlése, módosítása)"
+              },
+              {
+                "description": "Implementál eseményfigyelő eljárásokat (onClick, onLoad, onBlur, onFocus) a felhasználói interakciók kezelésére"
+              },
+              {
+                "description": "Létrehoz és kezel űrlapelemeket (form, input, select, textarea) dinamikusan JavaScript kód segítségével"
+              }
+            ]
+          },
+          {
+            "name": "Fejlesztőeszközök és hibakeresés",
+            "outcomes": [
+              {
+                "description": "Futtat és tesztel JavaScript kódot a böngésző konzolján keresztül"
+              },
+              {
+                "description": "Használja a böngésző fejlesztőeszközeit a JavaScript kód hibakeresésére és teljesítményoptimalizálására"
+              },
+              {
+                "description": "Alkalmazza a modern JavaScript fejlesztési környezetek szolgáltatásait a hatékony kódolás érdekében"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "JavaScript II. (36 óra)",
+        "elements": [
+          {
+            "name": "Modern JavaScript nyelvi elemek",
+            "outcomes": [
+              {
+                "description": "Alkalmazza az ES6+ nyelvi elemeket (arrow functions, template literals, destructuring) a kód hatékonyabb írásához"
+              },
+              {
+                "description": "Kezel objektumokat és tömböket a modern JavaScript metódusok (map, filter, reduce) segítségével"
+              },
+              {
+                "description": "Implementál moduláris kódszervezést az ES6 modul rendszer használatával"
+              }
+            ]
+          },
+          {
+            "name": "Aszinkron programozás",
+            "outcomes": [
+              {
+                "description": "Kezel aszinkron műveleteket Promise-ok és async/await szintaxis alkalmazásával"
+              },
+              {
+                "description": "Implementál eseményvezérelt aszinkron funkciókat callback függvények és időzítők segítségével"
+              },
+              {
+                "description": "Hibakezelést valósít meg az aszinkron műveletek során try-catch blokkok és Promise error handling használatával"
+              }
+            ]
+          },
+          {
+            "name": "REST API kommunikáció",
+            "outcomes": [
+              {
+                "description": "Végrehajt HTTP kéréseket a fetch API segítségével külső szolgáltatások felé"
+              },
+              {
+                "description": "Feldolgozza és kezeli a JSON formátumú adatokat a REST API válaszokban"
+              },
+              {
+                "description": "Megvalósít AJAX-alapú dinamikus tartalomfrissítést a felhasználói felületen"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "CMS-rendszerek (36 óra)",
+        "elements": []
+      },
+      {
+        "id": 5,
+        "name": "CMS-rendszerek (36 óra)",
+        "elements": [
+          {
+            "name": "CMS alapismeretek és telepítés",
+            "outcomes": [
+              {
+                "description": "Telepít és konfigurál WordPress tartalomkezelő rendszert, elvégzi az alapvető biztonsági és teljesítmény beállításokat"
+              },
+              {
+                "description": "Létrehoz és kezel felhasználói fiókokat, beállítja a megfelelő jogosultságokat és szerepköröket"
+              },
+              {
+                "description": "Testreszabja a WordPress adminisztrációs felületét a hatékony tartalomkezelés érdekében"
+              }
+            ]
+          },
+          {
+            "name": "Témák és megjelenés testreszabása",
+            "outcomes": [
+              {
+                "description": "Telepít és testreszab szabadforrású WordPress témákat a webhely arculatának kialakításához"
+              },
+              {
+                "description": "Fejleszt egyedi WordPress témákat és sablon fájlokat PHP és WordPress hook-ok használatával"
+              },
+              {
+                "description": "Optimalizálja a webhely reszponzív megjelenését különböző eszközökön"
+              }
+            ]
+          },
+          {
+            "name": "Bővítmények és funkcionális fejlesztés",
+            "outcomes": [
+              {
+                "description": "Telepít és konfigurál WordPress bővítményeket a webhely funkcionalitásának bővítéséhez"
+              },
+              {
+                "description": "Fejleszt egyedi WordPress bővítményeket és widgeteket speciális igények kielégítésére"
+              },
+              {
+                "description": "Integrál külső szolgáltatásokat és API-kat a WordPress rendszerbe"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Frontend programozás és tesztelés (186 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "JavaScript (36 óra)",
+        "elements": [
+          {
+            "name": "Nyelvi alapok és adatkezelés",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a JavaScript nyelv alaptípusait (Number, String, Array, Object, Boolean) és operátorait összetett kifejezések létrehozásához"
+              },
+              {
+                "description": "Használja a változódeklarációs kulcsszavakat (var, let, const) és vezérlési szerkezeteket a program vezérlésének kialakításához"
+              },
+              {
+                "description": "Implementál újrafelhasználható függvényeket és osztályokat a kód modularizálása érdekében"
+              }
+            ]
+          },
+          {
+            "name": "Objektumorientált programozás JavaScriptben",
+            "outcomes": [
+              {
+                "description": "Létrehoz és kezel objektumokat konstruktor függvények és az Object.create metódus segítségével"
+              },
+              {
+                "description": "Alkalmazza a prototípus-alapú öröklődést új objektumtípusok létrehozásához"
+              },
+              {
+                "description": "Kezeli a window és document globális objektumokat a böngészőoldali programozás során"
+              }
+            ]
+          },
+          {
+            "name": "DOM-manipuláció és eseménykezelés",
+            "outcomes": [
+              {
+                "description": "Módosítja a weboldal DOM-szerkezetét JavaScript segítségével (elemek létrehozása, kiválasztása, attribútumok módosítása)"
+              },
+              {
+                "description": "Implementál eseményvezérelt funkcionalitást eseményfigyelők és callback függvények alkalmazásával"
+              },
+              {
+                "description": "Kezel aszinkron műveleteket Promise-ok és időzítők használatával"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "AJAX (16 óra)",
+        "elements": [
+          {
+            "name": "Aszinkron kommunikáció alapjai",
+            "outcomes": [
+              {
+                "description": "Implementál aszinkron HTTP kéréseket XHR objektum és Fetch API segítségével"
+              },
+              {
+                "description": "Kezel különböző HTTP metódusokat (GET, POST, PUT, DELETE) a szerverrel való kommunikáció során"
+              },
+              {
+                "description": "Feldolgoz és kezel HTTP státuszkódokat és hibakezelést valósít meg"
+              }
+            ]
+          },
+          {
+            "name": "API kommunikáció és adatkezelés",
+            "outcomes": [
+              {
+                "description": "Szerializál és deszerializál JSON formátumú adatokat a JSON.parse és JSON.stringify metódusokkal"
+              },
+              {
+                "description": "Biztonságosan kezel API kulcsokat és authentikációs tokeneket"
+              },
+              {
+                "description": "Megvalósít komplex adatküldést és -fogadást HTTP POST kérések segítségével"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Frontend készítésére szolgáló JavaScript framework (36 óra)",
+        "elements": [
+          {
+            "name": "Fejlesztői környezet kialakítása és alapvető projektstruktúra",
+            "outcomes": [
+              {
+                "description": "Telepíti és konfigurál egy modern JavaScript keretrendszert (pl. React) a szükséges függőségekkel és fejlesztőeszközökkel"
+              },
+              {
+                "description": "Létrehoz új projektet a választott keretrendszerben és kialakítja az alapvető projektstruktúrát"
+              },
+              {
+                "description": "Használja a package manager eszközöket (npm, pnpm, yarn) a függőségek és build folyamatok kezelésére"
+              }
+            ]
+          },
+          {
+            "name": "Komponens alapú fejlesztés",
+            "outcomes": [
+              {
+                "description": "Fejleszt újrafelhasználható komponenseket a felhasználói felület moduláris felépítéséhez"
+              },
+              {
+                "description": "Implementál komponens életciklus metódusokat és kezeli a komponensek közötti kommunikációt"
+              },
+              {
+                "description": "Alkalmazza az állapotkezelés és adatkötés technikáit a komponensek dinamikus működéséhez"
+              }
+            ]
+          },
+          {
+            "name": "Alkalmazásfejlesztés és integráció",
+            "outcomes": [
+              {
+                "description": "Megvalósít navigációs funkcionalitást routing megoldások használatával"
+              },
+              {
+                "description": "Kezel űrlapokat és felhasználói interakciókat eseménykezelők segítségével"
+              },
+              {
+                "description": "Integrál REST API végpontokat az alkalmazásba és megvalósít aszinkron adatkommunikációt a backend szolgáltatásokkal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tartalomkezelő keretrendszer CMS használata (20 óra)",
+        "elements": [
+          {
+            "name": "Szabadforrású komponensek használata",
+            "outcomes": [
+              {
+                "description": "Telepít és konfigurál szabadforrású témákat a tartalomkezelő rendszerben"
+              },
+              {
+                "description": "Testreszabja a telepített témák megjelenését és funkcionalitását"
+              },
+              {
+                "description": "Kiválaszt és integrál megfelelő beépülő modulokat a webhely funkcionalitásának bővítéséhez"
+              }
+            ]
+          },
+          {
+            "name": "Egyedi komponensek fejlesztése",
+            "outcomes": [
+              {
+                "description": "Létrehoz és testreszab egyedi témákat és sablonokat a tartalomkezelő rendszerhez"
+              },
+              {
+                "description": "Fejleszt saját beépülő modulokat speciális funkciók megvalósításához"
+              },
+              {
+                "description": "Készít egyedi widgeteket a felhasználói felület bővítéséhez és a tartalom dinamikus megjelenítéséhez"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Integrációs tesztelés (20 óra)",
+        "elements": [
+          {
+            "name": "Tesztelési alapismeretek és stratégiák",
+            "outcomes": [
+              {
+                "description": "Megkülönbözteti és alkalmazza az egységtesztek és integrációs tesztek módszereit és gyakorlatait"
+              },
+              {
+                "description": "Implementál mock objektumokat és stub komponenseket a függőségek kezelésére és izolálására"
+              },
+              {
+                "description": "Megtervezi és végrehajtja a tesztelési stratégiát komplex webalkalmazások esetén"
+              }
+            ]
+          },
+          {
+            "name": "Automatizált tesztelés Selenium használatával",
+            "outcomes": [
+              {
+                "description": "Konfigurál és használ Selenium WebDriver környezetet automatizált tesztek futtatásához"
+              },
+              {
+                "description": "Implementál elemkiválasztási és -manipulációs műveleteket különböző szelektorok alkalmazásával"
+              },
+              {
+                "description": "Ellenőrzi weboldalak tartalmát és validálja az elemek tulajdonságait assertion-ök segítségével"
+              }
+            ]
+          },
+          {
+            "name": "Felhasználói interakciók tesztelése",
+            "outcomes": [
+              {
+                "description": "Szimulál felhasználói eseményeket (kattintás, billentyűleütés, űrlapmódosítás) automatizált tesztkörnyezetben"
+              },
+              {
+                "description": "Teszteli az alkalmazás állapotváltozásait és validálja a felhasználói interakciók eredményeit"
+              },
+              {
+                "description": "Készít end-to-end teszteket komplex felhasználói folyamatok ellenőrzésére"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Projektmunka (58 óra)",
+        "elements": [
+          {
+            "name": "Frontend alkalmazás tervezése és fejlesztése",
+            "outcomes": [
+              {
+                "description": "Megtervez és implementál egy többoldalas webalkalmazást modern frontend keretrendszer használatával"
+              },
+              {
+                "description": "Kialakít REST API kommunikációt a backend szolgáltatásokkal"
+              },
+              {
+                "description": "Megvalósítja a felhasználói felület reszponzív megjelenítését és az interakciók kezelését"
+              }
+            ]
+          },
+          {
+            "name": "Alkalmazás tesztelése és minőségbiztosítás",
+            "outcomes": [
+              {
+                "description": "Lefedi az alkalmazás kritikus funkcióit automatizált integrációs tesztekkel"
+              },
+              {
+                "description": "Implementál end-to-end teszteket a felhasználói folyamatok validálására"
+              },
+              {
+                "description": "Elvégzi a hibakeresést és javítást a tesztek eredményei alapján"
+              }
+            ]
+          },
+          {
+            "name": "Projektmenedzsment és dokumentáció",
+            "outcomes": [
+              {
+                "description": "Megtervezi és követi a fejlesztési ütemtervet"
+              },
+              {
+                "description": "Verziókezelő rendszert használ a forráskód menedzselésére"
+              },
+              {
+                "description": "Elkészíti a fejlesztői és felhasználói dokumentációt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Backend programozás és tesztelés (186 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Backend készítésére szolgáló keretrendszer (46 óra)",
+        "elements": [
+          {
+            "name": "HTTP protokoll és API kommunikáció alapjai",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a különböző HTTP kérési metódusokat (GET, POST, PUT, PATCH, DELETE) és értelmezi azok szerepét"
+              },
+              {
+                "description": "Elemzi és kezeli a HTTP fejléceket és a kérés-válasz ciklusokat"
+              },
+              {
+                "description": "Tesztel és dokumentál API végpontokat Postman vagy hasonló eszköz használatával"
+              }
+            ]
+          },
+          {
+            "name": "Fejlesztői környezet és alkalmazásstruktúra kialakítása",
+            "outcomes": [
+              {
+                "description": "Telepít és konfigurál package manager rendszert (NPM, Composer, Gradle vagy Nuget)"
+              },
+              {
+                "description": "Létrehoz és strukturál backend alkalmazást MVC tervezési minta alapján"
+              },
+              {
+                "description": "Implementál kontrollereket URL-paraméterek és HTTP kérés törzsek kezelésére"
+              }
+            ]
+          },
+          {
+            "name": "Szerveroldali renderelés és alkalmazás üzemeltetés",
+            "outcomes": [
+              {
+                "description": "Fejleszt szerveroldali renderelést használó nézeteket template engine segítségével (pl. EJS, Blade, Thymeleaf)"
+              },
+              {
+                "description": "Megvalósít űrlap feldolgozást és input validációt a kontrollerekben"
+              },
+              {
+                "description": "Telepít és konfigurál webalkalmazást felhő platformra (pl. Heroku, Azure, AWS)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Rétegelt architektúra és ORM (30 óra)",
+        "elements": [
+          {
+            "name": "Alkalmazás architektúra kialakítása",
+            "outcomes": [
+              {
+                "description": "Implementál többrétegű alkalmazásarchitektúrát a separation of concerns elv mentén"
+              },
+              {
+                "description": "Alkalmaz dependency injection tervezési mintát a komponensek közötti függőségek kezelésére"
+              },
+              {
+                "description": "Kialakít service réteget az üzleti logika egységbezárására"
+              }
+            ]
+          },
+          {
+            "name": "Adatbázis-kezelés ORM technológiával",
+            "outcomes": [
+              {
+                "description": "Konfigurál ORM keretrendszert (Sequelize/Eloquent/JPA/Entity Framework Core) és adatbázis kapcsolatot"
+              },
+              {
+                "description": "Létrehoz entitás osztályokat és definiálja azok tulajdonságait, kapcsolatait"
+              },
+              {
+                "description": "Implementál repository/DbContext osztályokat az adatbázis műveletek egységesítésére"
+              }
+            ]
+          },
+          {
+            "name": "Adatbázis műveletek megvalósítása",
+            "outcomes": [
+              {
+                "description": "Megvalósít egyszerű és összetett adatbázis relációkat (1:1, 1:N, N:N)"
+              },
+              {
+                "description": "Készít egyedi lekérdezéseket az ORM technológia által biztosított eszközökkel"
+              },
+              {
+                "description": "Kezel adatbázis tranzakciókat és kezeli a konkurens hozzáféréseket"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése (30 óra)",
+        "elements": [
+          {
+            "name": "REST alapelvek és erőforrás-kezelés",
+            "outcomes": [
+              {
+                "description": "Alkalmazza a REST architekturális elveket (stateless, resource-based, uniform interface) API tervezés során"
+              },
+              {
+                "description": "Megtervezi az API erőforrásait és azok URL-struktúráját a REST konvenciók szerint"
+              },
+              {
+                "description": "Implementálja a CRUD műveleteket HTTP metódusok megfelelő használatával"
+              }
+            ]
+          },
+          {
+            "name": "API végpontok fejlesztése és adatkezelés",
+            "outcomes": [
+              {
+                "description": "Létrehoz REST kontrollereket a kérések kezelésére és a válaszok előállítására"
+              },
+              {
+                "description": "Megvalósítja a JSON formátumú adatok szerializálását és deszerializálását"
+              },
+              {
+                "description": "Kezeli az URL paramétereket és a HTTP kérés törzsét a megfelelő adattípusok használatával"
+              }
+            ]
+          },
+          {
+            "name": "API dokumentáció és tesztelés",
+            "outcomes": [
+              {
+                "description": "Dokumentálja az API végpontokat és azok működését szabványos formátumban"
+              },
+              {
+                "description": "Teszteli az API működését HTTP kliens eszközök használatával"
+              },
+              {
+                "description": "Implementál hibakezelést és megfelelő HTTP státuszkódokat alkalmaz"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Integrációs tesztelés (25 óra)",
+        "elements": [
+          {
+            "name": "Tesztelési környezet kialakítása",
+            "outcomes": [
+              {
+                "description": "Konfigurál és használ mockolási keretrendszereket (pl. Supertest, Mockery, MockMVC, xUnit) a függőségek szimulálására"
+              },
+              {
+                "description": "Létrehoz és menedzsel tesztkörnyezetet integrációs tesztek futtatásához"
+              }
+            ]
+          },
+          {
+            "name": "HTTP alapú integrációs tesztek készítése",
+            "outcomes": [
+              {
+                "description": "Implementál HTTP kéréseket indító és feldolgozó teszteseteket"
+              },
+              {
+                "description": "Ellenőrzi és validálja a HTTP válaszok tartalmát, státuszkódjait és fejléceit"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Projektmunka (55 óra)",
+        "elements": [
+          {
+            "name": "Web API fejlesztése",
+            "outcomes": [
+              {
+                "description": "Megtervez és implementál egy komplex REST API-t SQL adatbázis háttérrel"
+              },
+              {
+                "description": "Megvalósít legalább 2-3 erőforráshoz tartozó CRUD műveleteket REST végpontokon keresztül"
+              },
+              {
+                "description": "Kialakítja a szükséges adatbázis sémát és táblákat az adatok tárolásához"
+              }
+            ]
+          },
+          {
+            "name": "Tesztelés és minőségbiztosítás",
+            "outcomes": [
+              {
+                "description": "Lefedi az API végpontokat integrációs tesztekkel a helyes működés ellenőrzésére"
+              },
+              {
+                "description": "Dokumentálja az API működését és a fejlesztői környezet beállításait"
+              },
+              {
+                "description": "Verziókezeli a forráskódot és követi a clean code alapelveket"
+              }
+            ]
+          },
+          {
+            "name": "Integráció és üzembe helyezés",
+            "outcomes": [
+              {
+                "description": "Összekapcsolja az API-t a Frontend tantárgy keretében készült felhasználói felülettel"
+              },
+              {
+                "description": "Telepíti és konfigurálja az alkalmazást éles környezetben"
+              },
+              {
+                "description": "Monitorozza az alkalmazás működését és kezeli az esetleges hibákat"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Szakmai angol (144 óra)",
+    "subtopics": [
+      {
+        "id": 1,
+        "name": "Hallás utáni szövegértés (22 óra)",
+        "elements": [
+          {
+            "name": "Alapszintű szakmai videók feldolgozása",
+            "outcomes": [
+              {
+                "description": "Megért és értelmez angol nyelvű szakmai videókat és interaktív tananyagokat"
+              },
+              {
+                "description": "Azonosítja és elsajátítja a videókban előforduló szakmai kifejezéseket és terminológiát"
+              },
+              {
+                "description": "Jegyzeteket készít a hallott szakmai tartalmakról a későbbi felidézés érdekében"
+              }
+            ]
+          },
+          {
+            "name": "Hallott szöveg megértésének fejlesztése",
+            "outcomes": [
+              {
+                "description": "Felismeri és megérti az IT szakterületen gyakran használt nemzetközi kifejezéseket"
+              },
+              {
+                "description": "Követi és értelmezi az angol nyelvű prezentációkat és élő szakmai bemutatókat"
+              },
+              {
+                "description": "Megérti és feldolgozza a feliratozással ellátott szakmai tartalmakat"
+              }
+            ]
+          },
+          {
+            "name": "Szakmai kommunikáció előkészítése",
+            "outcomes": [
+              {
+                "description": "Részt vesz a hallott szakmai tartalmak csoportos megbeszélésében és értelmezésében"
+              },
+              {
+                "description": "Tisztázza és gyakorolja a nehezebben érthető szakmai kifejezéseket"
+              },
+              {
+                "description": "Összekapcsolja a hallott információkat a vizuális elemekkel és a szakmai kontextussal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Szóbeli kommunikáció (24 óra)",
+        "elements": [
+          {
+            "name": "Szakmai prezentációk készítése és előadása",
+            "outcomes": [
+              {
+                "description": "Önállóan készít és ad elő 5-10 perces szakmai prezentációt választott informatikai témában"
+              },
+              {
+                "description": "Alkalmaz vizuális segédeszközöket (pl. prezentációs szoftver, demó) az előadás támogatására"
+              },
+              {
+                "description": "Megfelelően reagál a hallgatóság kérdéseire és visszajelzéseire angol nyelven"
+              }
+            ]
+          },
+          {
+            "name": "Párbeszédes kommunikáció szakmai környezetben",
+            "outcomes": [
+              {
+                "description": "Magabiztosan folytat angol nyelvű párbeszédet mindennapi szakmai szituációkban (pl. megbeszélés, egyeztetés)"
+              },
+              {
+                "description": "Alkalmazza a gyakori szakmai kifejezéseket és fordulatokat a kommunikáció során"
+              },
+              {
+                "description": "Hatékonyan kommunikál csapatmunka során angol nyelven (pl. pair programming, code review)"
+              }
+            ]
+          },
+          {
+            "name": "Spontán szakmai kommunikáció",
+            "outcomes": [
+              {
+                "description": "Rögtönözve reagál szakmai kérdésekre és felvetésekre angol nyelven"
+              },
+              {
+                "description": "Érthetően kifejezi gondolatait technikai problémák megvitatása során"
+              },
+              {
+                "description": "Aktívan részt vesz angol nyelvű szakmai vitákban és egyeztetésekben"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Szóbeli kommunikáció IT-környezetben, projektalapon I. (14 óra)",
+        "elements": [
+          {
+            "name": "Termékbemutató videó készítése",
+            "outcomes": [
+              {
+                "description": "Csoportban megtervez és elkészít egy professzionális termékbemutató videót egy választott informatikai termékről"
+              },
+              {
+                "description": "Magabiztosan előad egy strukturált szakmai prezentációt angol nyelven a videófelvételen"
+              },
+              {
+                "description": "Hatékonyan alkalmazza a korábban elsajátított prezentációs és kommunikációs technikákat"
+              }
+            ]
+          },
+          {
+            "name": "Üzleti tárgyalás szimulációja",
+            "outcomes": [
+              {
+                "description": "Lebonyolít egy angol nyelvű videókonferencia-beszélgetést üzleti környezetben"
+              },
+              {
+                "description": "Magabiztosan kommunikál értékesítési helyzetben a termék tulajdonságairól és előnyeiről"
+              },
+              {
+                "description": "Szakszerűen tárgyal az árról és a terméktámogatási feltételekről angol nyelven"
+              }
+            ]
+          },
+          {
+            "name": "Projektmenedzsment és csapatmunka",
+            "outcomes": [
+              {
+                "description": "Hatékonyan együttműködik a csapattagokkal a projekt tervezése és kivitelezése során"
+              },
+              {
+                "description": "Betartja a projekt időkereteit és szakmai minőségi követelményeit"
+              },
+              {
+                "description": "Megfelelően dokumentálja a projekt folyamatát és eredményeit angol nyelven"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Írásos angol nyelvű szakmai anyagok feldolgozása (24 óra)",
+        "elements": [
+          {
+            "name": "Szakmai szövegek önálló feldolgozása",
+            "outcomes": [
+              {
+                "description": "Angol nyelvű szakmai anyagokat (pl. dokumentáció, tutoriálok, termékleírások) olvas és értelmez önállóan"
+              },
+              {
+                "description": "Online szótárak segítségével megkeresi és elsajátítja az ismeretlen szakmai kifejezéseket"
+              },
+              {
+                "description": "Rövid magyar nyelvű összefoglalót készít az olvasott szakmai szövegek tartalmáról"
+              }
+            ]
+          },
+          {
+            "name": "IT-alapismeretek és trendek követése",
+            "outcomes": [
+              {
+                "description": "Angol nyelvű IT-portálokról naprakész információkat gyűjt a technológiai újdonságokról"
+              },
+              {
+                "description": "Feldolgozza és értelmezi a szakmai tanulmányaihoz kapcsolódó angol nyelvű elektronikus tananyagokat"
+              },
+              {
+                "description": "Megérti és alkalmazza a termékdokumentációkban és kézikönyvekben található utasításokat"
+              }
+            ]
+          },
+          {
+            "name": "Szakmai tartalom értelmezése és megosztása",
+            "outcomes": [
+              {
+                "description": "Csoportos megbeszéléseken bemutatja és megvitatja az olvasott szakmai anyagok tartalmát"
+              },
+              {
+                "description": "Szakmai fórumokon és tudásbázisokban célzottan keres megoldásokat specifikus problémákra"
+              },
+              {
+                "description": "Folyamatosan bővíti szakmai szókincsét az olvasott anyagok segítségével"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Angol nyelvű szövegalkotás - e-mail (18 óra)",
+        "elements": [
+          {
+            "name": "E-mail kommunikáció alapjai",
+            "outcomes": [
+              {
+                "description": "Alkalmazza az angol nyelvű e-mailek formai és stilisztikai szabályait (megszólítás, elköszönés, udvariassági formulák)"
+              },
+              {
+                "description": "Használja magabiztosan a gyakori kommunikációs helyzetekhez kapcsolódó kifejezéseket (elnézéskérés, köszönetnyilvánítás, kérés)"
+              },
+              {
+                "description": "Megfogalmaz rövid, egyszerű e-maileket a tanult formulák és szókincs felhasználásával"
+              }
+            ]
+          },
+          {
+            "name": "Szakmai e-mail kommunikáció",
+            "outcomes": [
+              {
+                "description": "Lebonyolít többfordulós angol nyelvű e-mail váltást informatikai szakmai témában"
+              },
+              {
+                "description": "Készít részletes, 10-12 mondatos szakmai e-maileket megfelelő stílusban és formában"
+              },
+              {
+                "description": "Hatékonyan kommunikál projektcsapat tagjaként e-mailen keresztül, betartva az üzleti etikett szabályait"
+              }
+            ]
+          },
+          {
+            "name": "Csoportos kommunikáció és projektmunka",
+            "outcomes": [
+              {
+                "description": "Részt vesz életszerű szituációkat szimuláló e-mailes szerepjátékokban 2-3 fős csoportokban"
+              },
+              {
+                "description": "Használja az azonnali üzenetküldő szolgáltatásokat (chat) szakmai kommunikációra"
+              },
+              {
+                "description": "Dokumentálja és nyomon követi a projektmunkához kapcsolódó e-mail kommunikációt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Keresés és ismeretszerzés angol nyelven (22 óra)",
+        "elements": [
+          {
+            "name": "Angol nyelvű keresési stratégiák",
+            "outcomes": [
+              {
+                "description": "Hatékonyan állít össze angol nyelvű keresőkifejezéseket a releváns szakmai információk megtalálásához"
+              },
+              {
+                "description": "Kiválasztja és értékeli a találati listából a legmegfelelőbb forrásokat a keresett információ szempontjából"
+              },
+              {
+                "description": "Dokumentálja a keresési folyamatot és eredményeket strukturált formában"
+              }
+            ]
+          },
+          {
+            "name": "Online szakmai források feldolgozása",
+            "outcomes": [
+              {
+                "description": "Értelmezi és feldolgozza az angol nyelvű technikai dokumentációkat, tutorialokat és egyéb szakmai forrásokat"
+              },
+              {
+                "description": "Megérti és alkalmazza a talált megoldásokat saját szakmai problémáinak megoldására"
+              },
+              {
+                "description": "Folyamatosan bővíti szakmai szókincsét az online források segítségével"
+              }
+            ]
+          },
+          {
+            "name": "Önálló ismeretszerzés és problémamegoldás",
+            "outcomes": [
+              {
+                "description": "Megtervez és végrehajt egy egyszerű szakmai miniprojektet angol nyelvű források felhasználásával"
+              },
+              {
+                "description": "Lépésről lépésre dokumentálja a projekt végrehajtását és a felhasznált információforrásokat"
+              },
+              {
+                "description": "Kritikusan értékeli a talált megoldások alkalmazhatóságát és megbízhatóságát"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Szóbeli kommunikáció IT-környezetben, projektalapon II. (20 óra)",
+        "elements": [
+          {
+            "name": "Termékbemutató brosúra készítése",
+            "outcomes": [
+              {
+                "description": "Megtervezi és végrehajtja egy informatikai termék vagy szolgáltatás bemutatására szolgáló brosúra elkészítésének projektjét"
+              },
+              {
+                "description": "Angol nyelvű forrásokból önállóan gyűjt és rendszerez információkat a bemutatandó termékről vagy szolgáltatásról"
+              },
+              {
+                "description": "Kreatív és egyedi megközelítéssel, saját szavaival fogalmazza meg a termékismertető szövegét angol nyelven"
+              }
+            ]
+          },
+          {
+            "name": "Csoportos projektmunka és dokumentáció",
+            "outcomes": [
+              {
+                "description": "Hatékonyan együttműködik a projektcsapat tagjaival a feladatok elosztásában és végrehajtásában"
+              },
+              {
+                "description": "Nyomon követi és dokumentálja a projekt előrehaladását és a felhasznált információforrásokat"
+              },
+              {
+                "description": "Professzionális formában elkészíti a végleges brosúrát a rendelkezésre álló technikai eszközök felhasználásával"
+              }
+            ]
+          },
+          {
+            "name": "Üzleti kommunikáció",
+            "outcomes": [
+              {
+                "description": "Hivatalos stílusú kísérőlevelet fogalmaz meg angol nyelven a brosúra továbbításához"
+              },
+              {
+                "description": "Betartja az üzleti kommunikáció formai és tartalmi követelményeit az e-mail írása során"
+              },
+              {
+                "description": "Határidőre és megfelelő minőségben készíti el és küldi el a projekttermékeket"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése	30	A REST szoftverarchitektúra alapjai és REST API kiszolgáló készítése	30	0
+A tiszta kód elméleti alapjai és gyakorlata	28	A tiszta kód elméleti alapjai és gyakorlata	28	0
+Adatbázis-tervezés	14	Adatbázis-tervezés	14	0
+Adatbázisok létrehozása	5	Adatbázisok létrehozása	5	0
+Adatbázisok mentése és helyreállítása	6	Adatbázisok mentése és helyreállítása	6	0
+Adatok kezelése	10	Adatok kezelése	10	0
+Adatvezérlő utasítások	10	Adatvezérlő utasítások	10	0
+AJAX	32	AJAX	16	16
+Angol nyelvű szövegalkotás - e-mail	36	Angol nyelvű szövegalkotás - e-mail	18	18
+Az adatbázis tervezés alapjai	5	Az adatbázis tervezés alapjai	5	0
+Az adatbázis-kezelés osztályai	12	Az adatbázis-kezelés osztályai	12	0
+Backend készítésére szolgáló keretrendszer	92	Backend készítésére szolgáló keretrendszer	46	46
+Bevezetés a szoftverfejlesztésbe	28	Beépített segédosztályok	12	16
+CMS-rendszerek	36	Bevezetés a szoftverfejlesztésbe	14	22
+Frontend készítésére szolgáló JavaScript framework	72	CMS-rendszerek	36	36
+Grafikus programozás	90	Frontend készítésére szolgáló JavaScript framework	36	54
+Haladó lekérdezések	16	Grafikus programozás	45	-29
+Haladó szintű objektumorientált programozás	32	Haladó lekérdezések	16	16
+Hallás utáni szövegértés	22	Haladó szintű objektumorientált programozás	32	-10
+HTML5 és CSS3	32	Hallás utáni szövegértés	22	10
+Integrációs tesztelés	45	HTML5 és CSS3	32	13
+Írásos angol nyelvű szakmai anyagok feldolgozása	48	Integrációs tesztelés 1.	20	28
+JavaScript	72	Integrációs tesztelés 2.	25	47
+JavaScript I.	40	Írásos angol nyelvű szakmai anyagok feldolgozása	24	16
+JavaScript II.	36	JavaScript	36	0
+Keresés és ismeretszerzés angol nyelven	44	JavaScript I.	40	4
+Kivételkezelés, hibakeresés	7	JavaScript II.	36	-29
+Lekérdezések	46	Keresés és ismeretszerzés angol nyelven	22	24
+Mobil alkalmazások fejlesztése	32	Kivételkezelés, hibakeresés	7	25
+Nevezetes algoritmusok és megvalósításuk OOP-technológiával	32	Lekérdezések	46	-14
+Objektumorientált fejlesztés	90	Metódusok	8	82
+Procedurális és objektumorientált szoftverfejlesztés	14	Mobil alkalmazások fejlesztése	32	-18
+Rétegelt architektúra és ORM	30	Nevezetes algoritmusok és megvalósításuk OOP-technológiával	32	-2
+Szóbeli kommunikáció	24	Objektumorientált fejlesztés	45	-21
+Szóbeli kommunikáció IT-környezetben, projektalapon I.	14	Procedurális és objektumorientált szoftverfejlesztés	14	0
+Szóbeli kommunikáció IT-környezetben, projektalapon II.	20	Projektmunka 1.	62	-42
+Tárolt objektumok	10	Projektmunka 2.	58	-48
+Tartalomkezelő keretrendszer CMS használata	20	Projektmunka 3.	55	-35
+Unit tesztelés	28	Rétegelt architektúra és ORM	30	-2

@@ -408,8 +408,6 @@
 
 #### Az adatbázis-kezelés osztályai (12 óra)
 
-#### Az adatbázis-kezelés osztályai
-
 ##### Adatbázis-kapcsolat létrehozása és kezelése
 
 - Telepíti és konfigurálja az adatbázisszerver eléréséhez szükséges modulokat és referenciákat Java vagy C# környezetben
@@ -534,7 +532,7 @@ A témakör célja, hogy a tanuló betekintést nyerjen a mobil alkalmazások fe
 - Szerializál és deszerializál JSON formátumú adatokat a hálózati kommunikáció során
 - Megvalósítja az alkalmazás adatainak perzisztens tárolását és kezelését lokális adatbázisban vagy fájlrendszerben
 
-#### Projektmunka (62 óra)
+#### Projektmunka 1. (62 óra)
 
 ##### Projekt tervezés és előkészítés
 
@@ -619,8 +617,6 @@ A témakör célja a JavaScript nyelv alapjainak és az eseményvezérelt webpro
 - Végrehajt HTTP kéréseket a fetch API segítségével külső szolgáltatások felé
 - Feldolgozza és kezeli a JSON formátumú adatokat a REST API válaszokban
 - Megvalósít AJAX-alapú dinamikus tartalomfrissítést a felhasználói felületen
-
-#### CMS-rendszerek (36 óra)
 
 #### CMS-rendszerek (36 óra)
 
@@ -714,7 +710,7 @@ A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a 
 - Fejleszt saját beépülő modulokat speciális funkciók megvalósításához
 - Készít egyedi widgeteket a felhasználói felület bővítéséhez és a tartalom dinamikus megjelenítéséhez
 
-#### Integrációs tesztelés (20 óra)
+#### Integrációs tesztelés 1. (20 óra)
 
 ##### Tesztelési alapismeretek és stratégiák
 
@@ -734,7 +730,7 @@ A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a 
 - Teszteli az alkalmazás állapotváltozásait és validálja a felhasználói interakciók eredményeit
 - Készít end-to-end teszteket komplex felhasználói folyamatok ellenőrzésére
 
-#### Projektmunka (58 óra)
+#### Projektmunka 2. (58 óra)
 
 ##### Frontend alkalmazás tervezése és fejlesztése
 
@@ -816,7 +812,7 @@ A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a 
 - Teszteli az API működését HTTP kliens eszközök használatával
 - Implementál hibakezelést és megfelelő HTTP státuszkódokat alkalmaz
 
-#### Integrációs tesztelés (25 óra)
+#### Integrációs tesztelés 2. (25 óra)
 
 ##### Tesztelési környezet kialakítása
 
@@ -828,7 +824,7 @@ A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a 
 - Implementál HTTP kéréseket indító és feldolgozó teszteseteket
 - Ellenőrzi és validálja a HTTP válaszok tartalmát, státuszkódjait és fejléceit
 
-#### Projektmunka (55 óra)
+#### Projektmunka 3. (55 óra)
 
 ##### Web API fejlesztése
 
