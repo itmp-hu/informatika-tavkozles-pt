@@ -1,6 +1,6 @@
 [
   {
-    "name": "Weboldal fejlesztési projekt",
+    "name": "RESTful alkalmazás fejlesztése (frontend + backend)",
     "description": "A tanulók 2-3 fős csapatokban egy egyszerű RESTful alkalmazást készítenek, amely adatokat jelenít meg és kezel (pl. feladatlista, filmadatbázis). Feladatok: Frontend: React/Vue/Angular keretrendszer használata. Backend: Node.js (Express) vagy PHP/Laravel alapú API fejlesztése. Adatbázis: SQL (MySQL/PostgreSQL) vagy NoSQL (MongoDB). Tesztelés: Unit tesztek (Jest, Mocha). Technológiák: Frontend: React/Vue, Axios (AJAX). Backend: Node.js/Spring Boot, REST API. Adatbázis: SQL/NoSQL.",
     "durationInLesson": "34",
     "skillsDomains": [
@@ -11,7 +11,7 @@
     ]
   },
   {
-    "name": "Python programozási projekt",
+    "name": "Mobilalkalmazás fejlesztése",
     "description": "A tanulók 2-3 fős csapatokban egy egyszerű, platformfüggetlen mobilalkalmazást készítenek (pl. időjárás app, jegyzetelő, quiz játék). Feladatok: UI/UX tervezés: Figma/Adobe XD prototípus. Fejlesztés: React Native (JavaScript) vagy Flutter (Dart). API integráció: Külső adatforrás (pl. OpenWeatherMap). Tesztelés: Emulátoron és fizikai eszközön. Technológiák: React Native / Flutter.Firebase (hitelesítés, adatbázis). Git, GitHub, Agile (Scrum).",
     "durationInLesson": "34",
     "skillsDomains": [
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "name": "Elektronika, MI és IOT projekt",
+    "name": " Modern webalkalmazás Tailwind CSS-sel és JavaScript keretrendszerrel",
     "description": "A tanulók 2-3 fős csapatokban egy dinamikus, modern webalkalmazást fejlesztenek (pl. feladatkezelő, receptgyűjtemény, közösségi platform), ahol a Tailwind CSS-t használják a designhoz. Feladatok: UI/UX: Tailwind CSS segítségével reszponzív, komponens-alapú felület kialakítása. Frontend: Vue.js/React vagy Svelte keretrendszer használata interaktivitásért. Adatkezelés: Lokális state (pl. Vuex/Pinia) vagy egyszerű API integráció (pl. JSON Server). Verziókezelés: Git + GitHub, csapatmunka (pl. feature branch-ek). Technológiák: Tailwind CSS, Vue.js/React, JavaScript (ES6+). Git, GitHub, Vite build rendszer.",
     "durationInLesson": "30",
     "skillsDomains": [
