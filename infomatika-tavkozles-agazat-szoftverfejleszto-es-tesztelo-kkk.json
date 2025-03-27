@@ -362,7 +362,7 @@
             "name": "Frontend készítésére szolgáló JavaScript framework",
             "numberOfLesson": 26
           },
-          { "name": "Projektmunka 2.", "numberOfLesson": 10 }
+          { "name": "Projektmunka 2.", "numberOfLesson": 6 }
         ]
       },
       {
@@ -394,7 +394,7 @@
           },
           {
             "name": "Projektmunka 3.",
-            "numberOfLesson": 26
+            "numberOfLesson": 20
           }
         ]
       },
@@ -553,7 +553,16 @@
     "learningElements": [
       {
         "name": "Frontend programozás és tesztelés (186 óra)",
-        "topics": [{ "name": "Projektmunka 2.", "numberOfLesson": 2 }]
+        "topics": [{ "name": "Projektmunka 2.", "numberOfLesson": 6 }]
+      },
+      {
+        "name": "Backend programozás és tesztelés (186 óra)",
+        "topics": [
+          {
+            "name": "Projektmunka 3.",
+            "numberOfLesson": 6
+          }
+        ]
       }
     ]
   },

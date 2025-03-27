@@ -1,30 +1,33 @@
 [
   {
     "name": "Weboldal fejlesztési projekt",
-    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy modern, reszponzív weboldalt, amely egy fiktív vagy valós üzleti problémát old meg. A projekt témája lehet például: egy étterem vagy kávézó weboldala, egy esemény szervezési portál, egy online könyvesbolt, egy sportklub honlapja vagy egy oktatási intézmény weboldala. A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt során a tanulók HTML5, CSS3 és alapvető JavaScript technológiákkal készítenek felhasználóbarát, reszponzív felületet. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett weboldalt és a projekt dokumentációját a többi csapat előtt.",
+    "description": "A tanulók 2-3 fős csapatokban egy egyszerű RESTful alkalmazást készítenek, amely adatokat jelenít meg és kezel (pl. feladatlista, filmadatbázis). Feladatok: Frontend: React/Vue/Angular keretrendszer használata. Backend: Node.js (Express) vagy PHP/Laravel alapú API fejlesztése. Adatbázis: SQL (MySQL/PostgreSQL) vagy NoSQL (MongoDB). Tesztelés: Unit tesztek (Jest, Mocha). Technológiák: Frontend: React/Vue, Axios (AJAX). Backend: Node.js/Spring Boot, REST API. Adatbázis: SQL/NoSQL.",
     "durationInLesson": "34",
     "skillsDomains": [
-      "E. Programozás és webfejlesztés (10;11;12;13. sor)",
-      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+      "A. Szoftverfejlesztési módszertan és eszközhasználat (1;2;7;16;17;21. sor)",
+      "B. Rendszerintegráció és üzemeltetés (3;15;19;20. sor)",
+      "C. Webes és mobil technológiák (4;5;6;10;11;14. sor)",
+      "D. Alkalmazásfejlesztés és adatbáziskezelés (8;9;12;13;18. sor)"
     ]
   },
   {
     "name": "Python programozási projekt",
-    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy egyszerű Python alkalmazást, amely egy fiktív vagy valós üzleti problémát old meg. A projekt témája lehet például: egy egyszerű játék (pl. kő-papír-olló, számkitaláló, szöveges kalandjáték), egy adatfeldolgozó alkalmazás (pl. CSV fájlok feldolgozása, egyszerű statisztikák készítése), vagy egy automatizációs szkript (pl. fájlok átnevezése, képek feldolgozása, egyszerű feladatkezelő). A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett alkalmazást és a projekt dokumentációját a többi csapat előtt.",
+    "description": "A tanulók 2-3 fős csapatokban egy egyszerű, platformfüggetlen mobilalkalmazást készítenek (pl. időjárás app, jegyzetelő, quiz játék). Feladatok: UI/UX tervezés: Figma/Adobe XD prototípus. Fejlesztés: React Native (JavaScript) vagy Flutter (Dart). API integráció: Külső adatforrás (pl. OpenWeatherMap). Tesztelés: Emulátoron és fizikai eszközön. Technológiák: React Native / Flutter.Firebase (hitelesítés, adatbázis). Git, GitHub, Agile (Scrum).",
     "durationInLesson": "34",
     "skillsDomains": [
-      "E. Programozás és webfejlesztés (10;11;12;13. sor)",
-      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+      "B. Rendszerintegráció és üzemeltetés (3;15;19;20. sor)",
+      "C. Webes és mobil technológiák (4;5;6;10;11;14. sor)",
+      "D. Alkalmazásfejlesztés és adatbáziskezelés (8;9;12;13;18. sor)"
     ]
   },
   {
     "name": "Elektronika, MI és IOT projekt",
-    "description": "A tanulók 4-5 fős csapatokban fejlesztenek egy okosotthon rendszer prototípusát, amely Arduino vagy Raspberry Pi alapú eszközökkel és egyszerű szenzorokkal (pl. hőmérő, fényérzékelő, mozgásérzékelő) működik. A projekt témája lehet például: okos szobai hőmérséklet szabályozó, automatikus növényöntöző rendszer, vagy okos világítás vezérlő. A csapatok a Git verziókezelő rendszert használják a kódkezeléshez, valamint a GitHub platformot a projekt dokumentáció kezeléséhez. A csapatok a Slack vagy Microsoft Teams kommunikációs eszközökkel tartják a kapcsolatot egymással és a projektvezetővel. A projekt során a tanulók megismerik az elektronikai alapfogalmakat, az IoT eszközök működését, valamint a mesterséges intelligencia alapvető elveit. A projekt dokumentációját és prezentációját az irodai szoftverek segítségével készítik el. A projekt végén minden csapat bemutatja a fejlesztett rendszert és a projekt dokumentációját a többi csapat előtt.",
+    "description": "A tanulók 2-3 fős csapatokban egy dinamikus, modern webalkalmazást fejlesztenek (pl. feladatkezelő, receptgyűjtemény, közösségi platform), ahol a Tailwind CSS-t használják a designhoz. Feladatok: UI/UX: Tailwind CSS segítségével reszponzív, komponens-alapú felület kialakítása. Frontend: Vue.js/React vagy Svelte keretrendszer használata interaktivitásért. Adatkezelés: Lokális state (pl. Vuex/Pinia) vagy egyszerű API integráció (pl. JSON Server). Verziókezelés: Git + GitHub, csapatmunka (pl. feature branch-ek). Technológiák: Tailwind CSS, Vue.js/React, JavaScript (ES6+). Git, GitHub, Vite build rendszer.",
     "durationInLesson": "30",
     "skillsDomains": [
-      "A. Elektronikai ismeretek (1;2. sor)",
-      "D. Modern technológiák alkalmazása (10. sor)",
-      "F. Általános szakmai kompetenciák és soft skillek (14;15;16. sor)"
+      "B. Rendszerintegráció és üzemeltetés (3;15;19;20. sor)",
+      "C. Webes és mobil technológiák (4;5;6;10;11;14. sor)",
+      "D. Alkalmazásfejlesztés és adatbáziskezelés (8;9;12;13;18. sor)"
     ]
   }
 ]
