@@ -985,3 +985,23 @@ A témakör célja, hogy a tanulók megismerjék és hatékonyan használják a 
 - Hivatalos stílusú kísérőlevelet fogalmaz meg angol nyelven a brosúra továbbításához
 - Betartja az üzleti kommunikáció formai és tartalmi követelményeit az e-mail írása során
 - Határidőre és megfelelő minőségben készíti el és küldi el a projekttermékeket
+
+### Szoftvertesztelés (72 óra)
+
+#### A szoftvertesztelés alapjai (14 óra)
+
+#### Szoftverfejlesztési módszertanok (16 óra)
+
+#### Szoftvertesztelési módszerek (42 óra)
+
+### IKT projektmunka II. (216 óra)
+
+#### Önismereti és kommunikációs készségek fejlesztése II. (20 óra)
+
+#### Csapatmunka és együttműködés II. (20 óra)
+
+#### Prezentációs készségek fejlesztése II. (20 óra)
+
+#### Projektszervezés és -menedzsment II. (20 óra)
+
+#### Csapatban végzett projektmunka II. (136 óra)

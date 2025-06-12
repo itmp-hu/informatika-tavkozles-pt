@@ -133,6 +133,33 @@
       {
         "name": "Backend programozás és tesztelés (186 óra)",
         "topics": [{ "name": "Projektmunka 3.", "numberOfLesson": 2 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Önismereti és kommunikációs készségek fejlesztése II.",
+            "numberOfLesson": 20
+          }
+        ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Projektszervezés és -menedzsment II.",
+            "numberOfLesson": 10
+          }
+        ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatmunka és együttműködés II.",
+            "numberOfLesson": 10
+          }
+        ]
       }
     ]
   },
@@ -152,6 +179,15 @@
       {
         "name": "Frontend programozás és tesztelés (186 óra)",
         "topics": [{ "name": "Projektmunka 2.", "numberOfLesson": 10 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -178,6 +214,15 @@
           { "name": "AJAX", "numberOfLesson": 6 },
           { "name": "Projektmunka 2.", "numberOfLesson": 14 }
         ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -203,6 +248,15 @@
       {
         "name": "Webprogramozás (144 óra)",
         "topics": [{ "name": "JavaScript II.", "numberOfLesson": 14 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -272,6 +326,15 @@
       {
         "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
         "topics": [{ "name": "Projektmunka 1.", "numberOfLesson": 16 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -313,6 +376,15 @@
             "numberOfLesson": 12
           }
         ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -343,6 +415,15 @@
       {
         "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
         "topics": [{ "name": "Projektmunka 1.", "numberOfLesson": 15 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -368,6 +449,15 @@
       {
         "name": "Webprogramozás (144 óra)",
         "topics": [{ "name": "JavaScript II.", "numberOfLesson": 8 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -401,6 +491,15 @@
       {
         "name": "Adatbázis-kezelés II. (62 óra)",
         "topics": [{ "name": "Haladó lekérdezések", "numberOfLesson": 6 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -432,6 +531,15 @@
           },
           { "name": "Projektmunka 1.", "numberOfLesson": 20 }
         ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 14
+          }
+        ]
       }
     ]
   },
@@ -462,6 +570,15 @@
           },
           { "name": "Projektmunka 2.", "numberOfLesson": 6 }
         ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatban végzett projektmunka II.",
+            "numberOfLesson": 10
+          }
+        ]
       }
     ]
   },
@@ -474,6 +591,33 @@
     "antonomy": "Saját fejlesztésként megvalósított kisebb projektekben önállóan végzi a tesztelést, tesztelői szerepben nagyobb projektekben irányítás mellett végez meghatározott tesztelési feladatokat.",
     "projectConnection": "",
     "learningElements": [
+      {
+        "name": "Szoftvertesztelés (72 óra)",
+        "topics": [
+          {
+            "name": "A szoftvertesztelés alapjai",
+            "numberOfLesson": 14
+          }
+        ]
+      },
+      {
+        "name": "Szoftvertesztelés (72 óra)",
+        "topics": [
+          {
+            "name": "Szoftverfejlesztési módszertanok",
+            "numberOfLesson": 16
+          }
+        ]
+      },
+      {
+        "name": "Szoftvertesztelés (72 óra)",
+        "topics": [
+          {
+            "name": "Szoftvertesztelési módszerek",
+            "numberOfLesson": 42
+          }
+        ]
+      },
       {
         "name": "Asztali és mobil alkalmazások fejlesztése és tesztelése (217 óra)",
         "topics": [{ "name": "Unit tesztelés", "numberOfLesson": 28 }]
@@ -539,6 +683,15 @@
       {
         "name": "Frontend programozás és tesztelés (186 óra)",
         "topics": [{ "name": "Projektmunka 2.", "numberOfLesson": 2 }]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Prezentációs készségek fejlesztése II.",
+            "numberOfLesson": 20
+          }
+        ]
       }
     ]
   },
@@ -602,6 +755,24 @@
           {
             "name": "Szóbeli kommunikáció IT-környezetben, projektalapon II.",
             "numberOfLesson": 20
+          }
+        ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Projektszervezés és -menedzsment II.",
+            "numberOfLesson": 10
+          }
+        ]
+      },
+      {
+        "name": "IKT projektmunka II. (216 óra)",
+        "topics": [
+          {
+            "name": "Csapatmunka és együttműködés II.",
+            "numberOfLesson": 10
           }
         ]
       }
