@@ -13,7 +13,7 @@
 
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: #667eea;
+        background: white;
         padding: 40px 20px;
         min-height: 100vh;
         position: relative;
@@ -28,19 +28,19 @@
 
       .header {
         text-align: center;
-        color: white;
+        color: #333;
         margin-bottom: 40px;
       }
 
       .header h1 {
-        font-size: 2.5em;
+        font-size: 3em;
         margin-bottom: 10px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        color: #667eea;
       }
 
       .header p {
-        font-size: 1.2em;
-        opacity: 0.95;
+        font-size: 1.44em;
+        color: #666;
       }
 
       .skills-container {
@@ -50,18 +50,12 @@
       }
 
       .skills-intro {
-        font-size: 1.1em;
-        color: white;
+        font-size: 1.32em;
+        color: #555;
         margin-bottom: 30px;
         line-height: 1.6;
         font-weight: 500;
         text-align: center;
-        background: rgba(255, 255, 255, 0.15);
-        padding: 25px;
-        border-radius: 15px;
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       }
 
       .skills-list {
@@ -72,6 +66,7 @@
       }
 
       .skills-list li {
+        font-size: 1.1em;
         padding: 0;
         position: relative;
         color: #444;
@@ -137,7 +132,7 @@
       }
 
       .card-title {
-        font-size: 1.1em;
+        font-size: 1.12em;
         font-weight: bold;
         padding: 15px 20px;
         padding-right: 50px;
@@ -220,16 +215,75 @@
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
       }
 
+      .testimonial {
+        margin-top: 50px;
+        padding: 40px;
+        background: #f8f9fa;
+        border-radius: 15px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .testimonial-image {
+        flex-shrink: 0;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #667eea;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .testimonial-content {
+        flex: 1;
+      }
+
+      .testimonial-text {
+        font-size: 1.32em;
+        line-height: 1.8;
+        color: #444;
+        font-style: italic;
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 30px;
+      }
+
+      .testimonial-text::before {
+        content: '"';
+        position: absolute;
+        left: 0;
+        top: -10px;
+        font-size: 4.8em;
+        color: #667eea;
+        opacity: 0.3;
+        font-family: Georgia, serif;
+      }
+
+      .testimonial-author {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #667eea;
+        margin-top: 15px;
+      }
+
+      .testimonial-author-title {
+        font-size: 1.08em;
+        color: #666;
+        font-weight: normal;
+      }
+
       .footer {
         text-align: center;
-        color: white;
+        color: #666;
         margin-top: 40px;
         padding: 25px;
-        background: rgba(255, 255, 255, 0.15);
+        background: #f8f9fa;
         border-radius: 15px;
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
       }
 
       @media (max-width: 1024px) {
@@ -240,7 +294,7 @@
 
       @media (max-width: 768px) {
         .header h1 {
-          font-size: 2em;
+          font-size: 2.4em;
         }
 
         .skills-container {
@@ -249,6 +303,20 @@
 
         .skills-list {
           grid-template-columns: 1fr;
+        }
+
+        .testimonial {
+          flex-direction: column;
+          text-align: center;
+          padding: 30px 20px;
+        }
+
+        .testimonial-text {
+          padding-left: 20px;
+        }
+
+        .testimonial-text::before {
+          left: -5px;
         }
       }
     </style>
@@ -377,11 +445,30 @@
         </ul>
       </div>
 
-      <div class="footer">
-        <p>
-          <strong>Szoftverfejlesztő és -tesztelő technikus</strong> | Duális
-          képzés
-        </p>
+      <div class="testimonial">
+        <img
+          src="infograph/csengo-peter.jpg"
+          alt="Csengő Péter"
+          class="testimonial-image"
+        />
+        <div class="testimonial-content">
+          <p class="testimonial-text">
+            Három év tapasztalata alapján azt látom, hogy azok a diákok, akik
+            duális képzésben nálunk tanulnak képesek hasznos tagjaivá válni a
+            szakmai csapatunknak. Képesek team munkában dolgozni, önálló
+            projekteket végig vinni, kisebb projektek esetén önállóan megoldani.
+            Nem csak szakmailag fejlődtek, megismerték a céges kultúrát.
+            Nemrégiben választaniuk kellett az osztálykirándulás és a céges
+            csapatépítő között, mert egy időben szerveződött a két program. A
+            céges csapatépítő mellet döntöttek.
+          </p>
+          <div class="testimonial-author">
+            Csengő Péter
+            <span class="testimonial-author-title"
+              >, Miskolc Holding IT igazgatója</span
+            >
+          </div>
+        </div>
       </div>
     </div>
   </body>
