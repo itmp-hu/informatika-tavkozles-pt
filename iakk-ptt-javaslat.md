@@ -1,5 +1,21 @@
-|                          | 5 éves képzés                                                      | 2 éves képzés              |
-|--------------------------|--------------------------------------------------------------------|----------------------------|
-|                                                      | 9   | 10   | 11  | 12  | 13 | összesen | 13     | 14     | összesen |
-| **IKT Projektmunka II.**                             | 0   | 0    | 108 | 108 | 0  | 216      | 100    | 117    | 217      |
-| Önismeret és kommunikációs készségek fejlesztése II. | 0   | 0    | 0   | 0   | 0  | 0        | 0      | 0      | 0        |
+# 5 éves képzés      
+
+## IKT projektmunka II. (216 óra)
+
+Tanegységek:
+- Önismereti és kommunikációs készségek fejlesztése II.
+- Csapatmunka és együttműködés II.
+- Kritikus gondolkodás fejlesztése
+- Prezentációs készségek fejlesztése II.
+- Projektszervezés és -menedzsment II.
+- Csapatban végzett projektmunka II.
+
+Tanórák:
+- 9. évfolyam : 0
+- 10. évfolyam: 0
+- 11. évfolyam: 108
+- 12. évfolyam: 108
+- 13. évfolyam: 0
+
+
+# 2 éves képzés
