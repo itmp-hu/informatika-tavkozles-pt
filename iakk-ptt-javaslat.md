@@ -23,7 +23,7 @@ Tanórák 2éves képzés esetén (217 óra):
 |13            | 100       |
 |14            | 117       |
 
-## Asztali alkalmazások fejlesztése  (100 óra)
+## Asztali alkalmazások fejlesztése
 
 Tanegységek:
 - Algoritmusok, logikus gondolkodás fejlesztése
@@ -34,7 +34,7 @@ Tanegységek:
 - Vezérlési szerkezetek
 - Objektumokkal végzett munka
 
-Tanórák:
+Tanórák 5éves képzés esetén (100 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -43,7 +43,13 @@ Tanórák:
 |12            | 50        |
 |13            | 0         |
 
-## Adatbázis-kezelés I.  (80 óra)
+Tanórák 2éves képzés esetén (100 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 100       |
+|14            | 0         |
+
+## Adatbázis-kezelés I. 
 
 Tanegységek:
 - Az adatbázis tervezés alapjai
@@ -52,7 +58,7 @@ Tanegységek:
 - Lekérdezések
 - Adatbázisok mentése és helyreállítása
 
-Tanórák:
+Tanórák 5éves képzés esetén (80 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -61,7 +67,13 @@ Tanórák:
 |12            | 0         |
 |13            | 0         |
 
-## Adatbázis-kezelés II.  (100 óra)
+Tanórák 2éves képzés esetén (80 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 80        |
+|14            | 0         |
+
+## Adatbázis-kezelés II.
 
 Tanegységek:
 - Adatbázis-tervezés
@@ -70,7 +82,7 @@ Tanegységek:
 - Tárolt objektumok
 - Adattárház felépítés, munka nagyméretű adatbázisokkal
 
-Tanórák:
+Tanórák 5éves képzés esetén (100 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -79,7 +91,13 @@ Tanórák:
 |12            | 100       |
 |13            | 0         |
 
-## Szoftvertervezés.  (220 óra)
+Tanórák 2éves képzés esetén (100 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 0         |
+|14            | 100       |
+
+## Szoftvertervezés
 
 Tanegységek:
 - Szoftverfejlesztési modellek, architektúrák
@@ -95,7 +113,7 @@ Tanegységek:
 - Kivberbiztonság
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (220 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -104,7 +122,13 @@ Tanórák:
 |12            | 0         |
 |13            | 220       |
 
-## Szoftvertesztelés.  (72 óra)
+Tanórák 2éves képzés esetén (220 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 0         |
+|14            | 220       |
+
+## Szoftvertesztelés
 
 Tanegységek:
 - A szoftvertesztelés alapjai
@@ -113,7 +137,7 @@ Tanegységek:
 - Tesztautomatizálás
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (72 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -122,7 +146,13 @@ Tanórák:
 |12            | 0         |
 |13            | 0         |
 
-## Mesterséges intelligencia ismeretek.  (72 óra)
+Tanórák 2éves képzés esetén (72 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 72        |
+|14            | 0         |
+
+## Mesterséges intelligencia ismeretek
 
 Tanegységek:
 - MI módszertanok
@@ -130,7 +160,7 @@ Tanegységek:
 - Adattudós ismeretek
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (72 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -139,7 +169,13 @@ Tanórák:
 |12            | 72        |
 |13            | 0         |
 
-## Webprogramozás   (120 óra)
+Tanórák 2éves képzés esetén (72 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 72        |
+|14            | 0         |
+
+## Webprogramozás
 
 Tanegységek:
 - HTML5 és CSS3
@@ -148,7 +184,7 @@ Tanegységek:
 - Third-party API-k használata
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (120 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -157,7 +193,13 @@ Tanórák:
 |12            | 120       |
 |13            | 0         |
 
-## Frontend programozás és tesztelés   (186 óra)
+Tanórák 2éves képzés esetén (120 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 20        |
+|14            | 100       |
+
+## Frontend programozás és tesztelés
 
 Tanegységek:
 - JavaScript
@@ -167,7 +209,7 @@ Tanegységek:
 - Projektmunka
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (186 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -176,7 +218,13 @@ Tanórák:
 |12            | 0         |
 |13            | 186       |
 
-## Backend programozás és tesztelés   (186 óra)
+Tanórák 2éves képzés esetén (186 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 0         |
+|14            | 186       |
+
+## Backend programozás és tesztelés
 
 Tanegységek:
 - Backend készítésére szolgáló keretrendszer
@@ -186,7 +234,7 @@ Tanegységek:
 - Projektmunka
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (186 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -195,7 +243,13 @@ Tanórák:
 |12            | 0         |
 |13            | 186       |
 
-## Szakmai Angol   (137 óra)
+Tanórák 2éves képzés esetén (186 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 0         |
+|14            | 186       |
+
+## Szakmai Angol
 
 Tanegységek:
 - Hallás utáni szövegértés
@@ -207,7 +261,7 @@ Tanegységek:
 - Szóbeli kommunikáció IT-környezetben projekt alapon II.
 
 
-Tanórák:
+Tanórák 5éves képzés esetén (137 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -216,5 +270,8 @@ Tanórák:
 |12            | 60        |
 |13            | 38        |
 
-
-# 2 éves képzés
+Tanórák 2éves képzés esetén (137 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 60        |
+|14            | 77        |
