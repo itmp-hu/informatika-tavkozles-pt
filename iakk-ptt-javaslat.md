@@ -1,5 +1,3 @@
-# 5 éves képzés      
-
 ## IKT projektmunka II. (216 / 217 óra)
 
 Tanegységek:
@@ -10,7 +8,7 @@ Tanegységek:
 - Projektszervezés és -menedzsment II.
 - Csapatban végzett projektmunka II.
 
-Tanórák:
+Tanórák 5éves képzés esetén (216 óra):
 |Évfolyam      | Tanóra    |
 |--------------|-----------|
 |9             | 0         |
@@ -18,9 +16,12 @@ Tanórák:
 |11            | 108       |
 |12            | 108       |
 |13            | 0         |
-|2 éves képzés esetén      |
-|2/13          | 100       |
-|2/14          | 117       |
+
+Tanórák 2éves képzés esetén (217 óra):
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|13            | 100       |
+|14            | 117       |
 
 ## Asztali alkalmazások fejlesztése  (100 óra)
 
