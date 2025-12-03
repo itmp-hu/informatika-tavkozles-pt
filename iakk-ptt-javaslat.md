@@ -11,11 +11,13 @@ Tanegységek:
 - Csapatban végzett projektmunka II.
 
 Tanórák:
-9. évfolyam : 0
-10. évfolyam: 0
-11. évfolyam: 108
-12. évfolyam: 108
-13. évfolyam: 0
+|Évfolyam      | Tanóra    |
+|--------------|-----------|
+|9             | 0         |
+|10            | 0         |
+|11            | 108       |
+|12            | 108       |
+|13            | 0         |
 
 
 # 2 éves képzés
