@@ -12,14 +12,10 @@ Tanegységek:
 
 Tanórák:
 9. évfolyam : 0
-
 10. évfolyam: 0
-    
+11. évfolyam: 108
 12. évfolyam: 108
-    
-14. évfolyam: 108
-    
-16. évfolyam: 0
+13. évfolyam: 0
 
 
 # 2 éves képzés
