@@ -23,7 +23,7 @@ Tanórák 2éves képzés esetén (217 óra):
 |13            | 100       |
 |14            | 117       |
 
-## Asztali alkalmazások fejlesztése
+## Programozás alapismeretek
 
 Tanegységek:
 - Algoritmusok, logikus gondolkodás fejlesztése
