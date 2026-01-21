@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "title": "Git verziókezelő és csoportmunkaeszközök használata",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "Használja a Git verziókezelő rendszert, valamint a fejlesztést támogató csoport munkaeszközöket és szolgáltatásokat (pl. GitHub, Slack, Trello, Microsoft Teams, Webex Teams).",
     "knowledges": "Ismeri a legelterjedtebb csoportmunkaesz­közöket, valamint a Git verziókezelőrend­szer szolgáltatásait.",
@@ -35,6 +36,7 @@
   },
   {
     "id": "2",
+    "title": "Szoftverfejlesztési technikák és módszerek kiválasztása",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "Az általa végzett szoftverfejlesztési feladatok esetében kiválasztja a legmegfelelőbb technikákat, eljárásokat és módszereket.",
     "knowledges": "Elegendő ismerettel rendelkezik a meghatározó szoftverfejlesztési technológiák (programozási nyelvek, keretrendszerek, könyvtárak stb.), illetve módszerek erősségeiről és hátrányairól.",
@@ -95,6 +97,7 @@
   },
   {
     "id": "3",
+    "title": "Műszaki kommunikáció magyarul és angolul",
     "skillDomain": "Rendszerintegráció és üzemeltetés",
     "skills": "A megfelelő kommunikációs forma (e-mail, chat, telefon, prezentáció stb.) kiválasztásával munkatársaival és az ügyfelekkel hatékonyan kommunikál műszaki és egyéb információkról magyarul és angolul.",
     "knowledges": "Ismeri a különböző kommunikációs formákra (e-mail, chat, telefon, prezentáció stb.) vonatkozó etikai és belső kommunikációs szabályokat. Angol nyelvismerettel rendelkezik (KER B1 szint). Ismeri a gyakran használt szakmai kifejezéseket angolul.",
@@ -165,6 +168,7 @@
   },
   {
     "id": "4",
+    "title": "Reszponzív weblapok készítése HTML5 és CSS3 segítségével",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "Szabványos, reszponzív megjelenítést biztosító weblapokat hoz létre és formáz meg stíluslapok segítségével. Kereső optimalizálási beállításokat alkalmaz.",
     "knowledges": "Ismeri a HTML5 és a CSS3 szabvány alapvető nyelvi elemeit és eszközeit (strukturális és szemantikus HTML-elemek, attribútumok, listák, táblázatok, stílusjellemzők és függvények). Ismeri a reszponzív webdizájn alapelveit és a Bootstrap keretrendszer alapvető szolgáltatásait.",
@@ -193,6 +197,7 @@
   },
   {
     "id": "5",
+    "title": "JavaScript programozás webes alkalmazásokhoz",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "Egyszerűbb webhelyek dinamikus viselkedését (eseménykezelés, animáció stb.) biztosító kódot készít JavaScript nyelven.",
     "knowledges": "Alkalmazási szinten ismeri a JavaScript alapvető nyelvi elemeit, valamint az aszinkron programozás és az AJAX technológia működési elvét. Tisztában van a legfrissebb ECMAScript változatok (ES6 vagy újabb) hatékonyság növelő funkcióival.",
@@ -228,6 +233,7 @@
   },
   {
     "id": "6",
+    "title": "RESTful alkalmazás kliens oldali fejlesztése",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "RESTful alkalmazás kliens oldali komponensének fejlesztését végzi JavaScript nyelven.",
     "knowledges": "Tisztában van a REST szoftverarchitektúra elvével, alkalmazás szintjén ismeri az AJAX technológiát.",
@@ -262,6 +268,7 @@
   },
   {
     "id": "7",
+    "title": "Tiszta kód készítése",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "A tiszta kód elveinek megfelelő, mennyiségű megjegyzéssel ellátott, kellőképpen tagolt, jól átlátható kódot készít.",
     "knowledges": "Ismeri a tiszta kód készítésének alapelveit.",
@@ -282,6 +289,7 @@
   },
   {
     "id": "8",
+    "title": "Asztali alkalmazások fejlesztése adatbázis kezeléssel",
     "skillDomain": "Alkalmazásfejlesztés és adatbáziskezelés",
     "skills": "Adatbázis kezelést is végző konzolos vagy grafikus felületű asztali alkalmazást készít magas szintű programozási nyelvet (C#, Java) használva.",
     "knowledges": "Ismeri a választott magas szintű programozási nyelv alapvető nyelvi elemeit, illetve a hozzátartozó fejlesztési környezetet.",
@@ -340,6 +348,7 @@
   },
   {
     "id": "9",
+    "title": "Relációs adatbázis tervezés és SQL lekérdezések",
     "skillDomain": "Alkalmazásfejlesztés és adatbáziskezelés",
     "skills": "Adatkezelő alkalmazásokhoz relációs adatbázist tervez és hoz létre, többtáblás lekérdezéseket készít.",
     "knowledges": "Tisztában van a relációs adatbázis tervezés és kezelés alapelveivel. Haladó szinten ismeri a különböző típusú SQL lekérdezéseket, azok nyelvi elemeit és lehetőségeit.",
@@ -390,6 +399,7 @@
   },
   {
     "id": "10",
+    "title": "Mobil alkalmazások fejlesztése",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "Önálló- vagy komplex szoftverrendszerek részét képző kliens oldali alkalmazásokat fejleszt mobil eszközökre.",
     "knowledges": "Ismeri a választott mobil alkalmazás fejlesztésére alkalmas nyelvet és fejlesztői környezetet. Tisztában van a mobil alkalmazásfejlesztés alapelveivel.",
@@ -429,6 +439,7 @@
   },
   {
     "id": "11",
+    "title": "Frontend alkalmazások fejlesztése JavaScript keretrendszerekkel",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "Webes környezetben futtatható kliens oldali (frontend) alkalmazást készít JavaScript keretrendszer (pl. React, Vue, Angular) segítségével.",
     "knowledges": "Érti a frontend fejlesztésre szolgáló JavaScript keretrendszerek célját. Meg tudja nevezni a 3-4 legelterjedtebb keretrendszert. Alkalmazás szintjén ismeri a könyvtárak és modulok kezelését végző csomagkezelő rendszereket (package manager, pl. npm, yarn).  Ismeri a választott JavaScript keretrendszer működési elvét, nyelvi és strukturális elemeit.",
@@ -463,6 +474,7 @@
   },
   {
     "id": "12",
+    "title": "RESTful backend fejlesztés ORM-mel",
     "skillDomain": "Alkalmazásfejlesztés és adatbáziskezelés",
     "skills": "RESTful alkalmazás adatbázis kezelési feladatokat is ellátó szerveroldali komponensének (backend) fejlesztését végzi erre alkalmas nyelv vagy keretrendszer segítségével (pl. Node.js, Spring, Laravel).",
     "knowledges": "Érti a RESTful szoftverarchitek­túra lényegét. Tisztában van legalább egy backend készítésére szolgáló nyelv vagy keretrendszer működési módjával, nyelvi és strukturális elemeivel. Alkalmazás szintjén ismeri az objektum-relációs leképzés technológiát (ORM).",
@@ -505,6 +517,7 @@
   },
   {
     "id": "13",
+    "title": "Objektumorientált programozás alkalmazása",
     "skillDomain": "Alkalmazásfejlesztés és adatbáziskezelés",
     "skills": "Objektum-orientált (OOP) programozási módszertant alkalmazó asztali, webes és mobil alkalmazást készít.",
     "knowledges": "Ismeri az objektum-orientált programozás elvét, tisztában van az öröklődés, a polimorfizmus, a metódus/konstruk­tor túlterhelés fogalmával.",
@@ -545,6 +558,7 @@
   },
   {
     "id": "14",
+    "title": "CMS rendszerek használata és beépülők készítése",
     "skillDomain": "Webes és mobil technológiák",
     "skills": "Tartalomkezelő rendszer (CMS, pl. WordPress) segítségével webhelyet készít, egyéni problémák megoldására saját beépülőket hoz létre.",
     "knowledges": "Ismeri a tartalomkezelő-rendszerek célját és alapvető szolgáltatásait. Ismeri a beépülők célját és alkalmazási területeit.",
@@ -584,6 +598,7 @@
   },
   {
     "id": "15",
+    "title": "Szoftvertesztelés manuális és automatizált módszerekkel",
     "skillDomain": "Rendszerintegráció és üzemeltetés",
     "skills": "Manuális és automatizált szoftvertesztelést végezve ellenőrzi a szoftver hibátlan működését, dokumentálja a tesztek eredményét.",
     "knowledges": "Ismeri az unit tesztelés, valamint más tesztelési, hibakeresési technikák alapelveit és alapvető eszközeit.",
@@ -634,6 +649,7 @@
   },
   {
     "id": "16",
+    "title": "Problémamegoldás webes kereséssel és hibakeresés",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "Szoftverfejlesztés vagy -tesztelés során felmerülő problémákat old meg és hibákat hárít el webes kereséssel és internetes tudásbázisok használatával (pl. Stack Overflow).",
     "knowledges": "Ismeri a hibakeresés szisztematikus módszereit, a problémák elhárításának lépéseit. Ismeri a munkájához kapcsolódó internetes keresési módszereket és tudásbázisokat.",
@@ -660,6 +676,7 @@
   },
   {
     "id": "17",
+    "title": "Műszaki dokumentáció és prezentációk készítése",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "Munkája során hatékonyan használja az irodai szoftvereket, műszaki tartalmú dokumentumokat és bemutatókat készít. A munkája során keletkező digitális anyagokat mások által is átlátható rendszerben tárolja, az anyagokról rendszeresen biztonsági másolatot készít.",
     "knowledges": "Ismeri az irodai szoftverek haladó szintű szolgáltatásait.",
@@ -697,6 +714,7 @@
   },
   {
     "id": "18",
+    "title": "Modern információs technológiák alkalmazása",
     "skillDomain": "Alkalmazásfejlesztés és adatbáziskezelés",
     "skills": "Munkája során cél szerint alkalmazza a legmodernebb információs technológiákat és trendeket (virtualizáció, felhőtechnológia, IoT, mesterséges intelligencia, gépi tanulás stb.).",
     "knowledges": "Alapszintű alkalmazási szinten ismeri a legmodernebb információs technológiákat és trendeket (virtualizáció, felhőtechnológia, IoT, mesterséges intelligencia, gépi tanulás stb.).",
@@ -721,6 +739,7 @@
   },
   {
     "id": "19",
+    "title": "Szoftverrendszerek bevezetése és IT-környezet telepítése",
     "skillDomain": "Rendszerintegráció és üzemeltetés",
     "skills": "Részt vesz szoftverrendszerek ügyfeleknél történő bevezetésében, a működési környezetet biztosító IT-környezet telepítésében és beállításában.",
     "knowledges": "Ismeri a számítógép és a mobil informatikai eszközök felépítését (főbb komponenseket, azok feladatait) és működését. Ismeri az eszközök operációs rendszerének és alkalmazói szoftvereinek telepítési és beállítási lehetőségeit.",
@@ -780,6 +799,7 @@
   },
   {
     "id": "20",
+    "title": "Hálózati eszközök beállítása és biztonságos webes kommunikáció",
     "skillDomain": "Rendszerintegráció és üzemeltetés",
     "skills": "A szoftverfejlesztés és tesztelés munkakörnyezetének kialakításához beállítja a hálózati eszközöket, elvégzi a vezetékes és vezeték nélküli eszközök csatlakoztatását és hálózatbiztonsági beállítását. A fejlesztett szoftverben biztonságos, HTTPS protokollt használó webes kommunikációt valósít meg.",
     "knowledges": "Ismeri az IPv4 és IPv6 címzési rendszerét és a legalapvetőbb hálózati protokollok szerepét és működési módját (IP, TCP, UDP, DHCP, HTTP, HTTPS, telnet, ssh, SMTP, POP3, IMAP4, DNS, TLS/SSL stb.). Ismeri a végponti berendezések IP-beállítási és hibaelhárítási lehetőségeit. Ismeri az otthoni és kisvállalati hálózatokban működő multifunkciós forgalomirányítók szolgáltatásait, azok beállításának módszereit.",
@@ -800,6 +820,7 @@
   },
   {
     "id": "21",
+    "title": "Munkakörnyezet rendben tartása biztonsági előírások szerint",
     "skillDomain": "Szoftverfejlesztési módszertan és eszközhasználat",
     "skills": "Munkaterületét a baleset és tűzvédelmi előírásokat is betartva tisztán és rendben tartja. ",
     "knowledges": "Ismeri a munkakörébe tartozó baleset és tűzvédelmi előírásokat.",

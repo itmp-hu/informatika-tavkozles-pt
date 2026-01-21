@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Készségek és Tudások Összefoglaló</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 0.5px;
+        }
+
+        th:nth-child(1) {
+            width: 5%;
+            text-align: center;
+        }
+
+        th:nth-child(2) {
+            width: 22%;
+        }
+
+        th:nth-child(3) {
+            width: 28%;
+        }
+
+        th:nth-child(4) {
+            width: 30%;
+        }
+
+        th:nth-child(5) {
+            width: 15%;
+            text-align: center;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.3s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tbody tr:nth-child(even):hover {
+            background-color: #f0f0f0;
+        }
+
+        td {
+            padding: 15px;
+            vertical-align: top;
+            line-height: 1.6;
+        }
+
+        td:nth-child(1) {
+            text-align: center;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        td:nth-child(2) {
+            font-weight: 600;
+            color: #764ba2;
+        }
+
+        td:nth-child(5) {
+            text-align: center;
+            font-weight: 600;
+            color: #667eea;
+            font-size: 1.1em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .error {
+            text-align: center;
+            padding: 50px;
+            color: #d32f2f;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            padding: 20px;
+            background: #f5f5f5;
+            border-top: 2px solid #667eea;
+            text-align: center;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .stats strong {
+            color: #667eea;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            table {
+                font-size: 0.85em;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>KKK - készségek és tudások</h1>
+            <p>Szoftverfejlesztő és Tesztelő Technikus</p>
+        </div>
+        <div class="table-wrapper">
+            <div id="loading" class="loading">Adatok betöltése...</div>
+            <div id="error" class="error" style="display: none;"></div>
+            <table id="summaryTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Cím</th>
+                        <th>Készségek</th>
+                        <th>Tudások</th>
+                        <th>Óraszám</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+        <div class="stats" id="stats" style="display: none;">
+            <strong>Összesen:</strong> <span id="totalLessons">0</span> óra | 
+            <strong>Bejegyzések száma:</strong> <span id="totalEntries">0</span>
+        </div>
+    </div>
+
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('../infomatika-tavkozles-agazat-szoftverfejleszto-es-tesztelo-kkk.json');
+                if (!response.ok) {
+                    throw new Error('Nem sikerült betölteni a JSON fájlt');
+                }
+                const data = await response.json();
+                processData(data);
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('error').style.display = 'block';
+                document.getElementById('error').textContent = 'Hiba történt: ' + error.message;
+            }
+        }
+
+        function processData(data) {
+            const tableBody = document.getElementById('tableBody');
+            let totalLessons = 0;
+
+            data.forEach((item, index) => {
+                // Calculate total numberOfLessons
+                let numberOfLessons = 0;
+                if (item.learningElements && Array.isArray(item.learningElements)) {
+                    item.learningElements.forEach(learningElement => {
+                        if (learningElement.topics && Array.isArray(learningElement.topics)) {
+                            learningElement.topics.forEach(topic => {
+                                if (topic.numberOfLesson) {
+                                    numberOfLessons += topic.numberOfLesson;
+                                }
+                            });
+                        }
+                    });
+                }
+
+                totalLessons += numberOfLessons;
+
+                // Create table row
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${index + 1}.</td>
+                    <td>${escapeHtml(item.title || '')}</td>
+                    <td>${escapeHtml(item.skills || '')}</td>
+                    <td>${escapeHtml(item.knowledges || '')}</td>
+                    <td>${numberOfLessons}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+
+            // Hide loading, show table
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('summaryTable').style.display = 'table';
+            document.getElementById('stats').style.display = 'block';
+            document.getElementById('totalLessons').textContent = totalLessons;
+            document.getElementById('totalEntries').textContent = data.length;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Load data when page loads
+        loadData();
+    </script>
+</body>
+</html>
