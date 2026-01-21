@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "title": "Elektronikai áramkörök építése",
     "skillDomain": "Elektronikai ismeretek",
     "skills": "Adott kapcsolási rajz alapján egyszerűbb áramköröket épít próbapanel segítségével vagy forrasztásos technológiával.",
     "knowledges": "Ismeri az elektronikai alapfogalmakat, kapcsolódó fizikai törvényeket, alapvető alkatrészeket és kapcsolásokat.",
@@ -25,6 +26,7 @@
   },
   {
     "id": "2",
+    "title": "Villamos mérések elvégzése",
     "skillDomain": "Elektronikai ismeretek",
     "skills": "Alapvető villamos méréseket végez önállóan a megépített áramkörökön.",
     "knowledges": "Ismeri az elektromos mennyiségek mérési metódusait, a mérőműszerek használatát.",
@@ -48,6 +50,7 @@
   },
   {
     "id": "3",
+    "title": "Operációs rendszerek telepítése és kezelése",
     "skillDomain": "Hardvereszközök és operációs rendszerek kezelése",
     "skills": "Elvégzi a számítógépen és a mobil eszközökön az operációs rendszer (pl. Windows, Linux, Android, iOS), valamint az alkalmazói szoftverek telepítését, frissítését és alapvető beállítását. Grafikus felületen, valamint parancssorban használja a Windows, és Linux operációs rendszerek alapszintű parancsait és szolgáltatásait.",
     "knowledges": "Ismeri a számítógépen és a mobil informatikai eszközökön használt operációs rendszerek telepítési és frissítési módjait, alapvető parancsait és szolgáltatásait, valamint alapvető beállítási lehetőségeit.",
@@ -78,6 +81,7 @@
   },
   {
     "id": "4",
+    "title": "Számítógép hardver összeszerelése és karbantartása",
     "skillDomain": "Hardvereszközök és operációs rendszerek kezelése",
     "skills": "Elvégzi a PC perifériáinak csatlakoztatását, szükség esetén új alkatrészt szerel be, vagy alkatrészt cserél egy számítógépben.",
     "knowledges": "Ismeri az otthoni és irodai informatikai környezetet alkotó legáltalánosabb összetevők szerepét, alapvető működési módjukat. Ismeri a PC és a mobil eszközök főbb alkatrészeit (pl. alaplap, CPU, memória) és azok szerepét.",
@@ -103,6 +107,7 @@
   },
   {
     "id": "5",
+    "title": "Informatikai eszközök karbantartása",
     "skillDomain": "Hardvereszközök és operációs rendszerek kezelése",
     "skills": "Alapvető karbantartási feladatokat lát el az általa megismert informatikai és távközlési berendezéseken (pl. szellőzés és csatlakozások ellenőrzése, tisztítása).",
     "knowledges": "Tisztában van vele, hogy miért szükséges az informatikai és távközlési eszközök rendszeres és eseti karbantartása. Ismeri legalapvetőbb karbantartási eljárásokat.",
@@ -128,6 +133,7 @@
   },
   {
     "id": "6",
+    "title": "Otthoni és irodai hálózatok kialakítása",
     "skillDomain": "Hálózati ismeretek",
     "skills": "Otthoni vagy irodai hálózatot alakít ki WiFi router segítségével, elvégzi a WiFi router konfigurálását, a vezetékes és vezeték nélküli eszközök csatlakoztatását és hálózati beállítását.",
     "knowledges": "Ismeri az informatikai hálózatok felépítését, alapvető technológiáit (pl. Ethernet), protokolljait (pl. IP, HTTP) és szabványait (pl. 802.11-es WiFi szabványok).",
@@ -148,6 +154,7 @@
   },
   {
     "id": "7",
+    "title": "Vállalati hálózatok kialakítása",
     "skillDomain": "Hálózati ismeretek",
     "skills": "Néhány alhálózatból álló kis és közepes vállalati hálózatot alakít ki forgalomirányító és kapcsoló segítségével, elvégzi az eszközök alapszintű hálózati beállításait (pl. forgalom-irányító interfészeinek IP-cím beállítása, alapértelmezett átjáró beállítása).",
     "knowledges": "Ismeri a kis és közepes vállalati hálózatok legfontosabb összetevőinek szerepét, jellemzőit, csatlakozási módjukat és alapszintű hálózati beállításait.",
@@ -184,6 +191,7 @@
   },
   {
     "id": "8",
+    "title": "Hálózatbiztonság alkalmazása",
     "skillDomain": "Hálózati ismeretek",
     "skills": "Alkalmazza a hálózatbiztonsággal kapcsolatos legfontosabb irányelveket (pl. erős jelszavak használata, vírusvédelem alkalmazása, tűzfal használat).",
     "knowledges": "Ismeri a fontosabb hálózatbiztonsági elveket, szabályokat, támadás típusokat, valamint a szoftveres és hardveres védekezési módszereket.",
@@ -199,6 +207,7 @@
   },
   {
     "id": "9",
+    "title": "Hardveres és szoftveres hibák elhárítása",
     "skillDomain": "Hálózati ismeretek",
     "skills": "Megkeresi és elhárítja az otthoni és kisvállalati informatikai környezetben jelentkező hardveres és szoftveres hibákat.",
     "knowledges": "Ismeri az otthoni és kisvállalati informatikai környezetben leggyakrabban felmerülő hibákat (pl. hibás IP-beállítás, kilazult csatlakozó) és azok elhárításának módjait.",
@@ -219,6 +228,7 @@
   },
   {
     "id": "10",
+    "title": "Modern információs technológiák alkalmazása",
     "skillDomain": "Modern technológiák alkalmazása",
     "skills": "Internetes források és tudásbázisok segítségével követi, valamint feladatainak elvégzéséhez lehetőség szerint alkalmazza a legmodernebb információs technológiákat és trendeket (virtualizáció, felhőtechnológia, IoT, mesterséges intelligencia, gépi tanulás stb.).",
     "knowledges": "Naprakész információkkal rendelkezik a legmodernebb információs technológiákkal és trendekkel kapcsolatban.",
@@ -255,6 +265,7 @@
   },
   {
     "id": "11",
+    "title": "Reszponzív weblapok készítése",
     "skillDomain": "Programozás és webfejlesztés",
     "skills": "Szabványos, reszponzív megjelenítést biztosító weblapokat hoz létre és formáz meg stíluslapok segítségével.",
     "knowledges": "Ismeri a HTML5, a CSS3 alapvető elemeit, a stíluslapok fogalmát, felépítését. Érti a reszponzív megjelenítéshez használt módszereket, keretrendszerek előnyeit, a reszponzív webdizájn alapelveit.",
@@ -281,6 +292,7 @@
   },
   {
     "id": "12",
+    "title": "Python programozás",
     "skillDomain": "Programozás és webfejlesztés",
     "skills": "Munkája során a jelentkező problémák kezelésére vagy folyamatok automatizálására egyszerű alkalmazásokat készít Python programozási nyelv segítségével.",
     "knowledges": "Ismeri a Python nyelv elemeit, azok céljait (vezérlési szerkezetek, adatszerkezetek, változók, aritmetikai és logikai kifejezések, függvények, modulok, csomagok). Ismeri az algoritmus fogalmát, annak szerepét.",
@@ -321,6 +333,7 @@
   },
   {
     "id": "13",
+    "title": "Git verziókezelő és csoportmunkaeszközök használata",
     "skillDomain": "Programozás és webfejlesztés",
     "skills": "Git verziókezelő rendszert, valamint fejlesztést és csoportmunkát támogató online eszközöket és szolgáltatásokat (pl.: GitHub, Slack, Trello, Microsoft Teams, Webex Teams) használ.",
     "knowledges": "Ismeri a Git, valamint a csoportmunkát támogató eszközök és online szolgáltatások célját, működési módját, legfontosabb funkcióit.",
@@ -341,6 +354,7 @@
   },
   {
     "id": "14",
+    "title": "Csapatmunka és projektmenedzsment",
     "skillDomain": "Általános szakmai kompetenciák és soft skillek",
     "skills": "Társaival hatékonyan együttműködve, csapatban dolgozik egy informatikai projekten. A projektek végrehajtása során társaival tudatosan és célirányosan kommunikál.",
     "knowledges": "Ismeri a projektmenedzsment lépéseit (kezdeményezés, követés, végrehajtás, ellenőrzés, dokumentálás, zárás).",
@@ -366,6 +380,7 @@
   },
   {
     "id": "15",
+    "title": "Irodai szoftverek használata",
     "skillDomain": "Általános szakmai kompetenciák és soft skillek",
     "skills": "Munkája során hatékonyan használja az irodai szoftvereket.",
     "knowledges": "Ismeri az irodai szoftverek főbb funkcióit, felhasználási területeit.",
@@ -386,6 +401,7 @@
   },
   {
     "id": "16",
+    "title": "Prezentációk készítése és bemutatása",
     "skillDomain": "Általános szakmai kompetenciák és soft skillek",
     "skills": "Az elkészült termékhez prezentációt készít és bemutatja, előadja azt munkatársainak, vezetőinek, ügyfeleinek.",
     "knowledges": "Ismeri a hatékony prezentálás szabályait, a prezentációs szoftverek lehetőségeit.",

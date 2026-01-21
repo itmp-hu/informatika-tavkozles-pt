@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szoftverfejlesztő és -tesztelő Technikus - Készségek</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: white;
+        padding: 40px 20px;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+      }
+
+      .header {
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+      }
+
+      .header h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+        color: #667eea;
+      }
+
+      .header p {
+        font-size: 1.44em;
+        color: #666;
+      }
+
+      .skills-container {
+        background: transparent;
+        border-radius: 15px;
+        padding: 0;
+      }
+
+      .skills-intro {
+        font-size: 1.32em;
+        color: #555;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        font-weight: 500;
+        text-align: center;
+      }
+
+      .skills-list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+
+      .skills-list li {
+        font-size: 1.1em;
+        padding: 0;
+        position: relative;
+        color: #444;
+        line-height: 1.6;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+        min-height: 140px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        border-top: 5px solid;
+      }
+
+      .skills-list li:nth-child(1) {
+        border-top-color: #667eea;
+      }
+      .skills-list li:nth-child(2) {
+        border-top-color: #d84fb8;
+      }
+      .skills-list li:nth-child(3) {
+        border-top-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(4) {
+        border-top-color: #2db85c;
+      }
+      .skills-list li:nth-child(5) {
+        border-top-color: #e84a7a;
+      }
+      .skills-list li:nth-child(6) {
+        border-top-color: #b8860b;
+      }
+      .skills-list li:nth-child(7) {
+        border-top-color: #1fa8a8;
+      }
+      .skills-list li:nth-child(8) {
+        border-top-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(9) {
+        border-top-color: #e84a7a;
+      }
+      .skills-list li:nth-child(10) {
+        border-top-color: #d84fb8;
+      }
+      .skills-list li:nth-child(11) {
+        border-top-color: #667eea;
+      }
+      .skills-list li:nth-child(12) {
+        border-top-color: #d84fb8;
+      }
+      .skills-list li:nth-child(13) {
+        border-top-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(14) {
+        border-top-color: #2db85c;
+      }
+      .skills-list li:nth-child(15) {
+        border-top-color: #e84a7a;
+      }
+      .skills-list li:nth-child(16) {
+        border-top-color: #b8860b;
+      }
+
+      .card-title {
+        font-size: 1.12em;
+        font-weight: bold;
+        padding: 15px 20px;
+        padding-right: 50px;
+        margin: 0;
+        background: var(--title-color);
+        color: white;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .skills-list li:nth-child(1) .card-title {
+        --title-color: #667eea;
+      }
+      .skills-list li:nth-child(2) .card-title {
+        --title-color: #d84fb8;
+      }
+      .skills-list li:nth-child(3) .card-title {
+        --title-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(4) .card-title {
+        --title-color: #2db85c;
+      }
+      .skills-list li:nth-child(5) .card-title {
+        --title-color: #e84a7a;
+      }
+      .skills-list li:nth-child(6) .card-title {
+        --title-color: #b8860b;
+      }
+      .skills-list li:nth-child(7) .card-title {
+        --title-color: #1fa8a8;
+      }
+      .skills-list li:nth-child(8) .card-title {
+        --title-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(9) .card-title {
+        --title-color: #e84a7a;
+      }
+      .skills-list li:nth-child(10) .card-title {
+        --title-color: #d84fb8;
+      }
+      .skills-list li:nth-child(11) .card-title {
+        --title-color: #667eea;
+      }
+      .skills-list li:nth-child(12) .card-title {
+        --title-color: #d84fb8;
+      }
+      .skills-list li:nth-child(13) .card-title {
+        --title-color: #2d8fe8;
+      }
+      .skills-list li:nth-child(14) .card-title {
+        --title-color: #2db85c;
+      }
+      .skills-list li:nth-child(15) .card-title {
+        --title-color: #e84a7a;
+      }
+      .skills-list li:nth-child(16) .card-title {
+        --title-color: #b8860b;
+      }
+
+      .card-content {
+        padding: 15px 20px;
+        flex: 1;
+        color: #555;
+        background: #fafafa;
+      }
+
+      .skills-list li:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      }
+
+      .skills-list li::before {
+        content: "✓";
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        color: white;
+        font-weight: bold;
+        font-size: 1.8em;
+        opacity: 0.9;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      }
+
+      .testimonial {
+        margin-top: 50px;
+        padding: 40px;
+        background: #f8f9fa;
+        border-radius: 15px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .testimonial-image {
+        flex-shrink: 0;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #667eea;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .testimonial-content {
+        flex: 1;
+      }
+
+      .testimonial-text {
+        font-size: 1.32em;
+        line-height: 1.8;
+        color: #444;
+        font-style: italic;
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 30px;
+      }
+
+      .testimonial-text::before {
+        content: '"';
+        position: absolute;
+        left: 0;
+        top: -10px;
+        font-size: 4.8em;
+        color: #667eea;
+        opacity: 0.3;
+        font-family: Georgia, serif;
+      }
+
+      .testimonial-author {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #667eea;
+        margin-top: 15px;
+      }
+
+      .testimonial-author-title {
+        font-size: 1.08em;
+        color: #666;
+        font-weight: normal;
+      }
+
+      .footer {
+        text-align: center;
+        color: #666;
+        margin-top: 40px;
+        padding: 25px;
+        background: #f8f9fa;
+        border-radius: 15px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 1024px) {
+        .skills-list {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .header h1 {
+          font-size: 2.4em;
+        }
+
+        .skills-container {
+          padding: 0;
+        }
+
+        .skills-list {
+          grid-template-columns: 1fr;
+        }
+
+        .testimonial {
+          flex-direction: column;
+          text-align: center;
+          padding: 30px 20px;
+        }
+
+        .testimonial-text {
+          padding-left: 20px;
+        }
+
+        .testimonial-text::before {
+          left: -5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Mit tud egy szoftverfejlesztő és -tesztelő technikus?</h1>
+        <p>Széleskörű kompetenciák a modern szoftverfejlesztés területén</p>
+      </div>
+
+      <div class="skills-container">
+        <p class="skills-intro">
+          A szoftverfejlesztő és tesztelő technikus tanulmányai során az alábbi
+          területeken szerez széleskörű ismereteket és készségeket:
+        </p>
+
+        <ul class="skills-list">
+          <li>
+            <h3 class="card-title">Verziókezelés és csapatmunka</h3>
+            <div class="card-content">
+              Verziókezelő-rendszerek (Git, Github) magabiztos használata és
+              csapatmunka eszközök használata (Slack, Trello, Microsoft Teams)
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Python programozás</h3>
+            <div class="card-content">
+              Szkriptek és programok készítése Pythonban, akár objektumorientált
+              megközelésítésben is
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Hardver és operációs rendszerek</h3>
+            <div class="card-content">
+              Hardvereszközök és operációs rendszerek magabiztos kezelése
+              (Windows, Linux, mobil operációs rendszerek)
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Hálózati ismeretek</h3>
+            <div class="card-content">
+              Kis- és közepes hálózatokban jól használható hálózati ismeretek és
+              készségek (IP címzés, protokollok, WiFi router konfiguráció),
+              hálózatbiztonsági beállítások
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Virtualizáció és felhőtechnológiák</h3>
+            <div class="card-content">
+              Alapvető virtualizációs technikák használata (virtuális gépek,
+              Docker), felhőszolgáltatások használata
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Frontend fejlesztés</h3>
+            <div class="card-content">
+              Összetett webes frontend fejlesztési feladatok elvégzése HTML5,
+              CSS3 és egy választott JavaScript keretrendszer vagy könyvtár
+              használatával (pl. React, Vue, Angular)
+            </div>
+          </li>
+
+          <li>
+            <h3 class="card-title">Backend fejlesztés</h3>
+            <div class="card-content">
+              Backend fejlesztés Node.js-ben vagy PHP-ban megfelelő
+              keretrendszerek vagy könyvtárak használatával (pl. Express,
+              Laravel, Spring Boot)
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">REST API fejlesztés</h3>
+            <div class="card-content">
+              REST API fejlesztése és dokumentálása
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">OOP fejlesztés (C#/Java)</h3>
+            <div class="card-content">
+              Asztali és általános célú objektumorientált szoftverek fejlesztése
+              C# vagy Java nyelvi környezetben haladó szinten, objektumorientált
+              programozás alkalmazása
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Tiszta kód elvei</h3>
+            <div class="card-content">
+              Tiszta kód elveinek alkalmazása és kódminőség biztosítása
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Adatbáziskezelés</h3>
+            <div class="card-content">
+              SQL adatbázisok tervezése, létrehozása és magabiztos kezelése, ORM
+              technológiák használata szoftverfejlesztésben
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Mobil alkalmazásfejlesztés</h3>
+            <div class="card-content">
+              Mobil alkalmazások fejlesztése Android eszközökre (pl. Native Java
+              Android, React Native, Progressive Web App)
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">CMS rendszerek</h3>
+            <div class="card-content">
+              Tartalomkezelő rendszerek (CMS, pl. WordPress) használata,
+              testreszabása és egyedi bővítmények fejlesztése
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Szoftvertesztelés</h3>
+            <div class="card-content">
+              Unit tesztelés és integrációs tesztelés elvégzése
+            </div>
+          </li>
+          <li>
+            <h3 class="card-title">Szakmai kommunikáció</h3>
+            <div class="card-content">
+              Szakmai angol kommunikáció (KER B1 szint) és műszaki dokumentáció
+              készítése
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="testimonial">
+        <img
+          src="infograph/csengo-peter.jpg"
+          alt="Csengő Péter"
+          class="testimonial-image"
+        />
+        <div class="testimonial-content">
+          <p class="testimonial-text">
+            Három év tapasztalata alapján azt látom, hogy azok a diákok, akik
+            duális képzésben nálunk tanulnak képesek hasznos tagjaivá válni a
+            szakmai csapatunknak. Képesek team munkában dolgozni, önálló
+            projekteket végig vinni, kisebb projektek esetén önállóan megoldani.
+            Nem csak szakmailag fejlődtek, megismerték a céges kultúrát.
+            Nemrégiben választaniuk kellett az osztálykirándulás és a céges
+            csapatépítő között, mert egy időben szerveződött a két program. A
+            céges csapatépítő mellet döntöttek.
+          </p>
+          <div class="testimonial-author">
+            Csengő Péter
+            <span class="testimonial-author-title"
+              >, Miskolc Holding IT igazgatója</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
